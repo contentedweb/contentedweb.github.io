@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible hover image links</title>
+    <meta name="description" content="Web accessibility, photos, travel and random stuff" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ContentedWeb" />
+    <meta property="og:description" content="Web accessibility, photos, travel and random stuff" />
+    <meta property="og:url" content="https://www.contentedweb.com/posts/2012/accessible-hover-image-links/" />
+    <meta property="og:site_name" content="ContentedWeb" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="https://www.contentedweb.com/posts/2012/accessible-hover-image-links/" />
+    <link href="https://github.com/contentedweb" rel="me" />
+    <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
+    <link rel="stylesheet" href="/assets/css/style.css" media="all">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="ContentedWeb">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="ContentedWeb">
+  </head>
+  <body>
+    <a class="skip-link" href="#site-content">Skip to the content</a>
+    <header class="masthead">
+        <div class="header-area">
+            <div class="header-title">
+              <address class="h-card bio">
+                <img class="u-photo" src="/assets/images/cw.jpg" alt="" />
+                <div class="p-name sitetitle">
+                    <a href="/" class="u-url">ContentedWeb</a>
+                </div>
+                <div class="p-note subtitle">Web accessibility, photos, travel and random noise</div>
+              </address>
+            </div>
+            <div class="header-nav">
+                <nav>
+                    
+                    <ul>
+                        <li >
+                            <a href="/about/">About</a>
+                        </li>
+                        <li >
+                            <a href="/archive/">Archive</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="site-content" >
+       <article>
+        
+          <header>
+              
+                  <h1>Accessible hover image links</h1> 
+              
+              
+                  <h2 class="published">
+                      <time class="dt-published" datetime="Invalid DateTime">
+                          <span class="date-day">25</span> 
+                          <span class="date-month">May</span>, 
+                          <span class="date-year">2012</span>
+                      </time>
+                  </h2>
+              
+          </header>
+        
+        <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
+---
+<p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
+<p>HTML:</p>
+<pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
+ &lt;img alt="Facebook" src="Facebook_Icon.png"&gt;
+&lt;/a&gt;</pre>
+<p>CSS:</p>
+<pre>.social-links a.facebook {
+  background:url(Facebook_Icon_On.png) no-repeat;
+}
+<p>.social-links a.facebook:hover img {<br>
+display:none;<br>
+border: 1px solid #000;<br>
+}</pre></p>
+<p>This technique is rather straightforward. There's an image, with meaningful alt text for accessibility, wrapped in a anchor tag. The anchor tag itself has a background image with appropriate height and width all set using CSS. The key is the :hover pseudo-class that hides the image using "display:none;". When the image is hidden, you see the background image of the anchor tag. The anchor tag itself is still clickable due to it's fixed height and width.</p>
+<p>Having tested this technique in all modern mainstream browsers (ie latest versions of IE, Opera, Firefox, Chrome and Safari) it copes with the following situations better than many more complex techniques.</p>
+<ul>
+<li><strong>CSS <em>on</em>, Images <em>on</em></strong>: Works as you would expect</li>
+<li><strong>CSS <em>off</em>, Images <em>on</em></strong>: Page lays out in basic fashion. Image hover doesn't work, but links do.</li>
+<li><strong>CSS <em>on</em>, Images <em>off</em>:</strong> Images replaced by Alt text. Hover creats  a border to create active feel.</li>
+<li><strong>CSS <em>off</em>, Images <em>off</em>:</strong> This would be more or less how a screen reader might see the page. The Image is replaced by it's alt text and the link thus remains meaningful.</li>
+</ul>
+<p>Simple, but effective.</p>
+ 
+      </article>
+    </main>
+    <footer>
+        <div class="footer-area">
+            <span class="copy">
+                &copy; 2021 ContentedWeb
+                <br/>
+                <span class="emojis">👍</span>  
+            </span> 
+            <span class="power">
+            <a class="a11y-statement" href="/accessibility/">Accessibility Statement</a>            
+            <br/>
+            Powered with HTML, CSS and <a href="https://www.a11yproject.com/">a11y</a>.
+            </span>
+        </div>
+    </footer>
+    <!-- Current page: /posts/2012/accessible-hover-image-links/ -->
+  </body>
+</html>

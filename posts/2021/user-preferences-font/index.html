@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respecting the user&#39;s preferred font</title>
+    <meta name="description" content="Web accessibility, photos, travel and random stuff" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ContentedWeb" />
+    <meta property="og:description" content="Web accessibility, photos, travel and random stuff" />
+    <meta property="og:url" content="https://www.contentedweb.com/posts/2021/user-preferences-font/" />
+    <meta property="og:site_name" content="ContentedWeb" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="https://www.contentedweb.com/posts/2021/user-preferences-font/" />
+    <link href="https://github.com/contentedweb" rel="me" />
+    <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
+    <link rel="stylesheet" href="/assets/css/style.css" media="all">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="ContentedWeb">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="ContentedWeb">
+  </head>
+  <body>
+    <a class="skip-link" href="#site-content">Skip to the content</a>
+    <header class="masthead">
+        <div class="header-area">
+            <div class="header-title">
+              <address class="h-card bio">
+                <img class="u-photo" src="/assets/images/cw.jpg" alt="" />
+                <div class="p-name sitetitle">
+                    <a href="/" class="u-url">ContentedWeb</a>
+                </div>
+                <div class="p-note subtitle">Web accessibility, photos, travel and random noise</div>
+              </address>
+            </div>
+            <div class="header-nav">
+                <nav>
+                    
+                    <ul>
+                        <li >
+                            <a href="/about/">About</a>
+                        </li>
+                        <li >
+                            <a href="/archive/">Archive</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="site-content" >
+       <article>
+        
+          <header>
+              
+                  <h1>Respecting the user&#39;s preferred font</h1> 
+              
+              
+                  <h2 class="published">
+                      <time class="dt-published" datetime="Invalid DateTime">
+                          <span class="date-day">10</span> 
+                          <span class="date-month">November</span>, 
+                          <span class="date-year">2021</span>
+                      </time>
+                  </h2>
+              
+          </header>
+        
+        <p>I feel designing and publishing web content should be more about how the user wishes to experience a site and less about how the designer wants to the site to be experience. The web is after all a more fluid medium than traditional print media.</p>
+<p>Most websites, certainly those who care about accessibility and usability by now implement font sizes using relative units such as &quot;ems&quot; or percentages. However few respect a user's preferred font. All common browsers on all common platforms let a user define their preferred font. But almost no websites take this into account. And yet it is trivial. Simply use for your site's font:</p>
+<pre><code>body { 
+	font-family: sans-serif, serif;
+}
+</code></pre>
+<p>This will always display text in the font set by the user in their browser. Of course one thing that is missing in this, is knowing whether a user has actually set a specific font or is simply using the default font of the browser. There seems to be no way of specifying something like:</p>
+<pre><code>body {
+	font-family: user-font, 'Lucia Grande', Arial, sans-serif, serif;
+}
+</code></pre>
+<p>I've now adapted this website to respect this choice for the main text on this site. I've not yet done so for the more specific texts such as header, footer and navigation.  Probably I should.</p>
+ 
+      </article>
+    </main>
+    <footer>
+        <div class="footer-area">
+            <span class="copy">
+                &copy; 2021 ContentedWeb
+                <br/>
+                <span class="emojis">👍</span>  
+            </span> 
+            <span class="power">
+            <a class="a11y-statement" href="/accessibility/">Accessibility Statement</a>            
+            <br/>
+            Powered with HTML, CSS and <a href="https://www.a11yproject.com/">a11y</a>.
+            </span>
+        </div>
+    </footer>
+    <!-- Current page: /posts/2021/user-preferences-font/ -->
+  </body>
+</html>

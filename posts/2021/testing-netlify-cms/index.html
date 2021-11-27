@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Netlify CMS</title>
+    <meta name="description" content="Web accessibility, photos, travel and random stuff" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ContentedWeb" />
+    <meta property="og:description" content="Web accessibility, photos, travel and random stuff" />
+    <meta property="og:url" content="https://www.contentedweb.com/posts/2021/testing-netlify-cms/" />
+    <meta property="og:site_name" content="ContentedWeb" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="https://www.contentedweb.com/posts/2021/testing-netlify-cms/" />
+    <link href="https://github.com/contentedweb" rel="me" />
+    <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
+    <link rel="stylesheet" href="/assets/css/style.css" media="all">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="ContentedWeb">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="ContentedWeb">
+  </head>
+  <body>
+    <a class="skip-link" href="#site-content">Skip to the content</a>
+    <header class="masthead">
+        <div class="header-area">
+            <div class="header-title">
+              <address class="h-card bio">
+                <img class="u-photo" src="/assets/images/cw.jpg" alt="" />
+                <div class="p-name sitetitle">
+                    <a href="/" class="u-url">ContentedWeb</a>
+                </div>
+                <div class="p-note subtitle">Web accessibility, photos, travel and random noise</div>
+              </address>
+            </div>
+            <div class="header-nav">
+                <nav>
+                    
+                    <ul>
+                        <li >
+                            <a href="/about/">About</a>
+                        </li>
+                        <li >
+                            <a href="/archive/">Archive</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="site-content" >
+       <article>
+        
+          <header>
+              
+                  <h1>Testing Netlify CMS</h1> 
+              
+              
+                  <h2 class="published">
+                      <time class="dt-published" datetime="Invalid DateTime">
+                          <span class="date-day">24</span> 
+                          <span class="date-month">November</span>, 
+                          <span class="date-year">2021</span>
+                      </time>
+                  </h2>
+              
+          </header>
+        
+        <p>Currently I use <a href="https://forestry.io/">Forestry</a> to create posts for this blog.  That workflow works fine, but I was curious about integrating <a href="https://www.netlifycms.org/">Netlify CMS</a> into my <a href="https://www.11ty.dev/">Eleventy</a> based static site.</p>
+<p>So I followed the instructions on the Netlify CMS website on how to add it to an existing app.  So far so good. Here I am trying to create my first post using the CMS.</p>
+<p>Overall Netlify CMS seems OK. Not sure if it is an improvement on Forestry, but for my needs it doesn't appear to worse either.  The only thing I have not managed to do is list all my post subfolders in the collections tab. My site's post folder is structured by year:</p>
+<p><code>src/posts/2021</code><br>
+<code>src/posts/2020</code><br>
+<code>src/posts/2019</code><br>
+<code>.</code><br>
+<code>.</code><br>
+<code>.</code></p>
+<p>And I want the same template applied to all of them, plus to be able to decide which folder to place a new blog post in.  I don't want to create an extra item in the &quot;collections&quot; of the config.yml file.</p>
+<p>I will keep trying and looking for solutions.</p>
+ 
+      </article>
+    </main>
+    <footer>
+        <div class="footer-area">
+            <span class="copy">
+                &copy; 2021 ContentedWeb
+                <br/>
+                <span class="emojis">👍</span>  
+            </span> 
+            <span class="power">
+            <a class="a11y-statement" href="/accessibility/">Accessibility Statement</a>            
+            <br/>
+            Powered with HTML, CSS and <a href="https://www.a11yproject.com/">a11y</a>.
+            </span>
+        </div>
+    </footer>
+    <!-- Current page: /posts/2021/testing-netlify-cms/ -->
+  </body>
+</html>

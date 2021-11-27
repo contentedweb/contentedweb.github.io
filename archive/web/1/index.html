@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development</title>
+    <meta name="description" content="Web accessibility, photos, travel and random stuff" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ContentedWeb" />
+    <meta property="og:description" content="Web accessibility, photos, travel and random stuff" />
+    <meta property="og:url" content="https://www.contentedweb.com/archive/web/1/" />
+    <meta property="og:site_name" content="ContentedWeb" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="https://www.contentedweb.com/archive/web/1/" />
+    <link href="https://github.com/contentedweb" rel="me" />
+    <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
+    <link rel="stylesheet" href="/assets/css/style.css" media="all">
+
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="ContentedWeb">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="ContentedWeb">
+  </head>
+  <body>
+    <a class="skip-link" href="#site-content">Skip to the content</a>
+    <header class="masthead">
+        <div class="header-area">
+            <div class="header-title">
+              <address class="h-card bio">
+                <img class="u-photo" src="/assets/images/cw.jpg" alt="" />
+                <div class="p-name sitetitle">
+                    <a href="/" class="u-url">ContentedWeb</a>
+                </div>
+                <div class="p-note subtitle">Web accessibility, photos, travel and random noise</div>
+              </address>
+            </div>
+            <div class="header-nav">
+                <nav>
+                    
+                    <ul>
+                        <li >
+                            <a href="/about/">About</a>
+                        </li>
+                        <li  class="current">
+                            <a href="/archive/">Archive</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="site-content" >
+       <article>
+        
+          <header>
+              
+                  <h1>Web development</h1> 
+              
+              
+          </header>
+        
+        
+<nav class="paging" aria-label="pagination">
+  <ul>
+    <li><a href="/archive/web/">First</a></li>
+    <li><a href="/archive/web/">Previous</a></li>
+    <li><a href="/archive/web/2/">Next</a></li>
+    <li><a href="/archive/web/2/">Last</a></li>
+  </ul>
+</nav>
+
+  
+
+<div class="posts-list">
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/dissecting-the-wad-part-6/">Dissecting the WAD, part 6</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">15</span> 
+            <span class="date-month">November</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>This is a 10 parts series examining the WAD. In this 6th part of the series we start going through the articles of the directive, covering articles one to six. The previous parts of this series are:</p>
+---
+<ul>
+    <li><a href="/posts/dissecting-the-wad-part-1/">Part 1, covering the title and preamble</a>&nbsp;</li>
+    <li><a href="/posts/dissecting-the-wad-part-2/">Part 2, covering recitals 1 to 20</a>&nbsp;</li>
+    <li><a href="/posts/dissecting-the-wad-part-3/">Part 3, covering recitals 21 to 32</a></li>
+    <li><a href="/posts/dissecting-the-wad-part-4/">Part 4, covering recitals 33 to 46</a></li>
+    <li><a href="/posts/dissecting-the-wad-part-5/">Part 5 covering recitals 47 to 56</a>&nbsp;</li>
+</ul>
+<p><a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">The complete official text of the WAD is available here</a>.</p>
+<blockquote><p><em>Article 1</em><br><strong>Subject matter and scope</strong><br>1.&nbsp;&nbsp;&nbsp;In order to improve the functioning of the internal market, this Directive aims to approximate the laws, regulations and administrative provisions of the Member&nbsp;States relating to the accessibility requirements of the websites and mobile applications of public sector bodies, thereby enabling those websites and mobile applications to be more accessible to users, in particular to persons with disabilities.</p></blockquote>
+<p>This directive defines the regulations that will apply to public sector websites, with the aim of making them accessible to all persons, including those with disabilities.</p>
+<blockquote><p>2.&nbsp;&nbsp;&nbsp;This Directive lays down the rules requiring Member States to ensure that websites, independently of the device used for access thereto, and mobile applications of public sector bodies meet the accessibility requirements set out in Article 4.</p></blockquote>
+<p>The requirements for making public sector websites more accessible are defined in article 4 of this directive.</p>
+<blockquote><p>3. This Directive does not apply to the following websites and mobile applications:<br>(a) websites and mobile applications of public service broadcasters and their subsidiaries, and of other bodies or their subsidiaries fulfilling a public service broadcasting remit;<br>(b) websites and mobile applications of NGOs that do not provide services that are essential to the public, or services that specifically address the needs of, or are meant for, persons with disabilities.</p></blockquote>
+<p>This directive does not apply to public service broadcasters, nor to NGOs unless they are providing services essential to the public or services specifically for persons with disabilities.</p>
+<blockquote class="wp-block-quote is-style-default"><p>4. This Directive does not apply to the following content of websites and mobile applications:<br>(a) office file formats published before 23 September 2018, unless such content is needed for active administrative processes relating to the tasks performed by the public sector body concerned;<br>(b) pre-recorded time-based media published before 23 September 2020;<br>(c) live time-based media;<br>(d) online maps and mapping services, as long as essential information is provided in an accessible digital manner for maps intended for navigational use;<br>(e) third-party content that is neither funded nor developed by, nor under the control of, the public sector body concerned;<br>(f) reproductions of items in heritage collections that cannot be made fully accessible because of either:<br>(i) the incompatibility of accessibility requirements with either the preservation of the item concerned or the authenticity of the reproduction (e.g. contrast); or<br>(ii) the unavailability of automated and cost-efficient solutions that would easily extract the text of manuscripts or other items in heritage collections and transform it into content compatible with the accessibility requirements;<br>(g) content of extranets and intranets, that is to say, websites that are only available for a closed group of people and not to the general public as such, published before 23 September 2019, until such websites undergo a substantial revision;<br>(h) content of websites and mobile applications qualifying as archives, meaning that they only contain content that is neither needed for active administrative processes nor updated or edited after 23 September 2019.</p></blockquote>
+<p>A number of content types are excluded from this directive. They include office documents (eg Word, PDF) published before 23rd September 2018, video and audio recordings published before 23rd September 2020, live video and audio, maps (eg Google Maps) as long essential info is provided in an alternate format, content not under the control of the public sector body, reproductions of heritage collections (eg online Museums) for which no cost effective method exists to make it accessible, internal websites (eg intranets, extranets) aimed at a limited set of users, published before 23rd September 2019,  archived content not touched since 23rd September 2019.</p>
+<blockquote><p>5. Member States may exclude from the application of this Directive websites and mobile applications of schools, kindergartens or nurseries, except for the content thereof relating to essential online administrative functions.</p></blockquote>
+<p>Schools, kindergartens and nurseries are excluded, except for content that is essential for administrative functions.</p>
+<blockquote><p><em>Article 2</em><br><strong>Minimum harmonisation</strong><br>Member States may maintain or introduce measures in conformity with Union law which go beyond the minimum requirements for accessibility of websites and mobile applications established by this Directive.</p></blockquote>
+<p>These requirements are considered to be a minimum and member states may introduce requirements that go beyond the requirements of this directive.</p>
+<blockquote><p><em>Article 3</em><br><strong>Definitions</strong><br>For the purposes of this Directive, the following definitions apply:<br>(1) ‘public sector body’ means the State, regional or local authorities, bodies governed by public law, as defined in point (4) of Article 2(1) of Directive 2014/24/EU, or associations formed by one or more such authorities or one or more such bodies governed by public law, if those associations are established for the specific purpose of meeting needs in the general interest, not having an industrial or commercial character;<br>(2) ‘mobile application’ means application software designed and developed, by or on behalf of public sector bodies, for use by the general public on mobile devices such as smartphones and tablets. It does not include the software that controls those devices (mobile operating systems) or hardware;<br>(3) ‘standard’ means a standard as defined in point (1) of Article 2 of Regulation (EU) No 1025/2012;<br>(4) ‘European standard’ means a European standard as defined in point (1)(b) of Article 2 of Regulation (EU) No 1025/2012;<br>(5) ‘harmonised standard’ means a harmonised standard as defined in point (1)(c) of Article 2 of Regulation (EU) No 1025/2012;<br>(6) ‘time-based media’ means media of the following types: audio-only, video-only, audio-video, audio and/or video combined with interaction;<br>(7) ‘items in heritage collections’ means privately or publicly owned goods presenting an historical, artistic, archaeological, aesthetic, scientific or technical interest and that are part of collections preserved by cultural institutions such as libraries, archives and museums;<br>(8) ‘measurement data’ means the quantified results of the monitoring activity carried out in order to verify the compliance of the websites and mobile applications of public sector bodies with the accessibility requirements set out in Article 4. It covers both quantitative information about the sample of websites and mobile applications tested (number of websites and applications with, potentially, the number of visitors or users, etc.) and quantitative information about the level of accessibility.</p></blockquote>
+<p>A set of legal definitions of terms, with references to regulations as appropriate, that are used in this directive.</p>
+<blockquote><p><em>Article 4</em><br><strong>Requirements for the accessibility of websites and mobile applications</strong><br>Member States shall ensure that public sector bodies take the necessary measures to make their websites and mobile applications more accessible by making them perceivable, operable, understandable and robust.</p></blockquote>
+<p>Basically saying that member states must ensure that public sector websites must be accessible, meaning perceivable, operable, understandable and robust.</p>
+<blockquote><p><em>Article 5</em><br><strong>Disproportionate burden</strong><br>1. Member States shall ensure that public sector bodies apply the accessibility requirements set out in Article 4 to the extent that those requirements do not impose a disproportionate burden on the public sector bodies for the purposes of that Article.<br>2. In order to assess the extent to which compliance with the accessibility requirements set out in Article 4 imposes a disproportionate burden, Member States shall ensure that the public sector body concerned takes account of relevant circumstances, including the following:<br>(a) the size, resources and nature of the public sector body concerned; and<br>(b) the estimated costs and benefits for the public sector body concerned in relation to the estimated benefits for persons with disabilities, taking into account the frequency and duration of use of the specific website or mobile application.<br>3. Without prejudice to paragraph 1 of this Article, the public sector body concerned shall perform the initial assessment of the extent to which compliance with the accessibility requirements set out in Article 4 imposes a disproportionate burden.<br>4. Where a public sector body avails itself of the derogation provided for in paragraph 1 of this Article for a specific website or mobile application after conducting an assessment as referred to in paragraph 2 of this Article, it shall explain, in the accessibility statement referred to in Article 7, the parts of the accessibility requirements that could not be complied with and shall, where appropriate, provide accessible alternatives.</p></blockquote>
+<p>This article explains that following this directive should not impose a disproportionate burden on public sector bodies. It explains how to member states should help avoid such a burden and how it should be measured.  If this article is used in order to not make content accessible it needs to be described in the accessibility statement of the website concerned.</p>
+<blockquote><p><em>Article 6</em><br><strong>Presumption of conformity with the accessibility requirements</strong><br>1.Content of websites and mobile applications that meets harmonised standards or parts thereof the references to which have been published by the Commission in the Official Journal of the European Union in accordance with Regulation (EU) No 1025/2012 shall be presumed to be in conformity with the accessibility requirements set out in Article 4 that are covered by those standards or by parts thereof.<br>2. Where no references to the harmonised standards referred to in paragraph 1 of this Article have been published, content of mobile applications that meets the technical specifications or parts thereof shall be presumed to be in conformity with the accessibility requirements set out in Article 4 that are covered by those technical specifications or by parts thereof.<br>The Commission shall adopt implementing acts establishing the technical specifications referred to in the first subparagraph of this paragraph. Those technical specifications shall meet the accessibility requirements set out in Article 4 and shall ensure at least a level of accessibility equivalent to that ensured by European standard EN 301 549 V1.1.2 (2015-04).<br>The implementing acts referred to in the second subparagraph of this paragraph shall be adopted in accordance with the examination procedure referred to in Article 11(3). The first such implementing act shall be adopted, where no references to the harmonised standards referred to in paragraph 1 of this Article have been published, by 23 December 2018. <br>3. Where no references to the harmonised standards referred to in paragraph 1 of this Article have been published, content of websites that fulfils the relevant requirements of European standard EN 301 549 V1.1.2 (2015-04) or parts thereof shall be presumed to be in conformity with the accessibility requirements set out in Article 4 that are covered by those relevant requirements or by parts thereof.<br>4. Where no references to the harmonised standards referred to in paragraph 1 of this Article have been published, and in the absence of the technical specifications referred to in paragraph 2 of this Article, content of mobile applications that fulfils the relevant requirements of European standard EN 301 549 V1.1.2 (2015-04) or parts thereof shall be presumed to be in conformity with the accessibility requirements set out in Article 4 that are covered by those relevant requirements or by parts thereof.<br>5. The Commission is empowered to adopt delegated acts in accordance with Article 10 in order to amend paragraph 3 of this Article by updating the reference to European standard EN 301 549 V1.1.2 (2015-04) so as to make reference to a more recent version of that standard, or to a European standard replacing it, where that version or standard meets the accessibility requirements set out in Article 4 and ensures at least a level of accessibility equivalent to that ensured by European standard EN 301 549 V1.1.2 (2015-04).</p></blockquote>
+<p>This article basically explains the conformance to the directive is presumed if a website or mobile application meets the requirements of the relevant latest version of the European standard. The version when the directive was published was: EN 301 549 V1.1.2 (2015-04). The Commission is allowed to update the directive, to point to a new version of the harmonised standard, using an implementing decision referenced in the official journal of the European Union.  Side note: The current latest version is EN 301 549 V2.1.2 (2018-08).  A further revision is expected to be published and referenced in 2021.</p>
+<p><a href="/posts/dissecting-the-wad-part-7/">Continue to the seventh part of this series.</a></p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/dissecting-the-wad-part-5/">Dissecting the WAD, part 5</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">1</span> 
+            <span class="date-month">November</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>This is a 10 parts series examining the <abbr title="Web Accessibility Directive">WAD</abbr>. In this 5th part of the series we finish off going through the introductory recitals, starting with recital 47. The previous parts of this series are:</p>
+---
+<ul>
+    <li><a href="/posts/dissecting-the-wad-part-1/">Part 1, covering the title and preamble</a>&nbsp;</li>
+    <li><a href="/posts/dissecting-the-wad-part-2/">Part 2, covering recitals 1 to 20</a>&nbsp;</li>
+    <li><a href="/posts/dissecting-the-wad-part-3/">Part 3, covering recitals 21 to 32</a> </li>
+    <li><a href="/posts/dissecting-the-wad-part-4/">Part 4, covering recitals 33 to 46</a>&nbsp;</li></ul>
+<p><a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">The complete official text of the WAD is available here</a>.</p>
+<blockquote><p>(47) Member States should take the necessary measures to raise awareness of, and promote web training programmes relating to, the accessibility of websites and mobile applications, for relevant stakeholders and in particular staff responsible for the accessibility of websites or mobile applications. Relevant stakeholders should be consulted or involved in preparing the content of the accessibility-related training and awareness-raising schemes.</p></blockquote>
+<p>There is an obligation to ensure staff responsible for web content are appropriately trained and that relevant stakeholders (such as disabled people) have been involved in the creation of the training material.</p>
+<blockquote><p>(48) It is important that Member States, in close cooperation with the Commission, should promote the use of authoring tools that allow better implementation of the accessibility requirements set out in this Directive. Such promotion could take passive forms, such as publishing a list of compatible authoring tools without a requirement to use those tools, or active forms, such as the requirement to use compatible authoring tools or to fund their development.</p></blockquote>
+<p>Authoring tools (eg web content management systems) that enable the creation of accessible web content should be promoted by member states. They could do this by publishing lists of compatible tools, requiring their use and funding their development.</p>
+<blockquote><p>(49) In order to ensure the proper implementation of this Directive, and in particular the implementation of the rules on conformity with accessibility requirements, it is of the utmost importance for the Commission and the Member States to consult with relevant stakeholders on a regular basis. Relevant stakeholders within the meaning of this Directive should be understood as including organisations representing the interests of persons with disabilities and of the elderly, social partners, industry involved in the creation of accessibility software relating to websites and mobile applications, and civil society.</p></blockquote>
+<p>The Commission and member states should regularly consult with relevant stakeholders on the implementation of the directive. These would include, amongst others, organisations representing the elderly and persons with disabilities.</p>
+<blockquote><p>(50) Conformity with the accessibility requirements set out in this Directive should be periodically monitored. A harmonised monitoring methodology would provide for a description of the way of verifying, on a uniform basis in all Members States, the degree of compliance with the accessibility requirements, the collection of representative samples and the periodicity of the monitoring. Member States should report periodically on the outcome of the monitoring and at least once on the list of measures taken in application of this Directive.</p></blockquote>
+<p>It is required for member states to monitor the conformity of the web sites of public service bodies. A uniform method of monitoring and reporting will be defined by the European Commission. <a href="https://eur-lex.europa.eu/eli/dec_impl/2018/1524/oj">This &#8220;harmonised&#8221; monitoring and reporting method</a> has now been published in the official journal.</p>
+<blockquote><p>(51) The monitoring methodology to be established by the Commission should be transparent, transferable, comparable and reproducible. The reproducibility of the monitoring methodology should be maximised while taking into account the fact that human factors, such as testing by users, might have an influence on that reproducibility. To improve comparability of data between Member States, the monitoring methodology should describe the way in which the outcomes of different tests need to be or can be presented. In order not to divert resources from the task of making content more accessible, the monitoring methodology should be easy to use.</p></blockquote>
+<p>The monitoring methodology must easily reusable and simple to use, taking into account that accessible testing involves manual tests by users which may hamper the reproducibility of the methodology.  A common method for presenting the resulting data should be defined, in order to improve the compatibility of relevant data generated by the member states.</p>
+<blockquote><p>(52) In order not to hinder innovation as regards ways of measuring the accessibility of websites and mobile applications, and as long as it does not hinder the comparability of data across the Union, Member States should be able to use more advanced monitoring technologies based on the monitoring methodology to be established by the Commission.</p></blockquote>
+<p>Member states may use more advanced methods of monitoring and thereby foster innovation, however this should not hinder the compatibility of the data across the European Union.</p>
+<blockquote><p>(53) In order to avoid systematic recourse to court proceedings, provision should be made for the right to have recourse to an adequate and effective procedure to ensure compliance with this Directive. This is without prejudice to the right to an effective remedy as set out in Article 47 of the Charter. That procedure should be understood to include the right to submit complaints to any existing national authority competent to adjudicate upon those complaints.</p></blockquote>
+<p>An adequate and affective procedure should be provided to ensure websites not conforming to the directive, are made to do so without having to resort to court proceedings. This procedure should include the right to submit complaints to relevant existing national authorities.</p>
+<blockquote><p>(54) In order to ensure the proper application of the presumption of conformity with the accessibility requirements laid down by this Directive, the power to adopt acts in accordance with Article 290 of the Treaty on the Functioning of the European Union should be delegated to the Commission in respect of amending this Directive by updating the references to European standard EN 301 549 V1.1.2 (2015-04). It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making (10). In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States&#8217; experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.</p></blockquote>
+<p>The Commission is allowed to update this directive in order to refer to any new versions of the Harmonised European Standard that is used to web sites conform to the this directive. Appropriate consultation with the European Parliament and the Council should be assured. The current standard offers a presumption of conformity with the WAD is <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">Harmonised European Standard EN 301 549 v2.1.2 (PDF)</a>.</p>
+<blockquote><p>(55) In order to ensure uniform conditions for the implementation of the relevant provisions of this Directive, implementing powers should be conferred on the Commission. The examination procedure should be used in order to establish: technical specifications for the accessibility requirements; the methodology that Member States should use for monitoring the conformity of the websites and mobile applications concerned with those requirements; and the arrangements for reporting by Member States to the Commission on the outcome of the monitoring. The advisory procedure should be used for the adoption of the implementing acts establishing a model accessibility statement, which does not have any impact on the nature and scope of the obligations stemming from this Directive but serves to facilitate the application of the rules which it lays down. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and the Council (11).</p></blockquote>
+<p>The Commission should develop implementing decisions to establish a number of standards and requirements to cover:</p>
+<ul><li><a href="https://eur-lex.europa.eu/legal-content/GA/TXT/?uri=CELEX:32018D2048">Technical specifications for the accessibility requirements</a>; </li><li><a href="https://eur-lex.europa.eu/eli/dec_impl/2018/1524/oj">The methodology for monitoring the conformity of the websites to these requirements</a>; </li><li><a href="https://eur-lex.europa.eu/eli/dec_impl/2018/1524/oj">The arrangements for reporting on the outcome of the monitoring</a>;</li><li><a href="https://eur-lex.europa.eu/eli/dec_impl/2018/1523/oj">The definition of the model accessibility statement required by this directive</a>. </li></ul>
+<blockquote><p>(56) Since the objective of this Directive, namely the establishment of a harmonised market for the accessibility of the websites and mobile applications of public sector bodies, cannot be sufficiently achieved by the Member States, because it requires the harmonisation of different rules currently existing in their respective legal systems, but can rather be better achieved at Union level, the Union may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty on European Union. In accordance with the principle of proportionality, as set out in that Article, this Directive does not go beyond what is necessary in order to achieve that objective,</p></blockquote>
+<p>The European Union may adopt measures regarding this directive, since these are better dealt with at Union level and not national level. This directive does not go beyond what is necessary to achieve its objectives.</p>
+<blockquote><p>HAVE ADOPTED THIS DIRECTIVE:</p></blockquote>
+<p>Finally we get to the actual decisions of the directive, which we will start cover in the next part.</p>
+<p><a href="/posts/dissecting-the-wad-part-6/">Continue to the sixth part of this series.</a></p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/dissecting-the-wad-part-4/">Dissecting the WAD, part 4</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">29</span> 
+            <span class="date-month">October</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>In&nbsp;<a href="/posts/dissecting-the-wad-part-1/">part 1 of this series</a>&nbsp;about the&nbsp;WAD, we covered the title and heading sections.&nbsp; In <a href="/posts/dissecting-the-wad-part-2/">part 2</a>&nbsp;and <a href="/posts/dissecting-the-wad-part-3/">part 3</a> of the series we continued by looking at the first 32 recitals. In this fourth part we continue going through the introductory recitals which give the background to the directive.&nbsp;<a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">The official text is available here</a>.</p>
+---
+<blockquote><p>(33) Essential online administrative functions of schools, kindergartens or nurseries should be made accessible. When that essential content is provided in an accessible manner via another website, it should not need to be made accessible again on the website of the establishment concerned.</p></blockquote>
+<p>The administrative functions of schools, kindergartens and nurseries should be accessible on their websites, but not if the functions are already accessible on another website. </p>
+<blockquote><p>(34) Member States should be able to extend the application of this Directive to other types of websites and mobile applications, in particular intranet or extranet websites and mobile applications not covered by this Directive which are designed for and used by a limited number of persons in the workplace or in education, and to maintain or introduce measures in conformity with Union law which go beyond the minimum requirements for accessibility of websites and mobile applications. Member States should also be encouraged to extend the application of this Directive to private entities that offer facilities and services which are open or provided to the public, including in the healthcare, childcare, social inclusion and social security areas, as well as in the transport sector and the electricity, gas, heat, water, electronic communication and postal services, with particular attention being paid to those services referred to in Articles 8 to 13 of Directive 2014/25/EU.</p></blockquote>
+<p>Member States may extend the directive to apply to other types of websites not covered by the directive. They are also encouraged to have stricter requirements than those in the directive and to apply the directive to private entities offering services open to the public, such as healthcare and childcare providers, transport services or essetial utility providers. </p>
+<blockquote><p>(35) Although this Directive does not apply to the websites and mobile applications of Union institutions, those institutions are encouraged to comply with the accessibility requirements set out in this Directive.</p></blockquote>
+<p>Institutions of the European Union are encouraged to ensure their websites comply with the directive.</p>
+<blockquote><p>(36) The accessibility requirements set out in this Directive are intended to be technology-neutral. They describe what must be achieved in order for the user to be able to perceive, operate, interpret and understand a website, a mobile application and related content. They do not specify what technology should be selected for a particular website, online information or mobile application. As such, they do not hamper innovation.</p></blockquote>
+<p>This directive is technology neutral and does not specify which technology to use in order to make a website accessible. It therefore does not prevent innovation.</p>
+<blockquote><p>(37) The four principles of accessibility are: perceivability, meaning that information and user interface components must be presentable to users in ways they can perceive; operability, meaning that user interface components and navigation must be operable; understandability, meaning that information and the operation of the user interface must be understandable; and robustness, meaning that content must be robust enough to be interpreted reliably by a wide variety of user agents, including assistive technologies. Those principles of accessibility are translated into testable success criteria, such as those forming the basis of the European standard EN 301 549 V1.1.2 ‘Accessibility requirements suitable for public procurement of ICT products and services in Europe’ (2015-04) (European standard EN 301 549 V1.1.2 (2015-04)), via harmonised standards and a common methodology to test the conformity of content on websites and mobile applications with those principles. That European standard was adopted on the basis of mandate M/376 issued by the Commission to the European standardisation organisations. Pending publication of the references to harmonised standards, or of parts thereof, in the Official Journal of the European Union, the relevant clauses of European standard EN 301 549 V1.1.2 (2015-04) should be considered as the minimum means of putting those principles into practice.</p></blockquote>
+<p><a href="https://www.w3.org/WAI/fundamentals/accessibility-principles/">A recap the POUR principle, as defined in the WCAG recommendation, meaning Perceivable, Operable, Usable, Robust</a>. This principle is is embedded in the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">European Harmonised Standard EN 301 549 (PDF)</a>, which defines the testable criteria behind the principle in more detail and thereby prescribes a way to test a website is accessible.  </p>
+<blockquote><p>(38) If the accessibility requirements set out in this Directive are not applicable, then in accordance with Council Directive 2000/78/EC (8), the UN Convention and other relevant legislation, the requirements of ‘reasonable accommodation’ will still apply and should be provided for where needed, in particular in the workplace and in education.</p></blockquote>
+<p>When the directive does not apply to websites, there will be other legislation which does, particularly the requirement of &#8220;reasonable accommodation&#8221;.</p>
+<blockquote><p>(39) Public sector bodies should apply the accessibility requirements set out in this Directive to the extent that they do not impose a disproportionate burden on them. This means that, in justified cases, it might not be reasonably possible for a public sector body to make specific content fully accessible. However, that public sector body should still make that content as accessible as possible and make other content fully accessible. Exceptions to compliance with the accessibility requirements due to the disproportionate burden that they impose should not go beyond what is strictly necessary in order to limit that burden with respect to the particular content concerned in each individual case. Measures that would impose a disproportionate burden should be understood as measures that would impose an excessive organisational or financial burden on a public sector body, or would jeopardise the body&#8217;s capacity to either fulfil its purpose or to publish information needed for or relevant to its tasks and services, while taking into account the likely resulting benefit or detriment for citizens, in particular persons with disabilities. Only legitimate reasons should be taken into account in any assessment of the extent to which the accessibility requirements cannot be met because they would impose a disproportionate burden. Lack of priority, time or knowledge should not be considered as legitimate reasons. Likewise, there should not be any legitimate reasons for not procuring or developing software systems to manage content on websites and mobile applications in an accessible manner, since sufficient and advisory techniques are available to make those systems meet the accessibility requirements set out in this Directive.</p></blockquote>
+<p>Content for which there is disproportionate burden (eg organisational or financial) to make it accessible can be exceptionally excluded from the directive. However this exclusion should be limited in scope to the particular piece of content in question and must be duly justified. However such a claim is not possible for procured systems to manage and create content, since there are now well documented techniques that can be used to ensure such systems meet the requirement of the directive.</p>
+<blockquote><p>(40) Interoperability relating to accessibility should maximise the compatibility of content with current and future user agents and assistive technologies. More specifically, the content of websites and mobile applications should provide user agents with a common internal coding of natural language, structures, relations, and sequences, as well as data of any embedded user-interface components. Interoperability thus benefits the users, allowing them to employ their user agents ubiquitously to access websites and mobile applications; they might also benefit from greater choice and reduced prices across the Union. Interoperability would also benefit the suppliers and buyers of products and services relating to accessibility of websites and mobile applications.</p></blockquote>
+<p>Use the standard web technologies to create your content so that it is future proof and can be understood by all current and future standards compliant user agents. This will result in a greater choice and reduced prices as well as benefit suppliers and buyers of web accessibility services.</p>
+<blockquote><p>(41) This Directive lays down accessibility requirements for the websites and mobile applications of public sector bodies. In order to facilitate the conformity of such websites and mobile applications with those requirements, it is necessary to provide for a presumption of conformity for the websites and mobile applications concerned that meet harmonised standards or parts thereof drawn up and published in the Official Journal of the European Union in accordance with Regulation (EU) No 1025/2012 of the European Parliament and of the Council (9), for the purpose of expressing detailed specifications in relation to those requirements. Pursuant to that Regulation, Member States and the European Parliament should be able to object to any harmonised standard which, in their view, does not entirely satisfy the accessibility requirements laid down in this Directive.</p></blockquote>
+<p>There will be a standard published in the Official Journal which provides a presumption of conformity to the directive. Member States can object to the standard if they feel it does not satisfy the requirements of the directive. </p>
+<blockquote><p>(42) The European standardisation organisations have adopted European standard EN 301 549 V1.1.2 (2015-04), specifying the functional accessibility requirements for ICT products and services, including web content, which could be used in public procurement or to support other policies and legislation. The presumption of conformity with the accessibility requirements laid down in this Directive should be based on clauses 9, 10 and 11 of European standard EN 301 549 V1.1.2 (2015-04). Technical specifications adopted on the basis of this Directive should further detail European standard EN 301 549 V1.1.2 (2015-04) in relation to mobile applications.</p></blockquote>
+<p>The relevant clauses of the published harmonised standard are clauses 9, 10 and 11.  <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">The harmonised standard EN 301 549 is available here (note that the current version is v2.1.2)</a>.</p>
+<blockquote><p>(43) The technical specifications and standards developed in relation to the accessibility requirements set out in this Directive should, moreover, take into account the conceptual and technical specificities of mobile devices.</p></blockquote>
+<p>Mobile devices need to taken account when developing technical specification and standards in order to meet the accessibility requirements of the directive.</p>
+<blockquote><p>(44) An accessibility statement should be provided by public sector bodies on the compliance of their websites and mobile applications with the accessibility requirements laid down by this Directive. That accessibility statement should include, where appropriate, the accessible alternatives provided for.</p></blockquote>
+<p>All public sector bodies must have an accessibility on their website stating their level of compliance to the directive. </p>
+<blockquote><p>(45) Mobile applications are available from a variety of sources, including private application stores. Information regarding the accessibility of the mobile applications of public sector bodies downloaded from third-party sources should be provided alongside the description of the mobile application which is presented to users before they download the mobile application. This does not require major platform providers to change their application distribution mechanisms, but instead imposes on the public sector body the requirement to make the accessibility statement available using existing or future technologies.</p></blockquote>
+<p>For mobile applications, the accessibility statements should be included in the description of the application in the &#8220;app store&#8221; from which the mobile application can be downloaded.  It is up to the public sector body to ensure the accessibility statement is available to the user before installing the application. The platform providers are not obliged by this directive to change their distribution mechanisms.</p>
+<blockquote><p>(46) A feedback mechanism should be set up to enable any person to notify the public sector body concerned of any failures of the website or mobile applications to comply with the accessibility requirements set out in this Directive and to request information excluded. Such requests for information could concern content that is excluded from the scope of this Directive or otherwise exempted from compliance with the accessibility requirements set out in this Directive, such as office file formats, pre-recorded time-based media or the content of archived websites. By using the feedback mechanism linked to an enforcement procedure, it should be possible for users of websites or mobile applications of public sector bodies to ask for the requisite information, including services and documents. In response to a legitimate and reasonable request, the public sector body concerned should provide information in an adequate and appropriate manner within a reasonable period of time.</p></blockquote>
+<p>It should be possible for persons to request information from the public service body to which they otherwise do not have access for accessibility reasons, meaning a failure of the public service body to apply the directive to the content in question. Such a request should be adequately replied to in a reasonable period of time. This is an enforceable right of persons using the website.</p>
+<p>This series on the web accessibility directive <a href="/posts/dissecting-the-wad-part-5/">continues in part 5</a>.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/dissecting-the-wad-part-3/">Dissecting the WAD, part 3</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">28</span> 
+            <span class="date-month">October</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>In <a href="/posts/dissecting-the-wad-part-1/">part 1 of this series</a> about the <abbr title="Web Accessibility Directive">WAD</abbr>, we covered the title and heading sections. <a href="/posts/dissecting-the-wad-part-2/">In part 2 of the series</a> we continued by looking at the first 20 recitals. In this third part we continue going through the introductory recitals which give the background to the directive. <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">The official text is available here</a>.</p>
+---
+<blockquote><p>(21) This Directive is without prejudice to Directive 2014/24/EU of the European Parliament and of the Council (6) and in particular Article 42 thereof, and Directive 2014/25/EU of the European Parliament and of the Council (7) and in particular Article 60 thereof, which require that the technical specifications for all procurements which are intended for use by natural persons, whether the general public or staff of the contracting authority, shall, except in duly justified cases, be drawn up so as to take into account accessibility criteria for persons with disabilities or design for all users.</p></blockquote>
+<p>Nothing in this directive negates the requirements of previous directives which requires that all procurements must take into account the needs of persons with disabilities.</p>
+<blockquote><p>(22) Given the lack of automated or efficient and easy-to-implement means to make some types of published content accessible, and in order to limit the scope of this Directive to content of websites and mobile applications effectively under the control of public sector bodies, this Directive provides for the temporary or permanent exclusion from its scope of some types of content of websites or mobile applications. Those exclusions should be reconsidered in the context of the review of this Directive, in the light of future technological advances.</p></blockquote>
+<p>Some content types can be excluded from this directive if it is proven that there is no efficient means to implement the directive for them.  As technology advances the need for these exclusions will be checked ina future review of the directive.</p>
+<blockquote><p>(23) The right of persons with disabilities and of the elderly to participate and be integrated in the social and cultural life of the Union is inextricably linked to the provision of accessible audiovisual media services. However, that right may be better developed in the context of Union sector-specific legislation or legislation focusing on accessibility that also applies to private broadcasters in order to guarantee conditions of fair competition without prejudice to the public interest role performed by the audiovisual media services. This Directive should consequently not apply to the websites and mobile applications of public service broadcasters.</p></blockquote>
+<p>The directive does not apply to websites and mobile applications of public broadcasters.  This is to maintain a level playing field between public and private broadcasters in the domain of audiovisual media. The rights of persons with disabilities in this context will be developed within other legislation.</p>
+<blockquote><p>(24) Nothing in this Directive is intended to restrict the freedom of expression and the freedom and pluralism of the media as they are guaranteed in the Union and in the Member States, in particular under Article 11 of the Charter of Fundamental Rights of the European Union (‘the Charter’).</p></blockquote>
+<p>The directive does not restrict freedom of expression or the freedom of the media.</p>
+<blockquote><p>(25) Some non-governmental organisations (NGOs), which are voluntary self-governing bodies established to pursue essentially non-profit making objectives, provide services that are not essential to the public, such as services that are not directly mandated by State, regional or local authorities, or services that do not specifically address the needs of persons with disabilities in particular, and could fall within the scope of this Directive. In order to avoid imposing a disproportionate burden on such NGOs, this Directive should not apply to them.</p></blockquote>
+<p>The directive does not apply to NGOs providing services not essential to the public (ie not directly requested by governmental authorities) or services not specifically addressing the needs of persons with disabilities.</p>
+<blockquote><p>(26) Office file formats should be understood as documents that are not intended primarily for use on the web and that are included in web pages, such as Adobe Portable Document Format (PDF), Microsoft Office documents or their (open source) equivalents.</p></blockquote>
+<p>Office file formats are documents that are intended to be used offline, but can be included in web pages, such as Word documents or PDFs.</p>
+<blockquote><p>(27) Live time-based media that are kept online or republished after the live broadcast should be considered as pre-recorded time-based media without undue delay from the date of the initial broadcast or republishing of the time-based media, not exceeding the time strictly necessary to make time-based media accessible with priority being given to essential information relating to the health, welfare and safety of the public. That necessary period of time should in principle be no longer than 14 days. In justified cases, such as when it is impossible to procure the relevant services in due time, that period might exceptionally be extended to the shortest time necessary to make the content accessible.</p></blockquote>
+<p>Live recordings must be made accessible within 14 days of their availability online, after which time they are considered to be pre-recorded and as such subject to the accessibility requirements of this directive. Justified exceptions are allowed, but only for a very limited amount of time.</p>
+<blockquote><p>(28) This Directive, while encouraging public sector bodies to make all content accessible, is not intended to limit the content which public sector bodies place on their websites or in their mobile applications to accessible content alone. Whenever non-accessible content is added, public sector bodies should, to the extent reasonably possible, add accessible alternatives on their websites or in their mobile applications.</p></blockquote>
+<p>Content made available online by public sector bodies should not be limited only to accessible content. Rather accessible alternatives to non-accessible content should be added to the extent that this is reasonably possible.</p>
+<blockquote><p>(29) When maps are intended for navigational use, as distinct from geographical description, accessible information may be needed in order to help persons who cannot use visual information or complex navigation functionalities properly, for instance to locate premises or areas where services are provided. An accessible alternative should therefore be provided, such as postal addresses and nearby public transport stops, or the names of places or regions which are often already available for the public sector body in a form that is simple and readable for most users.</p></blockquote>
+<p>Maps used for navigational purposes, for example to find an office building, must provide accessible alternatives to the map, such as postal addresses or nearby pubic transport stops. This form should be simple and readable by most users.</p>
+<blockquote><p>(30) Embedded content, such as embedded images or videos, should be covered by this Directive. However, websites and mobile applications are sometimes created into which additional content may be subsequently incorporated, for example an email program, a blog, an article that allows users to add comments, or applications supporting user-contributed content. Another example would be a page, such as a portal or news site, composed of content aggregated from multiple contributors, or sites that automatically insert content from other sources over time, such as when advertisements are inserted dynamically. Such third-party content, provided that it is neither funded nor developed by the public sector body concerned nor under its control, should be excluded from the scope of this Directive. Such content should, in principle, not be used if it hinders or decreases the functionality of the public service offered on the website or mobile application concerned. Where the purpose of content of websites or mobile applications of public sector bodies is to hold consultations or to organise forum discussions, that content cannot be considered as third-party content and should therefore be accessible, except in the case of user-contributed content which is not under the control of the public sector body concerned.</p></blockquote>
+<p>Third party content, such as embedded images and videos or user contributed content such as comments on web pages, is excluded from the scope of this directive as long as it is not funded, developed or controlled by the public sector body. However such content should decrease or hinder the functionality of the service being offered. Further, if such content is used for consultations or discussions, it must be accessible according to the directive.</p>
+<blockquote><p>(31) Some accessibility requirements for websites or mobile applications should still be complied with as regards the metadata linked to the reproduction of items in heritage collections.</p></blockquote>
+<p>Metadata needed for the reproduction of items in heritage collections must still comply with the accessibility requirements.</p>
+<blockquote><p>(32) This Directive should not require Member States to make the content of archived websites or mobile applications accessible if it is no longer updated or edited and if it is not needed in order to carry out administrative processes. For the purposes of this Directive, purely technical maintenance should not be considered to constitute updating or editing of a website or mobile application.</p></blockquote>
+<p>Content that is no longer updated and is not needed for administrative processes does not need to be made accessible. This includes updates that are purely technical maintenance in nature.</p>
+<p><a href="/posts/dissecting-the-wad-part-4/">Continue to the fourth part of this series.</a></p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/dissecting-the-wad-part-2/">Dissecting the WAD, part 2</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">18</span> 
+            <span class="date-month">October</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>In <a href="/posts/dissecting-the-wad-part-1/">part 1 of this series</a> about the <abbr title="Web Accessibility Directive">WAD</abbr>, we covered the title and heading sections. In this second part we go through the introductory recitals which give the background to the directive. <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">The official text is available here</a>.</p>
+---
+<blockquote><p>(1) The trend towards a digital society provides users with new ways of accessing information and services. The providers of information and services, such as public sector bodies, rely increasingly on the internet in order to produce, collect and provide a wide range of information and services online which are essential to the public.</p></blockquote>
+<p>More and more information is provided and exchanged in a digital format using online services.  Information published by public sector bodies is often essential to the public</p>
+<blockquote><p>(2) In the context of this Directive, accessibility should be understood as principles and techniques to be observed when designing, constructing, maintaining, and updating websites and mobile applications in order to make them more accessible to users, in particular persons with disabilities.</p></blockquote>
+<p>Accessibility is a way of publishing information on websites and mobile applications so that it can be accessed by people with any type disabilities.</p>
+<blockquote><p>(3) The fast-growing market for making digital products and services more accessible comprises a range of economic operators, such as those developing websites or software tools to create, manage and test web pages or mobile applications, those developing user agents such as web browsers and related assistive technologies, those implementing certification services and those providing training.</p></blockquote>
+<p>There are a number of companies and organisations involved in making digital information more accessible. These include website and mobile application developers, those offering web content management systems, the creators of web browsers and assistive technologies and those offering training and certification services.</p>
+<blockquote><p>(4) As underlined in the Commission communication of 19 May 2010 entitled ‘A Digital Agenda for Europe’, public authorities should play their part in promoting markets for online content. Governments can stimulate content markets by making public sector information available under transparent, effective and non-discriminatory terms. This is an important source of potential growth of innovative online services.</p></blockquote>
+<p>The public sector can stimulate and promote markets for accessible online content by ensuring that public information is made transparently available to all persons, regardless of their ability or disability.</p>
+<blockquote><p>(5) Several Member States have adopted measures based on internationally used guidelines for the design of accessible websites, but those measures often relate to different versions or compliance levels of those guidelines, or have introduced technical differences in respect of accessible websites at national level.</p></blockquote>
+<p>The implementation of measures to ensure the accessibility of public information has so far not been consistent across member states of the European Union.  The compliance levels needed at national level vary significantly across the member states.</p>
+<blockquote><p>(6) Suppliers of accessible websites, mobile applications and related software and technologies include a large number of small and medium-sized enterprises (SMEs). Such suppliers, and SMEs in particular, are discouraged from entering into business ventures outside their national markets. Due to the differences between Member States in accessibility specifications and regulations, suppliers&#8217; competitiveness and growth are hampered by the additional costs they would incur in the development and marketing of cross-border web accessibility-related products and services.</p></blockquote>
+<p>Those creating websites, mobile applications and related software are discouraged from doing business outside their national markets due to the lack of uniform regulations defining accessibility requirements of online content. The costs in ensuring compliance across different member states reduces the competitiveness and growth prospects of the suppliers.</p>
+<blockquote><p>(7) Due to limited competition, buyers of websites, mobile applications and related products and services are faced with high prices in respect of the provision of services or dependence on a single supplier. Suppliers often favour variations of proprietary ‘standards’, hindering subsequent scope for interoperability of user agents and Union-wide ubiquitous access to the content of websites and mobile applications. Fragmentation among national regulations reduces the benefits that could result from sharing experiences with national and international peers in responding to societal and technological developments.</p></blockquote>
+<p>The lack of common standards for web accessibility across the EU leads to fragmented regulations leading to higher costs in creating accessible content because of a lack of EU-wide competition. Further, user agent providers and assistive technology developers have to deal with a number of different standards, making their product more costly than need be.</p>
+<blockquote><p>(8) In a harmonised framework, the design and development industry for websites and mobile applications should face fewer barriers to operating in the internal market, while costs for public sector bodies and others procuring products and services relating to the accessibility of websites and mobile applications should be reduced.</p></blockquote>
+<p>A common European standard will make it easier for companies and industry to create accessible websites and mobile applications across the internal market and will reduce costs for those wanting to buy such services.</p>
+<blockquote><p>(9) This Directive aims to ensure that the websites and mobile applications of public sector bodies are made more accessible on the basis of common accessibility requirements. The approximation of national measures at Union level, based on the agreed accessibility requirements for the websites and mobile applications of public sector bodies, is necessary in order to put an end to fragmentation of the internal market. It would reduce uncertainty for developers and would foster interoperability. The use of accessibility requirements which are technology-neutral will not hamper innovation, and may even stimulate it.</p></blockquote>
+<p>Fragmentation of the internal market will be removed with the common accessibility requirements of the WAD.  Further, it will ensure increased accessibility of public sector content across the EU&#8217;s internal market, reduce uncertainty and promote interoperability of web content. Finally, since the requirements are technology-neutral, innovation will be supported, not reduced.</p>
+<blockquote><p>(10) Approximation of national measures should also allow Union public sector bodies and enterprises to obtain economic and social benefits from extending the provision of online or mobile services to include more citizens and customers. This should increase the potential of the internal market for products and services relating to the accessibility of websites and mobile applications. The resulting market growth should allow undertakings to contribute to economic growth and job creation within the Union. Strengthening the internal market should make investment in the Union more attractive. Public sector bodies would benefit from cheaper provision of web accessibility-related products and services.</p></blockquote>
+<p>Having common standards that will enable online and mobile services to reach more citizens and customers will lead economic and social benefits. This will make the internal market for web and mobile accessibility larger, leading economic growth, more jobs and a more attractive investment environment.  Public sector bodies would benefit from cheaper provision  of web accessibility related products and services. </p>
+<blockquote><p>(11) Citizens would benefit from wider access to public sector services through websites and mobile applications and would receive services and information facilitating their daily lives and the enjoyment of their rights across the Union, in particular their right to move and reside freely within the territory of the Union, their freedom of establishment and their freedom to provide services.</p></blockquote>
+<p>The WAD will benefit citizens by enabling greater access to public sector services and the resulting increased access to information will help them in their daily lives and ensure they are able to make use of their rights across the entire EU, such as the right to move, work and live freely within the EU. </p>
+<blockquote><p>(12) By respectively ratifying and concluding the United Nations Convention on the Rights of Persons with Disabilities, adopted on 13 December 2006 (‘the UN Convention’), the majority of Member States and the Union have committed themselves to taking appropriate measures to ensure access for persons with disabilities, on an equal basis with others, to, inter alia, information and communication technologies and systems, to develop, promulgate and monitor the implementation of minimum standards and guidelines for the accessibility of facilities and services open or provided to the public, and to promote access for persons with disabilities to new information and communications technologies and systems, including the internet, and have undertaken to refrain from engaging in any act or practice that is inconsistent with that Convention and to ensure that public authorities and institutions act in conformity with it. The UN Convention also stipulates that the design of products, environments, programmes and services should enable their use by all people, to the greatest extent possible, without the need for adaptation or specialised design. Such ‘universal design’ should not exclude assistive devices for particular groups of persons with disabilities, where this is needed. According to the UN Convention, persons with disabilities include those having long-term physical, mental, intellectual or sensory impairments which may, in conjunction with other barriers, hinder their full and effective participation in society on an equal basis with others.</p></blockquote>
+<p>Having ratified the <abbr title="United Nations Convention on the Rights of People with Disabilities">UNCRPD</abbr> the majority of member states and the EU have committed themselves for ensuring greater access for persons with disabilities to, amongst other things, web content and mobile applications. The WAD ensures this commitment is now a legal commitment under EU law with respect to web accessibility.  <a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html">The UNCRPD essentially states</a> that people with disabilities must enjoy their full rights as citizens, most not be discriminated against and that tools and services must be built to enable this.</p>
+<blockquote><p>(13) The Commission communication of 15 November 2010 entitled ‘European Disability Strategy 2010-2020: A Renewed Commitment to a Barrier-Free Europe’ builds on the UN Convention and aims to eliminate barriers that prevent persons with disabilities from participating in society on an equal basis. It sets out actions to be taken in several priority areas, including accessibility of information and communications technologies and systems, and its objective is to ensure accessibility to goods, services (including public services) and assistive devices for people with disabilities.</p></blockquote>
+<p>In November 2010 the Commission renewed it&#8217;s commitment to removing barriers that prevent persons with disabilities from participating in society on an equal basis and set out actions to be taken to ensure this commitment, including accessibility of <abbr title="Information and Communications Technologies">ICT</abbr>.</p>
+<blockquote><p>(14) Regulations (EU) No 1303/2013 (3) and (EU) No 1304/2013 (4) of the European Parliament and of the Council contain provisions on the accessibility of information and communication technology (ICT). They do not, however, address the specificities of the accessibility of websites or of mobile applications.</p></blockquote>
+<p>Previous regulations whilst containing provisions for ICT, however they lacked detail regarding accessibility of websites and mobile applications.</p>
+<blockquote><p>(15) Horizon 2020 — The Framework Programme for Research and Innovation, established by Regulation (EU) No 1291/2013 of the European Parliament and of the Council (5), supports research on, and the development of, technological solutions to accessibility problems.</p></blockquote>
+<p>The research program, Horizon 2020, supports research research and development of solutions to accessibility problems. </p>
+<blockquote><p>(16) In its communication of 15 December 2010 entitled ‘The European eGovernment Action Plan 2011-2015 — Harnessing ICT to promote smart, sustainable &amp; innovative Government’, the Commission called for action to develop eGovernment services that ensure inclusiveness and accessibility. This includes measures to reduce the gap in ICT usage and to promote the use of ICT to overcome exclusion, thus ensuring that all users are able to make the most of the opportunities presented. In its communication of 19 April 2016 entitled ‘EU eGovernment Action Plan 2016-2020 — Accelerating the digital transformation of government’, the Commission reiterates the importance of inclusiveness and accessibility.</p></blockquote>
+<p>In its action plan for 2011 to 2015, published in December 2010 and reiterated in its action plan for 2016 to 2020, the Commission called for the development of eGovernment services that ensure inclusiveness and accessibility of information. This includes measures the gap in ICT usage and promoting the use ICT to overcome exclusion.</p>
+<blockquote><p>(17) In the Digital Agenda for Europe, the Commission announced that public sector websites should be fully accessible by 2015, thereby reflecting the Riga Ministerial Declaration of 11 June 2006.</p></blockquote>
+<p>Nothing more to add. <a href="https://ec.europa.eu/information_society/activities/ict_psp/documents/declaration_riga.pdf">The Riga Ministerial Declaration can be found here</a>.  </p>
+<blockquote><p>(18) In the Digital Agenda for Europe, the Commission stressed that concerted actions were needed to ensure that new electronic content was fully available to persons with disabilities, in order to provide Europeans with a better quality of life through, for instance, easier access to public services and cultural content. It also encouraged the facilitation of the Memorandum of Understanding on digital access for persons with disabilities.</p></blockquote>
+<p>Essentially saying that accessibility of information doesn&#8217;t just happen, but that it is something that needs to continuously worked on.</p>
+<blockquote><p>(19) Content of websites and mobile applications includes textual as well as non-textual information, downloadable documents and forms, and two-way interaction such as the processing of digital forms and the completion of authentication, identification and payment processes.</p></blockquote>
+<p>Definition of websites and mobile applications. They include non-text content such images and videos, documents either downloaded or embedded in the website and all forms of interaction such as authentication, identification and payment processes.</p>
+<blockquote><p>(20) The accessibility requirements set out in this Directive should not apply to content which is to be found exclusively on mobile devices, or to user agents for mobile devices, which are developed for closed groups of users or for specific use within certain environments and which are not available to and used by large parts of the public.</p></blockquote>
+<p>Excluded from the WAD is content developed for closed groups of users of for use in certain environments and which are available to and used by the general public.</p>
+<p><a href="/posts/dissecting-the-wad-part-3/">Continue to the third part of this series.</a></p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/dissecting-the-wad-part-1/">Dissecting the WAD, part 1</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">14</span> 
+            <span class="date-month">October</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>In the next series of posts we will be going through the legal text of the <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">Web Accessibility Directive</a> (<abbr title="Web Accessibility Directive">WAD</abbr>), explaining the meaning of each section.</p>
+---
+<h3>What is a directive?</h3>
+<p>A directive is a legal act that defines a goal to be achieved by all member states of the European Union. However it is up to the member states how they achieve these goals. So each member state must transpose a directive into its national (and regional if applicable) legislation in such a way that it is equivalent to the directive published in the Official Journal of the European Union.</p>
+<h3>The title</h3>
+<p>The WAD starts with this title:</p>
+<blockquote><p>DIRECTIVE (EU)&nbsp;2016/2102 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL</p><p>of 26 October 2016</p><p>on the accessibility of the websites and mobile applications of public sector bodies</p><p>(Text with EEA relevance)</p></blockquote>
+<p>This is basically the title of the directive indicating the date it was published, what it is about and that also applies to the <abbr title="European Economic Area">EEA</abbr> in this case.</p>
+<h3>Preamble</h3>
+<p>The title is followed by this preamble setting out the treaties under which the directive is published and the process taken to create the legislation.</p>
+<blockquote><p>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</p><p>Having regard to the Treaty on the Functioning of the European Union, and in particular Article&nbsp;114(1) thereof,</p><p>Having regard to the proposal from the European Commission,</p><p>After transmission of the draft legislative act to the national parliaments,</p><p>Having regard to the opinion of the European Economic and Social Committee,</p><p>After consulting the Committee of the Regions,</p><p>Acting in accordance with the ordinary legislative procedure,</p><p>Whereas:</p></blockquote>
+<p>This is saying that this directive is adopted by European Parliament and the Council of the European Union.  It is published with regard to the treaty defining how the EU functions (basically the Treaty of Rome) and is based on a proposal by the European Commission.  The legislation was sent to the national parliaments for adoption in national legislation. In addition the European Economic and Social Committee as well as the Committee of the Regions were consulted before final publication of the WAD using the usual procedure for such legislation.</p>
+<p>Or, in other words: &#8220;We have agreed that&#8230;&#8221;</p>
+<p><a href="/posts/dissecting-the-wad-part-2/">Continue to the second part of this series</a>.</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/wad-hen-and-wcag/">WAD, HEN and WCAGs</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">11</span> 
+            <span class="date-month">October</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>We all love an acronym, so let’s start with these three:</p>
+<ul>
+<li><strong>W</strong>eb <strong>A</strong>ccessibility <strong>D</strong>irective, the <abbr title="Web Accessibility Directive">WAD</abbr>,</li>
+<li><strong>H</strong>armonised <strong>E</strong>uropean Standard (<strong>n</strong>orm), <abbr title="Harmonised European Standard">HEN</abbr>,</li></li>
+<li><strong>W</strong>eb <strong>C</strong>ontent <strong>A</strong>ccessibility <strong>G</strong>uidelines, the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>.</li></li>
+</ul>
+<hr>
+<h3>Web Accessibility Directive</h3>
+<p>The WAD is the European Union's take on web accessibility. It legally obliges all public service web sites and mobile applications in the European Union to be accessible. This applies to all existing and new such content since the 23rd September 2020.</p>
+<p>There is <a href="https://ec.europa.eu/digital-single-market/en/web-accessibility">more information on the WAD available here</a> and the <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj">legal text of the directive is available here</a>. </p></p>
+<h3>Harmonised European Standard</h3>
+<p>A HEN is harmonised standard created by one or more of the three European Standards Organisations: <a href="https://:www.etsi.org/">ETSI</a>, <a href="https://www.cen.eu/">CEN </a>and <a href="https://www.cenelec.eu/">CENELEC</a>. This is often done on the initiative of the European Union. There are many HENs, but <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf">the HEN covering web accessibility is EN 301 549 (PDF)</a>.  Whilst it covers more than web accessibility, the part on web accessibility is more or less equal to the WCAG.</p>
+<h3>Web Content Accessibility Guidelines</h3>
+<p>The WCAG are set of largely technical guidelines authored by the <abbr title="World Wide Web Consortium">W3C</abbr>.  They are published on the <abbr title="Web Accessibility Initiative">WAI</abbr> section of the W3C. <a href="https://www.w3.org/TR/WCAG/">The latest version of the WCAG is available here</a>.</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2020/why-you-need-a-front-end-developer/">Why you need a front-end developer</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">31</span> 
+            <span class="date-month">August</span>, 
+            <span class="date-year">2020</span>
+          </time>
+        </header>
+        
+          <p>Good article on the need for dedicated front-end developers:  <a href="https://technology.blog.gov.uk/2020/07/24/why-you-should-hire-a-frontend-developer/">https://technology.blog.gov.uk/2020/07/24/why-you-should-hire-a-frontend-developer/</a></p>
+---
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2014/windows-speech-recognition-take-two/">Windows Speech Recognition. Take two.</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">15</span> 
+            <span class="date-month">June</span>, 
+            <span class="date-year">2014</span>
+          </time>
+        </header>
+        
+          <p>In my <a title="Link rot" href="/posts/2014/link-rot/">previous post</a> about link rot I lamented the fact that a post I made on a forum was no longer helpful as I only provided the link to the solution, but not the solution itself. That link no longer works. I went back and added a new forum post with the content to help a later user with the same problem.</p>
+---
+<p>I decided I should also post the full solution on my own blog in case the forum also one day no longer works (which is unlikely as it is <a href="http://www.overclock.net/">Overclockers</a>), but who knows.</p>
+<p>So, here is the solution to the issue of Windows Speech Recognition and Firefox not playing well together and making Firefox very slow. It was originally posted on <a href="http://speechcomputing.com/node/2720">http://speechcomputing.com</a>, but now only available on the <a href="https://web.archive.org/web/20131010082540/http://speechcomputing.com/node/2720">Internet Аrchive</a>.</p>
+<p>I've had performance problems with Firefox and Thunderbird with Windows Speech for a while. Although both applications have some accessibility support---menus, dictating title words switches to that tab in FF, etc.---it seems to be rather hit or miss. This isn't a particularly big deal since both applications have decent keyboard support built in and FF has the mouseless browsing extension, making it pretty easy to automate these applications using Your Favorite Macro Package.</p>
+<p>The performance was killing me though: FF started to bog down with only a few tabs open, and the name "Thunderbird" seemed like a cruel joke given how badly the application crawled. Unfortunately, the performance also disrupted macro behavior: the speech engine was constantly spinning, so macros would become erratic, sometimes even after I switched applications.</p>
+<p>I'd guessed that the Active Accessibility was the problem: perhaps Firefox is exposing the text of *all* the hyperlinks in all open documents, not just the ones I can see right now. Whatever the cause, at some point the app would hit some sort of internal WSR threshold, after which performance would rapidly fall apart.</p>
+<p>Nosing around in the registry this afternoon, I stumbled across the following key:</p>
+<p>HKEY_CURRENT_USER\Software\Microsoft\Speech\Preferences\AppCompatDisableMSAA</p>
+<p>Hello! From the existing entries, this key appears to accept string values indicating applications that should have Active Accessibility disabled. I added two new string values ("firefox.exe" and "thunderbird.exe"), restarted everything, and BAM! Looks like my computer was built this century after all!</p>
+<p>Of course, disabling Active Accessibility disables the "built in" voice support for menus, hyperlinks, tabs, folders, etc., but given the performance difference I think that's a tradeoff I can live with.</p>
+<p>I'm curious: have others had performance problems with these applications? Has anyone else tried this solution, and what was your experience with it?</p>
+<p>Here are a couple of related posts:</p>
+<p><a href="http://www.oldskooldeveloper.com/msgs/4/20018.aspx">http://www.oldskooldeveloper.com/msgs/4/20018.aspx</a><br /><a href="http://social.msdn.microsoft.com/Forums/en-US/wind">http://social.msdn.microsoft.com/Forums/en-US/wind</a></p>
+<p>This was the only information I could find; doesn't appear to be a widely discussed capability.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2014/link-rot/">Link rot</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">12</span> 
+            <span class="date-month">June</span>, 
+            <span class="date-year">2014</span>
+          </time>
+        </header>
+        
+          <p>A few years ago I wrote a post about using Windows Speech Recoginition. One of the issues I had was that it did not play well with Firefox. After lots of googling I found the solution and posted the link to it in my post:</p>
+<p><a title="Windows Speech Recognition" href="/posts/2011/windows-speech-recognition/">Windows Speech Recognition</a></p>
+---
+<p>Unfortunately that link no longer works as the site no longer exists. Thankfully I was able to retrieve the original content from the <a title="Internet Archive" href="https://archive.org/web/">Internet Archive</a>:</p>
+<p><a href="https://web.archive.org/web/20131010082540/http://speechcomputing.com/node/2720">https://web.archive.org/web/20131010082540/http://speechcomputing.com/node/2720</a></p>
+<p>However, I also posted the link to a forum over on <a title="Overclockers" href="http://www.overclock.net">Overclockers</a> to someone who had the exact same problem as me:</p>
+<p><a title="Overclockers" href="http://www.overclock.net/t/595697/windows-speech-recognition-slow-ff/10#post_11922022">http://www.overclock.net/t/595697/windows-speech-recognition-slow-ff/10#post_11922022</a></p>
+<p>Now there's someone else asking for the solution and the link no longer works! I should have posted the solution directly in the forum and referenced the source with the link. So I've gone back and done that and will also post the solution here in another post.</p>
+<p>Moral of the story: always give answers directly on the site the questions are asked on as you never know when links might break!</p>
+<p>But never hide your sources. Don't take credit for someone else's work.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2013/the-size-of-a-point/">The size of a point</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">9</span> 
+            <span class="date-month">March</span>, 
+            <span class="date-year">2013</span>
+          </time>
+        </header>
+        
+          <p><img src="https://farm9.staticflickr.com/8512/8525212278_d4ed41543b.jpg" alt="Museum explanation on how big a point is in typesetting" /></p>
+<p>Finally, after 15 years in web development (6 months after leaving the field), I have documentary proof of the size of a pt. Of course that won't help me in figuring out the size on an iPad, iPhone and 32" TV, but nonetheless, nice to know.</p>
+<p>Thanks to the <del datetime="2013-03-09T06:33:29+00:00">Kultuerhof</del> <del datetime="2013-03-09T06:34:47+00:00">Kulturhoef</del> <del datetime="2013-03-09T06:33:29+00:00">Kultuerhuf</del> <a href="https://www.kulturhuef.lu/">Kulturhuef</a>, Grevenmacher, Luxembourg.</p>
+---
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2012/poor-quality-of-local-country-sites/">Poor quality of local country sites</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">20</span> 
+            <span class="date-month">June</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>Good article from Nielsen about the quality of local international sites: <a href="http://www.useit.com/alertbox/country-site.html">http://www.useit.com/alertbox/country-site.html</a></p>
+<p>In my opinion the worst offenders are those who redirect you to the local website based on your IP address.</p>
+---
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2012/the-end-of-web-design/">The end of web design?</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">26</span> 
+            <span class="date-month">May</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>About a month ago, <a href="http://www.zeldman.com/">Jeffery Zeldman</a>, redesigned his website to be all about content. A little later, he wrote <a href="http://www.zeldman.com/2012/05/18/web-design-manifesto-2012/">an article about it</a>, after receiving comments that he had obviously not tested his site on the desktop. I really like the new design. It's a pleasure to read, that's for sure.</p>
+---
+<p>But the basic point Zeldman is making seems to be lost on some people. Web design, on most sites, is a failure (mine included, by the way). All those distractions in the form of graphics, ads, sidebars and popups. This has resulted in two things:</p>
+<ol>
+<li>Users have learned to blank out the bits around the core content</li>
+<li>Users are increasingly turning to 3rd party tools to read content (eg <a href="http://www.readability.com/">Readability</a>)</li>
+</ol>
+<p>Both beg the question: why bother with them in first place then? I believe Zeldman has answered that question with a quite resounding: "Well, let's just not".</p>
+<p><strong>The printed web</strong></p>
+<p>Whilst this analogy is often not appropriate I think you can compare publishing on the web to publishing a newspaper. The newspaper industry has effectively standardised on a black and white, column based, design.&nbsp; Whilst there are certainly technical and cost issues involved in this decision, it has also remained that way because the format is easy to read.&nbsp; The freedom that the Internet allows publishers (and the negligible cost involved in publishing on the web) has led to a large diversity of designs. Whilst diversity is great, those sites that are successfull tend to be so because of compelling content, rather than compelling design.</p>
+<p>Then there is the hidden cost of web design.&nbsp; Good web design is expensive because of the man hours involved in creating it. There are no shortcuts.&nbsp; Poor web design however is fatal because of the lost readers who can't read the content for all the design. Your content has to be truly compelling to overcome poor design.</p>
+<p><strong>Enter the mobile web</strong></p>
+<p>I've been a smartphone holdout for many years. However in April I became the proud owner of a Samsung Galaxy S2. This is a fantastic piece of kit, especially for playing Angry Birds, but I digress...</p>
+<p>What I have noticed is that most sites still don't work on a smartphone. Those that do are often hosted on third party platforms such as <a href="http://wordpress.com/">Wordpress.com</a>, <a href="http://www.blogger.com/">Blogger </a>or <a href="https://www.tumblr.com/">Tumblr</a> and are often basic in their mobile version.&nbsp; In the current age of smartphones it seems like these platforms have understood better than most that publishing on the web is about content, not design.&nbsp; And I think many authors are realising this too as the number of different devices that access their content increases. There are no guarantees as to the capabilities of a device. The only guarantee is that the end user wants to get at the content, not the design.</p>
+<p><strong>What then, with web design?</strong></p>
+<p>Web design will continue to be a core aspect of publishing on the web, but it will focus less on over all site design and more on helping users to get at your content in an easy manner. I even wonder whether it will embrace aspects of print design? Perhaps a site will have a well designed, or branded, homepage (but not a splash screen!) with links to content who's design is more conservative, but respects best practices.&nbsp; I think the idea will work well, given that with the ubiquity of third party platforms such as Facebook, LinkedIn, YouTube and Twitter to name a few, <strong>your content is increasingly not published on your site</strong>.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2012/accessible-hover-image-links/">Accessible hover image links</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">25</span> 
+            <span class="date-month">May</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
+---
+<p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
+<p>HTML:</p>
+<pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
+ &lt;img alt="Facebook" src="Facebook_Icon.png"&gt;
+&lt;/a&gt;</pre>
+<p>CSS:</p>
+<pre>.social-links a.facebook {
+  background:url(Facebook_Icon_On.png) no-repeat;
+}
+<p>.social-links a.facebook:hover img {<br>
+display:none;<br>
+border: 1px solid #000;<br>
+}</pre></p>
+<p>This technique is rather straightforward. There's an image, with meaningful alt text for accessibility, wrapped in a anchor tag. The anchor tag itself has a background image with appropriate height and width all set using CSS. The key is the :hover pseudo-class that hides the image using "display:none;". When the image is hidden, you see the background image of the anchor tag. The anchor tag itself is still clickable due to it's fixed height and width.</p>
+<p>Having tested this technique in all modern mainstream browsers (ie latest versions of IE, Opera, Firefox, Chrome and Safari) it copes with the following situations better than many more complex techniques.</p>
+<ul>
+<li><strong>CSS <em>on</em>, Images <em>on</em></strong>: Works as you would expect</li>
+<li><strong>CSS <em>off</em>, Images <em>on</em></strong>: Page lays out in basic fashion. Image hover doesn't work, but links do.</li>
+<li><strong>CSS <em>on</em>, Images <em>off</em>:</strong> Images replaced by Alt text. Hover creats  a border to create active feel.</li>
+<li><strong>CSS <em>off</em>, Images <em>off</em>:</strong> This would be more or less how a screen reader might see the page. The Image is replaced by it's alt text and the link thus remains meaningful.</li>
+</ul>
+<p>Simple, but effective.</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2012/ubuntu-useful-hints/">Ubuntu useful hints</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">9</span> 
+            <span class="date-month">March</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>In this post I will be maintaing a list of useful hints for future reference.</p>
+<p><strong>Mouse speed</strong></p>
+<p>I find the default mouse speed much too fast. And even after reducing both speed and acceleration to a minimum it is still too fast. Some googling through up this handy hint:</p>
+<p><a href="http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/">http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/</a></p>
+<p>So I ran these commands:<code></code></p>
+<p><code>xinput --list --short<br />
+xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br />
+</code></p>
+---
+<p><strong>View hidden files in browser:</strong> CTRL+H</p>
+<p><strong>List only directories:</strong> ls -l | grep ^d</p>
+<p>This, if I understand it properly, takes a list in "long" format, pipes it through grep and includes only lines starting with "d". d being the directory indicator.</p>
+<p><strong>Windows Manager</strong></p>
+<p>To get the Compiz working in Ubuntu, install CompizConfig Settings Manager: sudo apt-get install compizconfig-settings-manager</p>
+<p>Moving window to next screen (on dual monitor): CompizConfig Settings Manager -&gt; Window Management -&gt; Put -&gt; Bindings (tab) -&gt; Put To Next Output (keyboard shortcut)</p>
+<p><strong>Handy shortcuts</strong></p>
+<p>http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html</p>
+<p><strong>Default programs/extensions</strong></p>
+<p>Useful info here: http://askubuntu.com/questions/16580/where-are-file-associations-stored</p>
+<p>Associations are located here: ~/.local/share/applications/mimeapps.list<br /><strong>Mounting Windows drive on startup</strong></p>
+<p>This is done using fstab, see here: <a href="http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions">http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions</a></p>
+<p>Also had to prevent auto-mounting by Nautilus: <a href="http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences">http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences</a></p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2012/ubuntu-on-windows-7/">Using Google to install Ubuntu on a separate hard disk without touching Windows 7</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">29</span> 
+            <span class="date-month">February</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>As we develop more and more Wordpress sites at Minervation, Linux is becoming an operating system I can no longer ignore. Sure Wordpress runs just fine on Windows however most of the information written about Wordpress pertains to Linux and Apache. It also makes little sense to pay licence fees in order to use Open Source Software. So I decided to install Ubuntu Linux on my PC over the weekend.</p>
+---
+<p>What has this got to do with Google searching? Well my requirements for installing Ubuntu were quite specific but not unusual (or at least I thought so): Ubuntu needs to be on a separate hard disk and not touch my Windows 7 hard disk in anyway, <em>whatsoever</em>. My entire work life is on my Windows hard disk so I couldn't risk it being corrupted in anyway. I have used Ubuntu using their excellent Wubi installer as well using Virtual Machines, but that was not what I wanted. My aim was a clean install as the main OS on a separate hard disk on my PC with a bootloader to choose which OS to boot into.</p>
+<p>So I downloaded the iso file for my system from the Ubuntu website and burnt it to a CD. I then started to search the web for instructions on how to achieve what I wanted. My main premise with anything technical is always that someone has:</p>
+<p>a) already solved this problem<br />b) written about it in on the web</p>
+<p>I am not so foolish to believe that I am the first one to come across my specific problem.</p>
+<p>So I started searching the web with searches such as:</p>
+<blockquote>
+<p>install ubuntu windows 7 on separate hard disk</p>
+</blockquote>
+<p>This led me to lots of useful links about installing Ubuntu, but interestingly most of them would mess with my Windows 7 disk in order give me the option to choose Ubuntu on starting the PC. I really didn't want to touch that hard disk. After reading through lots and lots info I came across this link:</p>
+<p><a title="Installing Ubuntu and Windows 7 on seperate drives" href="http://forums.techarena.in/operating-systems/1258191.htm" target="_blank" rel="noopener">http://forums.techarena.in/operating-systems/1258191.htm</a></p>
+<p>Where the <a href="http://forums.techarena.in/operating-systems/1258191.htm#post4650143" target="_blank" rel="noopener">final comment by Rudra.J</a> suggested exactly what I was looking for:</p>
+<blockquote>
+<p>...just change the disk boot priority and make the ubuntu as the first disk. Now boot into ubuntu and run the following command</p>
+<p>... [example code to edit GRUB]...</p>
+<p>I am considering there are two hard disk and on the first one, you have installed Ubuntu and Windows 7 on the second hard disk after changing the disk priority. Ubuntu is the first disk here and Windows 7 is the second disk so for ubuntu the disk is hd0,0 and for Windows 7 it is hd1,0. This above will let to add a boot entry in Ubuntu's boot loader [grub] without making any changes to any disk's MBR. This means even if there occurs any problem in any of one disk, the other OS will remain intact.</p>
+</blockquote>
+<p>All the other suggestions were to have the Windows disk with highest boot priority, but this would involve messing with the MBR on the Windows disk. This I really did not want.</p>
+<p>So it was time to install Ubuntu. Many posts also suggested disconnecting the Windows disk whilst installing Ubuntu and I decided this was prudent. So I disconnected that disk, placed my Ubuntu CD into the cd drive and rebooted. The installation went smoothly and took about 15 minutes.</p>
+<p>I then reconnected my Windows 7 drive and set it to priority one to check that Windows was still working. It was. Reboot again. Set Ubuntu drive to priority one and log into Ubuntu. Obviously I didn't want to switch drive priorities in the BIOS everytime I changed OS. So I ran the example code in the above comment and rebooted. And landed straight back in Ubuntu. I was given no choice to switch to Windows. Not ideal.</p>
+<p>I then noted that the comment was from a couple of years back and might be outdated, so I started searching for GRUB and Ubuntu</p>
+<blockquote>
+<p>ubuntu grub</p>
+</blockquote>
+<p>After reading through a bunch of info on this it became clear that there is now a GRUB2 and that this the default in Ubuntu for quite some time:</p>
+<p><a title="GRUB2 - Ubuntu" href="https://help.ubuntu.com/community/Grub2" target="_blank" rel="noopener">https://help.ubuntu.com/community/Grub2</a></p>
+<p>So I refined my search to:</p>
+<blockquote>
+<p>ubuntu grub2 Windows 7</p>
+</blockquote>
+<p>This had lots of useful info and led me to this thread:</p>
+<p><a href="http://ubuntuforums.org/showthread.php?t=1264354" target="_blank" rel="noopener">Grub2 won't load Windows 7 (which is on second hard drive)</a></p>
+<p>Which was exactly my situation. Lots of info in here about editing files and whatnot, but hidden away amongst them was this <a href="http://ubuntuforums.org/showthread.php?t=1264354#post8768311" target="_blank" rel="noopener">gem of a suggestion by Mark Phelps</a></p>
+<blockquote>
+<p>Did you try just letting GRUB2 find Win7 and add its own entries?</p>
+<p>I have multiple drives, with Win7 NOT on the first drive, I boot from one of my Ubuntu drives -- and GRUB2 found the Win7 OS just fine when I ran update-grub.</p>
+</blockquote>
+<p>So back in an Ubuntu terminal I ran:</p>
+<blockquote>
+<p>sudo update-grub</p>
+</blockquote>
+<p>And, hey presto, I now have Windows 7 as an option when my PC boots up and I never touched the Windows 7 hard disk. Mission accomplished.</p>
+<p>And a big thanks to all the bloggers, forum frequenters, documentation writers and of course Google for helping me accomplishing my aim.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2012/site-speed/">Site Speed</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">13</span> 
+            <span class="date-month">February</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>A couple of years ago Google introduced <a href="http://googlewebmastercentral.blogspot.com/2010/04/using-site-speed-in-web-search-ranking.html">Site Speed</a> to it's search algorithm.  This is a measure of how long it takes a page to load. You can track this measure for your site in Google Analytics as well in Google Webmaster tools.</p>
+---
+<p>Recently I've been investigating this measure for some of our sites and was quite surprised at how long Google thinks it takes our pages to load. Page load times as measured by Google were several seconds above the one second it takes for our <em>largely</em> static pages to load from the end users perspective. I measured this from several remote locations on different continents and our pages <em>appear</em> to load in about a second. Crucially the time measured by Google is also above their recommended maximum page load time. Why the difference?</p>
+<p>Google doesn't just measure the time it takes the main content to load, but also how long it takes all the Javascript to process and potentially load other bits and pieces.  On our pages, a lot of this extra loading doesn't really affect whether the user can get on with reading the content and using the site. We try to make use of progressive enhancement as much as we can.  A further detailed look at the load times showed that the main culprits where actually all the social networking add-ons such as Facebook Like, Google +1, ShareThis and ShareThat.  I am now a little worried that Google may be penalising our sites unfairly. I don't consider social networking buttons as being vital to the proper functioning of our site.</p>
+<p>On the other hand I can see why Google have introduced this feature and why they take the approach that they do. All sites nowadays are filled with Javascript and Ajax calls. On the ones who do this properly you won't really notice.  But on lots and lots of sites the page gets reformatted slightly about 2 seconds after it initially got displayed. This is <em><strong>really</strong></em> annoying if you've just read the first sentence and then text text shifts. Or you're about to click a link and then the text shifts so you click another link. Both of these have been happening more often recently, especially when browsing on my six year old laptop. And I must say: <strong>It is really annoying</strong>.</p>
+<p>So I can fully understand why they are measuring this.  I do hope though that their algorithm is clever enough to evaluate what the consequence of the extra loading to the end user is. Do they take into account how quickly the initial content loads? Do they measure how the text displaces after the Javascript has finished? I sure hope so.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2011/future-friendly-manifesto/">Future Friendly Manifesto</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">13</span> 
+            <span class="date-month">December</span>, 
+            <span class="date-year">2011</span>
+          </time>
+        </header>
+        
+          <p>A little while back a number of well known web developers, designers and authors launched the <a title="Link to the Future Friendly website" href="http://futurefriend.ly/">futurefriend.ly</a> website. The gist of the site is to propose an approach to developing web sites and web application in a future friendly way. That is in a way which enables the content of the application to still be accessible years into the future.</p>
+---
+<p>Coming more from a software engineering background I see similarities here with the <a href="http://agilemanifesto.org/">Agile Manifesto</a> that was formulated about 10 years ago. So here's my initial attempt at a Future Friendly Manifesto:</p>
+<blockquote class="future-friendly-manifesto">
+<p><span class="more-important">Great content</span> over good looks<br /><span class="more-important">Accessible usability</span> over functionality<br /><span class="more-important">Web based applications</span> over device specific applications<br /><span class="more-important">Open standards</span> over proprietory implementations</p>
+<div class="explain">That is, while there is value in the items on<br />the right, we value the items on the left more.</div>
+</blockquote>
+<p>Comments welcome via Twitter: <a title="Tweet me." href="http://twitter.com/rmassart">@rmassart</a>.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2011/websites-and-browser-compatibility/">Websites and browser compatibility</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">16</span> 
+            <span class="date-month">October</span>, 
+            <span class="date-year">2011</span>
+          </time>
+        </header>
+        
+          <p>About six months ago Mozilla altered it's Firefox release schedule to aim for one release every other month or so. So whilst the time span from Firefox 3 to Firefox 4 was around three years, that from version 4 to 7 was just six months.  With version 10 scheduled for early 2012. This seems to be a direct response to Google's Chrome upping its major version every few weeks. It is now on version 16. Obviously bigger is better - Mozilla are perhaps afraid that users will perceive their progress as slow with respect to others. On the other and that has never bothered Microsoft which took a decade to move from IE6 to IE9.</p>
+---
+<p>The point of this article though is to think investigate what this means for web development. Clients used to have requirements that included a browser compatibility list such as:</p>
+<ul>
+<li>IE 6, IE 7</li>
+<li>Firefox 3</li>
+<li>Opera 9</li>
+<li>Safari 4</li>
+</ul>
+<p>Obviously with version numbers changing every few weeks, this is no longer meaningful. Nowadays clients are more likely to say "Must work in all current browsers" and then, in the web version of small print, add: "<span class="smallprint">and IE6</span>". Argghhh...</p>
+<p>Of course nowadays, with the mobile browser landscape even more chaotic than the desktop one ever was, targetting anything but recommended web standards and best practices would seem pointless. After all, why target the iPhone's Safari browser? You might as well write a native iPhone app - it will be more usable and easier to code. Likewise with other smartphones. That is not to that you <em>should</em> write native apps, just that you may as well do so if you are anyway targetting a specific device.</p>
+<p>So perhaps clients need to have a new compatibility list, which is not about browsers, but standards and especially best practices. Much like there is a <a href="http://agilemanifesto.org/">manifesto for agile software development</a>, we need something similar for web development. The compatibility list might then include items such as:</p>
+<ul>
+<li>HTML 5 compatible</li>
+<li>Responsive design</li>
+<li>User centered design</li>
+<li>Mobile first</li>
+<li>Progressive enhancement</li>
+<li>Graceful degradation</li>
+</ul>
+<p>I see that a had full of prominent web developers have recently started something similar with the <a href="http://futurefriend.ly/">Future Friendly</a> website. It would be great if they could capture their thoughts on that website in one paragraph a little like the agile manifesto did. Something that you can point your client to or fit on a small flyer to give them to take home.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
+          <h2><a href="/posts/2011/network-neutrality/">Network neutrality</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">27</span> 
+            <span class="date-month">June</span>, 
+            <span class="date-year">2011</span>
+          </time>
+        </header>
+        
+          <p>In June 2011 the Netherlands became the first European country and only the second one world-wide (after Chile) to <a href="http://www.guardian.co.uk/technology/2011/jun/23/netherlands-enshrines-net-neutrality-law">enshrine net neutrality into Dutch law</a>. It essentially outlaws the blocking of Internet services (eg Skype) on mobile devices as was being done by several mobile operators in Holland.</p>
+---
+<p>I am no expert on the subject, but it seems to me that ISPs (especially mobile ones) are increasingly trying to get around network neutrality and that the real reason is not technical in nature or to be fairer to consumers. Far from it - rather the complete opposite. They have no idea how to price their services without scaring off consumers. An argument put forward by the ISPs against network neutrality is that it is unfair on most consumers, because the big movie downloaders and frequent Skype users are blocking the network for the rest. They therefore want to throttle heavy users based on the application they are using rather than the amount of data being downloaded. To any outside observer this is clearly illogical, first and foremost because you end up hitting all users not just those downloading the most.</p>
+<h3>If you play, you pay.</h3>
+<p>If the bandwidth used by some consumers is too high then charge <em>them</em> more and don't come up with convoluted schemes to make everyone's Internet experience worse.</p>
+<p>We're all used to paying for electricity by the <abbr title="kilowatt hour">kWh</abbr> and for petrol by the litre (or gallon). Why should this be any different for Internet downloads? Sure, we've become used to bundled minutes with our land line and mobile contracts. Voice calls, however, have become so cheap thanks to technology and competition that there's no money in them. Better therefore, for the ISPs, to bundle more minutes than anyone will ever use into an expensive package. This is also better for many consumers as they have a fixed price and don't need to worry about expensive bills at the end of the month. Unfortunately we are still a few years away from Internet bandwidth becoming that cheap.</p>
+<p>In the meantime, ISPs are trying to hide from the majority of their clients that they are actually subsidising the internet habits of the power user. By charging everyone the same £20/month, no matter how much they use the Internet, ISPs actually make a huge profit on the casual user and take a small hit on the power users. At least they used to. With the advent the YouTube, Skype conferencing, music services such as Spotify and especially BBC iPlayer the number of power users has increased significantly and the cross-subsidy is no longer profitable. So rather than impose download limits on the basic package and charge an appropriate fee for the power user package, they simply want to charge you for using Skype. This is especially handy for them as there are other compelling motives for ISPs to do this. For example the use of Skype on mobile devices can get around the prohibitively expensive rates mobile providers are currently charging for things such as international calls or roaming. Or the ISPs want to get you to download movies from their own overpriced and under-stocked online movie store.</p>
+<h3>Net neutrality needs to be protected</h3>
+<p>Thus, in order to ensure fair play and competition on the Internet as well as the quality of Internet services, net neutrality needs to be enshrined in law across the ЕU. I am grateful to Holland for taking the first step in this direction. I hope the EU follows suit shortly.</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+    
+</div> 
+
+
+<nav class="paging" aria-label="pagination">
+  <ul>
+    <li><a href="/archive/web/">First</a></li>
+    <li><a href="/archive/web/">Previous</a></li>
+    <li><a href="/archive/web/2/">Next</a></li>
+    <li><a href="/archive/web/2/">Last</a></li>
+  </ul>
+</nav>
+ 
+      </article>
+    </main>
+    <footer>
+        <div class="footer-area">
+            <span class="copy">
+                &copy; 2021 ContentedWeb
+                <br/>
+                <span class="emojis">👍</span>  
+            </span> 
+            <span class="power">
+            <a class="a11y-statement" href="/accessibility/">Accessibility Statement</a>            
+            <br/>
+            Powered with HTML, CSS and <a href="https://www.a11yproject.com/">a11y</a>.
+            </span>
+        </div>
+    </footer>
+    <!-- Current page: /archive/web/1/ -->
+  </body>
+</html>
