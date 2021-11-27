@@ -13,8 +13,8 @@
       "id": "https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/",
       "url": "https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/",
       "title": "Testing Netlify CMS, take two.",
-      "content_html": "<p>Made some changes to the config.yml file to add tags to the front matter, remove layout (which is globally set in 11ty) and improve the date format in the front matter. Hope it works.</p>\n",
-      "date_published": "2021-11-25T00:00:00Z"
+      "content_html": "<p>After playing around with Netlify CMS some more, I got it working the way I wanted. Then I discovered the workflow settings and they were cool, but somehow did not seem too stable. Probably something I did wrong, but it got me thinking, maybe there is an alternative solution. I discovered <a href=\"https://cloudcannon.com/\">cloudcannon</a> and am now seeing how I can make use of that.</p>\n<p>So this post is actually written through cloudcannon...</p>\n<p> </p>\n",
+      "date_published": "2021-11-26T18:00:00Z"
     },{
       "id": "https://www.contentedweb.com/posts/2021/testing-netlify-cms/",
       "url": "https://www.contentedweb.com/posts/2021/testing-netlify-cms/",
