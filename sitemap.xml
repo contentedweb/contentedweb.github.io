@@ -1452,22 +1452,17 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/general/</loc>
+    <lastmod>2021-11-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/work/</loc>
     <lastmod>2021-11-28</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
-    <lastmod>2021-11-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/travel/</loc>
-    <lastmod>2021-11-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/general/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
     <lastmod>2021-11-28</lastmod>
   </url>
   
@@ -1477,7 +1472,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/travel/</loc>
+    <lastmod>2021-11-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
     <lastmod>2021-11-28</lastmod>
   </url>
   
