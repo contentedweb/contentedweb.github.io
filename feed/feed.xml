@@ -18,10 +18,6 @@
 		<updated>2021-11-26T18:00:00Z</updated>
 		<id>https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/</id>
 		<content type="html">&lt;p&gt;After playing around with &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt; some more, I got it working the way I wanted. Then I discovered the workflow settings and they were cool, but somehow did not seem too stable. Probably something I did wrong, but it got me thinking, maybe there is an alternative solution.&lt;/p&gt;
-&lt;p&gt;I discovered &lt;a href=&quot;https://cloudcannon.com/&quot;&gt;cloudcannon&lt;/a&gt; and checked out how I can make use of that. In the end it wasn&#39;t for me, but it had one feature which prompted a rethink. It has output syncing, which copies your static files to another &amp;quot;Live&amp;quot; repository if you want. I tried this out and it worked great. Pointing Netlify to this live repository significantly reduced the Netlify build times. Since I am on the Netlify free plan with limited build minutes, this seemed like a good idea.&lt;/p&gt;
-&lt;p&gt;But how to build my static files without cloudcannon or getting Netlify to do so. Well &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub has actions&lt;/a&gt; and there is &lt;a href=&quot;https://github.com/features/actions&quot;&gt;an action created by another user to build eleventy sites&lt;/a&gt;.  So I got that working.&lt;/p&gt;
-&lt;p&gt;Then I remembered that GitHub also has &amp;quot;Pages&amp;quot; for hosting static websites. So I thought if I am already building my static files to &amp;quot;Live&amp;quot; repo on GitHub, why not use &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; to host them. Setting that up was quite straightforward without using a custom domain. So now I have my pages hosted on GitHub pages and edited through &lt;a href=&quot;https://forestry.io/&quot;&gt;forestry&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The final thing to do is to update the DNS settings so that I can use my own domain name.&lt;/p&gt;
 </content>
 	</entry>
 	
