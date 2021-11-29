@@ -5,7 +5,7 @@
 	
 	<link href="https://www.contentedweb.com/feed/feed.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/"/>
-	<updated>2021-11-28T00:00:00Z</updated>
+	<updated>2021-11-28T11:11:11Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>Thoughts on tooling for static sites</title>
 		<link href="https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/"/>
-		<updated>2021-11-28T00:00:00Z</updated>
+		<updated>2021-11-28T11:11:11Z</updated>
 		<id>https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/</id>
 		<content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Since moving my site from &lt;a href=&quot;https://wordpress.com/&quot;&gt;Wordpress&lt;/a&gt; to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; at the beginning of the year I&#39;ve been trying find the most comfortable workflow for writing, editing and publishing posts. I love the control over my site given by using a static site generator. The speed my little site now loads in is phenomenal - way beyond anything Wordpress could deliver. Not that Wordpress was slow at all, but it can&#39;t compete with loading a few KBs of data with no processing at all. However the editing experience of Wordpress, and the workflow it included is still hard to replicate without jumping between services, repositories and branches. In Wordpress everything is in one place. You edit, create drafts, reviews and ultimately publish all from one place. So this is the description of the journey I&#39;ve been on and where I have go to so far in my search of replicating the Wordpress experience for my static site generator.&lt;/p&gt;
