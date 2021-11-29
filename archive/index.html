@@ -79,6 +79,47 @@
   
       <article>
         <header>
+          <h2><a href="/posts/2021/thoughts-on-tooling-for-static-sites/">Thoughts on tooling for static sites</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">28</span> 
+            <span class="date-month">November</span>, 
+            <span class="date-year">2021</span>
+          </time>
+        </header>
+        
+          <h2>Introduction</h2>
+<p>Since moving my site from <a href="https://wordpress.com/">Wordpress</a> to the <a href="https://www.11ty.dev/">eleventy</a> static site generator at the beginning of the year I've been trying find the most comfortable (ie easy) workflow for writing, editing and publishing posts. I love the control I have over my site, by using a static site generator. And the speed my little site now loads in is phenomenal - way beyond anything Wordpress could deliver. Not that Wordpress was slow at all, but it can't compete with loading a few KBs of data with no processing at all. However the editing experience of Wordpress, and the workflow included in that is still hard to replicate without jumping between services, repositories and branches. In Wordpress everything is in one place. You edit, create drafts, reviews and ultimately publish all from one place. This is a description of the journey I've been on and where I have go to so far.</p>
+<h2>Requirements</h2>
+<p>The key requirements for me are:</p>
+<ol>
+<li>Code and content must be stored in GitHub.</li>
+<li>As few services as possible. If I could do it all efficiently in GitHub, I would.</li>
+<li>A user friendly editing experience</li>
+<li>As far as possible this should all be free!</li>
+</ol>
+<h2>GitHub</h2>
+<p>Why GitHub? Well it's free for my needs and basically I always have access to my content from anywhere. I still struggle with many concepts in git, but GitHub itself is easy to setup and lots of online support and documentation is available. It's also the defacto authentication service for all online developer services, so no need to create endless accounts with passwords you end up forgetting.</p>
+<h2>Services</h2>
+<p>The thing I liked about WordPress, is that you went, there, drafted your post, published it and you were done. Since moving to Eleventy I've been trying reproduce this experience as best I can.  Initially I coded, wrote my posts and generated my site locally then copied it to my hosting provider (<a href="nearlyfreespeech.com">nearlyfreespeech.com</a>). This worked a treat after some initially config and scripting in PowerShell to automate it as much as possible.</p>
+<p>But this was not the most portable solution, so I looked around for options to do things using online services as much as possible. After trying a number of possible services, I <a href="https://www.contentedweb.com/posts/2021/netlify/">settled on Netlify</a>. This was easy setup and trigger builds from pull requests to GitHub. It was great.</p>
+<p>Next was the editing, I was still stuck writing my posts on my laptop. I wanted to be able to write them from anywhere. So I needed an online editor, which could edit my markdown posts stored in GitHub. After trying out a number of options, <a href="https://www.contentedweb.com/posts/2021/forestry-io/">I chose Forestry</a>. It suited my basic needs perfectly without all the complexity of other services. Forestry does one thing only: enable you create content. It's not a development environment or anything else. It's content authoring only.</p>
+<p>At one point, I was curious about online coding environments and used <a href="https://www.contentedweb.com/posts/2021/gitpod/">GitPod for a while</a>. But in the end I did most of my coding on my laptop using Visual Studio Code, so I stopped using that service. If <a href="https://github.com/features/codespaces">GitHub Codespaces</a> is ever available for free to basic users, I would be interested, but in the end I don't code that much and I can do that on my laptop.</p>
+<p>So for most of the year I wrote my posts in Forestry, coded locally in Visually Studio Code, stored my content in GitHub and published and hosted my site using Netlify.</p>
+<h2>Editing experience</h2>
+<p>I like Forestry, but didn't want to keep jumping to it to edit my posts. So <a href="https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/">I tried out Netlify CMS</a>, but decided that wasn't really an improvement over Forestry. I did like the ability pull in the CMS as a subfolder of my domain (using &quot;/admin/&quot;). But I preferred Forestry, so stuck with that.</p>
+<p>However, I did <a href="https://www.contentedweb.com/posts/2021/improving-the-publishing-workflow/">try out cloudcannon</a> and which led me to a GitHub Pages. If I could build my site using GitHub Actions I could point GitHub Pages to my static files and host my files directly on GitHub. This took me a day to figure out, including finding a <a href="https://github.com/marketplace/actions/eleventy-action">GitHub Action for building Eleventy sites</a>. But it works great and means I no longer have a need for Netlify. So as much as I really liked Netlify, I decided to move my site's hosting to GitHub Pages.</p>
+<p>And finally, after playing around with the config settings in Forestry, I realised they also had the possibility present the CMS as a subfolder of my site, ie &quot;/admin/&quot;. That was dead simple to setup and now I am down to using GitHub for storing and publishing my content and Forestry for editing the content, but being able to do so from my own domain. Small detail, but I like it.</p>
+<h2>Free, as in beer</h2>
+<p>Most of the services and tools I've used over the last few months are free for my level of usage. This is great. I am always amazed at the ability of companies to offer free plans. This is not like Facebook selling your user data. This is simply the fact that for small users, the costs to companies hosting them are not very significant compared to large enterprise clients. But I imagine with many small scale users, they get to iron out all the annoying edge cases that you only encounter by being a &quot;stupid end user&quot;.</p>
+<p>So how much does all this cost me? Well up until I switched to Netlify, it was free. But using GitHub pages with my own (ie custom) domain required some DNS configurations which obviously Netlify won't do. So I had to switch my DNS servers back to those of my registrar and previous hosting provider, nearlyfreespeech, in order to make these config changes. Unfortunately they charge for this service. Thankfully it's less than $4 per year. It's hardly going to break the bank, but my goal of this all being free is currently not quite met. I know there are free DNS providers, but since I already pay about $15 per year for my domain name, an extra few dollars is hardly an issue.</p>
+<p>So my entire setup is, almost, but not quite free. It's less $20 per year though. That's quite a miracle in my books!</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
           <h2><a href="/posts/2021/improving-the-publishing-workflow/">Improving the publishing workflow</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">27</span> 
@@ -91,7 +132,7 @@
 <p>I discovered <a href="https://cloudcannon.com/">cloudcannon</a> and checked out how I can make use of that. In the end it wasn't for me, but it had one feature which prompted a rethink. It has output syncing, which copies your static files to another &quot;Live&quot; repository if you want. I tried this out and it worked great. Pointing Netlify to this live repository significantly reduced the Netlify build times. Since I am on the Netlify free plan with limited build minutes, this seemed like a good idea.</p>
 <p>But how to build my static files without cloudcannon or getting Netlify to do so. Well <a href="https://github.com/features/actions">GitHub has actions</a> and there is <a href="https://github.com/features/actions">an action created by another user to build eleventy sites</a>.  So I got that working.</p>
 <p>Then I remembered that GitHub also has &quot;Pages&quot; for hosting static websites. So I thought if I am already building my static files to &quot;Live&quot; repo on GitHub, why not use <a href="https://pages.github.com/">GitHub Pages</a> to host them. Setting that up was quite straightforward without using a custom domain. So now I have my pages hosted on GitHub pages and edited through <a href="https://forestry.io/">forestry</a>.</p>
-<p>The final thing to do is to update the DNS settings so that I can use my own domain name.  Once I have done this, I can potentially remove Netlify from my publishing workflow. This is a shame, because I liked their product and service. But if I can manage this through GitHub that would be one less tool I need to interact with...</p>
+<p>The final thing to do is to update the DNS settings so that I can use my own domain name.  Once I have done this, I can potentially remove Netlify from my publishing workflow. This is a shame, because I liked their product and service. But if I can manage this through GitHub that would be one less tool I need to interact with.</p>
 
         
       </article>
@@ -440,26 +481,6 @@
 <h3>Beglik lake</h3>
 <p><img src="https://live.staticflickr.com/65535/51396743481_38abfff5df_c.jpg" alt="White sailing boat moored on the Beglik lake"></p>
 <p><img src="https://live.staticflickr.com/65535/51397480574_d46c143463_c.jpg" alt="Small blue motorboat moored to a small pier, with pine woods in the background"></p>
-
-        
-      </article>
-      <hr aria-hidden="true"/>
-  
-      <article>
-        <header>
-          <h2><a href="/posts/2021/inflated-grades/">Inflated Grades</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">12</span> 
-            <span class="date-month">August</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <p>On Tuesday, the A-level results in the United Kingdom were published. Due to Covid, rather than sit exams grades were awarded based on teacher assessments. These were audited, both internally and externally. Incredibly, 45% of school leavers achieved A or A* grade. <a href="https://www.theguardian.com/commentisfree/2021/aug/11/a-level-results-exacerbate-inequality-private-education-grades">This rose to 70% for those in private education</a>.</p>
-<p>At the same time there is a huge concern about the missed educational opportunities due lockdowns and lack of face to face teaching. This leads to the somewhat oxymoronic situation of people complaining simultaneously about the lack of teaching during Covid as well as the inflated grades being awarded this Summer. Those <a href="https://www.bbc.com/news/education-58086908">achieving A or A* has increased by 75%</a> since the last time end of year exams were sat for A levels.</p>
-<p>Are we really doing these children a favour? What about those who return to sitting exams in 2022 or 2023? If the quality of education increases so much through online learning, why bother with physical presence in school at all.</p>
-<p>Or have those locked down really been studying that much harder because there was so little else to do. This would be an insult to those who worked hard for their results in 2019. Were they really just that much more lazy? Distracted by being free to meet up in large groups?</p>
-<p>And what does this say to politicians? Get rid of teachers and just have it all done online, with one teacher per subject for the entire country?</p>
 
         
       </article>
