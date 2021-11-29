@@ -10,6 +10,12 @@
     "url": "https://www.contentedweb.com/about/"
   },
   "items": [{
+      "id": "https://www.contentedweb.com/posts/2021/use-of-weapons/",
+      "url": "https://www.contentedweb.com/posts/2021/use-of-weapons/",
+      "title": "Use of weapons",
+      "content_html": "<h2>by Iain M. Banks</h2>\n<p>Very well written book with an interesting way of telling the story forward and backwards at the same time.  I do find it helps to check my understanding of the author's books by reading online reviews and critiques, as I am otherwise missing details.</p>\n<p><a href=\"https://uk.bookshop.org/books/use-of-weapons/9781857231359\"><img src=\"https://images-eu.bookshop.org/images/9781857231359.jpg?height=500&amp;v=v4\" alt=\"&quot;Further information on this book&quot;\" /></a></p>\n",
+      "date_published": "2021-11-29T22:30:00Z"
+    },{
       "id": "https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/",
       "url": "https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/",
       "title": "Thoughts on tooling for static sites",

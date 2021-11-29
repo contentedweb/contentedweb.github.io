@@ -1447,17 +1447,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/postsbyyear/</loc>
-    <lastmod>2021-11-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/a11y/</loc>
-    <lastmod>2021-11-29</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/work/</loc>
+    <lastmod>2021-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
     <lastmod>2021-11-29</lastmod>
   </url>
   
@@ -1467,7 +1462,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
+    <lastmod>2021-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/postsbyyear/</loc>
     <lastmod>2021-11-29</lastmod>
   </url>
   
@@ -1482,7 +1482,7 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/a11y/</loc>
     <lastmod>2021-11-29</lastmod>
   </url>
   
@@ -1513,6 +1513,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/now-reading/</loc>
+    <lastmod>2021-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/posts/2021/use-of-weapons/</loc>
     <lastmod>2021-11-29</lastmod>
   </url>
 </urlset>
