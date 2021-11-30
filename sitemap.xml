@@ -957,6 +957,11 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/posts/2019/consider-phlebas/</loc>
+    <lastmod>2019-12-12</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/posts/2019/old-church/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
@@ -1452,7 +1457,7 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/postsbyyear/</loc>
     <lastmod>2021-11-30</lastmod>
   </url>
   
@@ -1467,7 +1472,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/postsbyyear/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
+    <lastmod>2021-11-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/travel/</loc>
     <lastmod>2021-11-30</lastmod>
   </url>
   
@@ -1483,11 +1493,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
-    <lastmod>2021-11-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/travel/</loc>
     <lastmod>2021-11-30</lastmod>
   </url>
   
