@@ -5,12 +5,23 @@
 	
 	<link href="https://www.contentedweb.com/feed/feed.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/"/>
-	<updated>2021-11-29T22:30:00Z</updated>
+	<updated>2021-12-03T12:00:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
+	
+	<entry>
+		<title>The Outsiders</title>
+		<link href="https://www.contentedweb.com/posts/2021/the-outsiders/"/>
+		<updated>2021-12-03T12:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/the-outsiders/</id>
+		<content type="html">&lt;h2&gt;by S.E. Hinton&lt;/h2&gt;
+&lt;p&gt;Easy to read book written when the author was a 16 year old in the 60s. Finished it in a week. Makes a change to the Iain M. Banks books I&#39;ve read recently. Some quite insightful commentary on the pace of life of the rich not allowing them to anytime to actually enjoy life. Instead always running after more more more in the rat race. Once they have everything they need they still need to find something to run after. Also commentary on the poor never having anything but being more honest and down to earth, even if they are stealing and breaking the law. Otherwise a straightforward story with some violence, but not described in any real detail by today&#39;s standards.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/7840334-the-outsiders&quot;&gt;&lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599948067l/7840334._SY475_.jpg&quot; alt=&quot;More info on the book&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Use of weapons</title>
