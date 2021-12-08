@@ -375,17 +375,17 @@ ul.posts-list > li p {
     margin-top: 5px;
 }
 
-main article, div.footer-area, header.masthead div.header-area {
+main > article, div.footer-area, header.masthead div.header-area {
     max-width: 75rem;
     width: calc(100% - 4rem); 
     margin: 0 auto; 
 }
 
-main article {
+main > article {
     /*border-left: #dddddd 1px solid;
     border-right: #dddddd 1px solid;*/
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 main article h1 {
