@@ -1417,6 +1417,11 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/posts/2021/static-site-costs/</loc>
+    <lastmod>2021-12-12</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/about/</loc>
     <lastmod>2021-12-12</lastmod>
   </url>
@@ -1487,17 +1492,17 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
-    <lastmod>2021-12-12</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/general/</loc>
     <lastmod>2021-12-12</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/photos/</loc>
+    <lastmod>2021-12-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/reading/</loc>
     <lastmod>2021-12-12</lastmod>
   </url>
   
@@ -1528,11 +1533,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/now-reading/</loc>
-    <lastmod>2021-12-12</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/posts/2021/static-site-costs/</loc>
     <lastmod>2021-12-12</lastmod>
   </url>
 </urlset>
