@@ -128,7 +128,7 @@ This file is in BETA. Please test and contribute to the discussion:
               <h3 class="mb-0">
                 <a target="_blank">
                   <xsl:attribute name="href">
-                    <xsl:value-of select="atom:link"/>
+                    <xsl:value-of select="atom:link/@href"/>
                   </xsl:attribute>
                   <xsl:value-of select="atom:title"/>
                 </a>
