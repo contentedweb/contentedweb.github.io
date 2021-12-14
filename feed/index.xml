@@ -6,13 +6,22 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2021-12-14T08:00:00Z</updated>
+	<updated>2021-12-14T23:30:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>RSS Feed</title>
+		<link href="https://www.contentedweb.com/posts/2021/rss-feed/"/>
+		<updated>2021-12-14T23:30:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/rss-feed/</id>
+		<content type="html">&lt;p&gt;I finally got my &lt;a href=&quot;https://www.contentedweb.com/feed/&quot;&gt;RSS feed&lt;/a&gt; working and even managed to style thanks to help &lt;a href=&quot;https://aboutfeeds.com/&quot;&gt;aboutfeeds.com&lt;/a&gt; and also copying some xsl code from &lt;a href=&quot;https://www.ciccarello.me/blog/2021/04/17/styling-an-rssatom-feed-with-xsl/&quot;&gt;ciccarello&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Lala the penguin</title>
@@ -139,17 +148,6 @@
 		<id>https://www.contentedweb.com/posts/2021/dog-log/</id>
 		<content type="html">&lt;p&gt;Angie jumped onto this log and then sat still for the photo shoot - there&#39;s a first time for everything!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51678802532_eebfdab884_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>All in on user fonts</title>
-		<link href="https://www.contentedweb.com/posts/2021/fonts-all-in/"/>
-		<updated>2021-11-11T00:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/fonts-all-in/</id>
-		<content type="html">&lt;p&gt;Yesterday I &lt;a href=&quot;https://www.contentedweb.com/posts/2021/user-preferences-font/&quot;&gt;switched my site to simply use the user&#39;s font&lt;/a&gt; defined in their browser for the main content of pages. Today I went all in and switched all fonts to respect the user&#39;s choice. So if you want to read my site using webdings, you can:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51672778922_f3247e42e1_c.jpg&quot; alt=&quot;This website rendered using the webding font &quot; /&gt;&lt;/p&gt;
-&lt;p&gt;You could also install the &lt;a href=&quot;https://fontmeme.com/fonts/klingon-font/&quot;&gt;klingon font&lt;/a&gt; and use that. Happy reading!&lt;/p&gt;
 </content>
 	</entry>
 </feed>

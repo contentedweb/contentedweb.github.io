@@ -531,7 +531,10 @@ footer span.emojis {
 
 footer span.power {
     width:48%;
-    text-align: right;
+    text-align: right;    
+}
+footer span.power img {
+    vertical-align:text-bottom;
 }
 
 footer a.a11y-statement {
