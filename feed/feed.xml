@@ -5,12 +5,21 @@
 	
 	<link href="https://www.contentedweb.com/feed/feed.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/"/>
-	<updated>2021-12-12T13:00:00Z</updated>
+	<updated>2021-12-14T08:00:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
+	
+	<entry>
+		<title>Lala the penguin</title>
+		<link href="https://www.contentedweb.com/posts/2021/lala-the-penguin/"/>
+		<updated>2021-12-14T08:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/lala-the-penguin/</id>
+		<content type="html">&lt;p&gt;This &lt;a href=&quot;https://www.contentedweb.com/posts/2021/lala-the-penguin/&quot;&gt;penguin does his own shopping&lt;/a&gt; 🙂🐧&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The cost of my static sites</title>

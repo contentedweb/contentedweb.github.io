@@ -76,6 +76,35 @@
   
       <article>
         <header>
+          <h2><a href="/posts/2014/windows-speech-recognition-take-two/">Windows Speech Recognition. Take two.</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">15</span> 
+            <span class="date-month">June</span>, 
+            <span class="date-year">2014</span>
+          </time>
+        </header>
+        
+          <p>In my <a title="Link rot" href="/posts/2014/link-rot/">previous post</a> about link rot I lamented the fact that a post I made on a forum was no longer helpful as I only provided the link to the solution, but not the solution itself. That link no longer works. I went back and added a new forum post with the content to help a later user with the same problem.</p>
+---
+<p>I decided I should also post the full solution on my own blog in case the forum also one day no longer works (which is unlikely as it is <a href="http://www.overclock.net/">Overclockers</a>), but who knows.</p>
+<p>So, here is the solution to the issue of Windows Speech Recognition and Firefox not playing well together and making Firefox very slow. It was originally posted on <a href="http://speechcomputing.com/node/2720">http://speechcomputing.com</a>, but now only available on the <a href="https://web.archive.org/web/20131010082540/http://speechcomputing.com/node/2720">Internet Аrchive</a>.</p>
+<p>I've had performance problems with Firefox and Thunderbird with Windows Speech for a while. Although both applications have some accessibility support---menus, dictating title words switches to that tab in FF, etc.---it seems to be rather hit or miss. This isn't a particularly big deal since both applications have decent keyboard support built in and FF has the mouseless browsing extension, making it pretty easy to automate these applications using Your Favorite Macro Package.</p>
+<p>The performance was killing me though: FF started to bog down with only a few tabs open, and the name "Thunderbird" seemed like a cruel joke given how badly the application crawled. Unfortunately, the performance also disrupted macro behavior: the speech engine was constantly spinning, so macros would become erratic, sometimes even after I switched applications.</p>
+<p>I'd guessed that the Active Accessibility was the problem: perhaps Firefox is exposing the text of *all* the hyperlinks in all open documents, not just the ones I can see right now. Whatever the cause, at some point the app would hit some sort of internal WSR threshold, after which performance would rapidly fall apart.</p>
+<p>Nosing around in the registry this afternoon, I stumbled across the following key:</p>
+<p>HKEY_CURRENT_USER\Software\Microsoft\Speech\Preferences\AppCompatDisableMSAA</p>
+<p>Hello! From the existing entries, this key appears to accept string values indicating applications that should have Active Accessibility disabled. I added two new string values ("firefox.exe" and "thunderbird.exe"), restarted everything, and BAM! Looks like my computer was built this century after all!</p>
+<p>Of course, disabling Active Accessibility disables the "built in" voice support for menus, hyperlinks, tabs, folders, etc., but given the performance difference I think that's a tradeoff I can live with.</p>
+<p>I'm curious: have others had performance problems with these applications? Has anyone else tried this solution, and what was your experience with it?</p>
+<p>Here are a couple of related posts:</p>
+<p><a href="http://www.oldskooldeveloper.com/msgs/4/20018.aspx">http://www.oldskooldeveloper.com/msgs/4/20018.aspx</a><br /><a href="http://social.msdn.microsoft.com/Forums/en-US/wind">http://social.msdn.microsoft.com/Forums/en-US/wind</a></p>
+<p>This was the only information I could find; doesn't appear to be a widely discussed capability.</p>
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
           <h2><a href="/posts/2014/link-rot/">Link rot</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">12</span> 
@@ -498,27 +527,6 @@ So it is possible to see Paris in a day (I needed seven hours to see most of it)
 <p>The first post is a general post I wrote about Bulgaria's geography and history. Most of it is probably still correct. Read more in my <a title="Overview of Bulgaria" href="/posts/2003/overview-of-bulgaria/">overview of Bulgaria</a>.</p>
 <p>The second post gives my impressions of Bulgaria at the time. Almost nine years later I would say the general gist of things is the same, except that the worse has become a lot better and the good a little worse. For example the administration has improved a lot and is now actually positively friendly. On the other hand some of things that were good about Bulgaria, the things which made Bulgaria quite different from other countries in Europe, have lost their shine. Food, especially, has deterioated. Their cheeses, tomatoes, cucumbers and so on, which used to be lovely, fresh and incredibly cheap are now no nicer than elsewhere in Europe, and their price is not much different either! This, I suppose, is progress in the name of globalisation. I promise to write a new article on my impressions of Bulgaria sometime soon, in the meantime you can read more about what I thought then in my post from 2004 on my <a title="Impressions of Bulgaria" href="/posts/2004/impressions-of-bulgaria/">impressions of Bulgaria</a>.</p>
 <p>I've also added a third post now, which contains a suggestion for a tour around Bulgaria. It's here: <a title="Tour of Bulgaria" href="/posts/2003/tour-of-bulgaria/">Tour of Bulgaria</a>.</p>
-        
-      </article>
-      <hr aria-hidden="true"/>
-  
-      <article>
-        <header>
-          <h2><a href="/posts/2012/boat-of-life/">Boat of life</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">15</span> 
-            <span class="date-month">September</span>, 
-            <span class="date-year">2012</span>
-          </time>
-        </header>
-        
-          <p>I love this:</p>
-<blockquote>
-<p>Let your boat of life be light, packed with only what you need - a homely home and simple pleasures, one or two friends, worth the name, someone to love and someone to love you, a cat, a dog, and a pipe or two, enough to eat and enough to wear, and a little more than enough to drink; for thirst is a dangerous thing.</p>
-<p><cite>Jerome K Jerome</cite></p>
-</blockquote>
----
-
         
       </article>
       <hr aria-hidden="true"/>
