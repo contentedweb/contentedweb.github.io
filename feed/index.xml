@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>ContentedWeb</title>
+	<subtitle>Web accessibility, photos, travel and random stuff</subtitle>
+	
+	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
+	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
+	<updated>2021-12-14T08:00:00Z</updated>
+	<id>https://www.contentedweb.com/</id>
+	<author>
+		<name>ContentedWeb</name>
+		<email>admin@contentedweb.com</email>
+	</author>
+	
+	
+	<entry>
+		<title>Lala the penguin</title>
+		<link href="https://www.contentedweb.com/posts/2021/lala-the-penguin/"/>
+		<updated>2021-12-14T08:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/lala-the-penguin/</id>
+		<content type="html">&lt;p&gt;This &lt;a href=&quot;https://www.flixxy.com/pet-penguin-goes-shopping.htm&quot;&gt;penguin does his own shopping&lt;/a&gt;. 🙂🐧&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/LcpcMxmLtCQ&quot;&gt;Direct youtube link to the penguin video&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The cost of my static sites</title>
+		<link href="https://www.contentedweb.com/posts/2021/static-site-costs/"/>
+		<updated>2021-12-12T13:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/static-site-costs/</id>
+		<content type="html">&lt;h2&gt;$12.20 * 2&lt;/h2&gt;
+&lt;p&gt;In a previous post on the &lt;a href=&quot;https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/&quot;&gt;tooling I use for my site&lt;/a&gt;, I said it cost me an extra $4 per year to host my site now that I moved from Netlify to Github pages.  This is to cover the DNS charges of my registrar, which was free if I used Netlify&#39;s DNS. Turns out I was wrong. The charges are actually only $1.20 per year.  So I decided to move another static, one page, 600 byte, site of mine from Netlify to GitHub pages in order to close my Netlify account. So now for each of my sites I pay $12.20 ($11 for the domain name and $1.2 for the DNS). So $24.40 per site in total. Not bad given that this is irrespective of usage. Not that my sites actually get any visitors. It&#39;s great value, thanks to my old hosting provider, but still current registrar &lt;a href=&quot;https://www.nearlyfreespeech.com/&quot;&gt;Nearlyfreespeech.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A word on &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;. It might sound like I don&#39;t like their service, as I am moving to a setup which actually costs me more. In fact I thought Netlify was great, but for my rather basic needs I preferred to have less services to manage. I already used &lt;a href=&quot;https://www.github.com/&quot;&gt;GitHub&lt;/a&gt;, so using &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; removes one provider from the workflow and simplifies things for me.  This is true even though the setup on GitHub pages is quite a bit more involved as you need to create an action to trigger the build of your static pages whenever you want to re-publish. With Netlify this comes out of the box, so actually it is easier to get things going with Netlify than Github pages. Netlify just worked immediately for me. GitHub pages took some &lt;s&gt;coding&lt;/s&gt; googling and hacking around to get working.  But once implemented it is quite simple to maintain and keep going.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Outsiders</title>
+		<link href="https://www.contentedweb.com/posts/2021/the-outsiders/"/>
+		<updated>2021-12-03T12:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/the-outsiders/</id>
+		<content type="html">&lt;h2&gt;by S.E. Hinton&lt;/h2&gt;
+&lt;p&gt;Easy to read book written when the author was a 16 year old in the 60s. Finished it in a week. Makes a change to the Iain M. Banks books I&#39;ve read recently. Some quite insightful commentary on the pace of life of the rich not allowing them to anytime to actually enjoy life. Instead always running after more more more in the rat race. Once they have everything they need they still need to find something to run after. Also commentary on the poor never having anything but being more honest and down to earth, even if they are stealing and breaking the law. Otherwise a straightforward story with some violence, but not described in any real detail by today&#39;s standards.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/7840334-the-outsiders&quot;&gt;&lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599948067l/7840334._SY475_.jpg&quot; alt=&quot;More info on the book&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Use of weapons</title>
+		<link href="https://www.contentedweb.com/posts/2021/use-of-weapons/"/>
+		<updated>2021-11-29T22:30:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/use-of-weapons/</id>
+		<content type="html">&lt;h2&gt;by Iain M. Banks&lt;/h2&gt;
+&lt;p&gt;Very well written book with an interesting way of telling the story forward and backwards at the same time.  I do find it helps to check my understanding of the author&#39;s books by reading online reviews and critiques, as I am otherwise missing details.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://uk.bookshop.org/books/use-of-weapons/9781857231359&quot;&gt;&lt;img src=&quot;https://images-eu.bookshop.org/images/9781857231359.jpg?height=500&amp;amp;v=v4&quot; alt=&quot;&amp;quot;Further information on this book&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Thoughts on tooling for static sites</title>
+		<link href="https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/"/>
+		<updated>2021-11-28T11:11:11Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/</id>
+		<content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Since moving my site from &lt;a href=&quot;https://wordpress.com/&quot;&gt;Wordpress&lt;/a&gt; to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; at the beginning of the year I&#39;ve been trying find the most comfortable workflow for writing, editing and publishing posts. I love the control over my site given by using a static site generator. The speed my little site now loads in is phenomenal - way beyond anything Wordpress could deliver. Not that Wordpress was slow at all, but it can&#39;t compete with loading a few KBs of data with no processing at all. However the editing experience of Wordpress, and the workflow it included is still hard to replicate without jumping between services, repositories and branches. In Wordpress everything is in one place. You edit, create drafts, reviews and ultimately publish all from one place. So this is the description of the journey I&#39;ve been on and where I have go to so far in my search of replicating the Wordpress experience for my static site generator.&lt;/p&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;The key requirements for me are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Code and content must be stored in GitHub.&lt;/li&gt;
+&lt;li&gt;As few services as possible. If I could do it all efficiently in GitHub, I would.&lt;/li&gt;
+&lt;li&gt;A user friendly editing experience&lt;/li&gt;
+&lt;li&gt;As far as possible this should all be free!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;GitHub&lt;/h2&gt;
+&lt;p&gt;Why GitHub? It&#39;s free for my needs and I always have access to my content from anywhere. I still struggle with many concepts in git, but GitHub itself is easy to use and lots of online support and documentation is available. It&#39;s also the de facto authentication service for all online developer services. No need to create endless accounts with passwords if you just authenticate through GitHub.&lt;/p&gt;
+&lt;h2&gt;Services&lt;/h2&gt;
+&lt;p&gt;With WordPress you go there, draft your post, publish it and you are done. Since moving to Eleventy I&#39;ve been trying to reproduce this experience as best I can.  Initially I coded, wrote my posts and generated my site locally on my laptop then copied it to my hosting provider (&lt;a href=&quot;https://www.nearlyfreespeech.com/&quot;&gt;nearlyfreespeech.com&lt;/a&gt;). This worked a treat after some initial config and scripting in PowerShell to automate it as much as possible.&lt;/p&gt;
+&lt;p&gt;But this was not the most portable solution, so I looked for options to use online services as much as possible. First, I needed an online editor, which could edit my markdown posts stored in GitHub. This would enable me to write posts from anywhere, not just my laptop. After trying a number of services, &lt;a href=&quot;https://www.contentedweb.com/posts/2021/forestry-io/&quot;&gt;I chose Forestry&lt;/a&gt;. It suits my basic needs perfectly without all the complexity of other services. Forestry does one thing only: enable you create content. It&#39;s not a development environment or anything else. It&#39;s content authoring only.&lt;/p&gt;
+&lt;p&gt;Next was the building and hosting my site. Again, I tried a number of options before &lt;a href=&quot;https://www.contentedweb.com/posts/2021/netlify/&quot;&gt;settling on Netlify&lt;/a&gt;. This was easy setup and trigger builds from pull requests to GitHub repositories. It is great.&lt;/p&gt;
+&lt;p&gt;Finally, I was curious about online coding environments and used &lt;a href=&quot;https://www.contentedweb.com/posts/2021/gitpod/&quot;&gt;GitPod for a while&lt;/a&gt;. But in the end I gave that up and still do my coding on my laptop using Visual Studio Code. If &lt;a href=&quot;https://github.com/features/codespaces&quot;&gt;GitHub Codespaces&lt;/a&gt; is ever available for free to basic users, I would be interested. For now I don&#39;t code that much and I can do that on my laptop.&lt;/p&gt;
+&lt;p&gt;So for most of the year I have been coding locally in Visual Studio Code, writing my posts in Forestry, storing my content in GitHub and publishing and hosting my site using Netlify.&lt;/p&gt;
+&lt;h2&gt;Editing experience&lt;/h2&gt;
+&lt;p&gt;I like Forestry, but didn&#39;t want to keep jumping to it to edit my posts. So &lt;a href=&quot;https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/&quot;&gt;I tried out Netlify CMS&lt;/a&gt;, but decided that wasn&#39;t really an improvement over Forestry. I did like the ability pull in the CMS as a subfolder of my domain (using &amp;quot;/admin/&amp;quot;). But I preferred Forestry, so stuck with that.&lt;/p&gt;
+&lt;p&gt;A few days ago I &lt;a href=&quot;https://www.contentedweb.com/posts/2021/improving-the-publishing-workflow/&quot;&gt;tried out cloudcannon&lt;/a&gt;. Whilst this was not for me, it led me to the idea of outputting my static files to a repository to be used by GitHub Pages. If I could build my site using GitHub Actions I could point GitHub Pages to my static files and host my files directly on GitHub. This took me a day to get working, helped a lot by this &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action&quot;&gt;GitHub Action for building Eleventy sites&lt;/a&gt;. It works great and means I no longer have a need for Netlify. So as much as I really liked Netlify, I decided to move my site&#39;s hosting to GitHub Pages.&lt;/p&gt;
+&lt;p&gt;Finally, after looking further into the settings available in Forestry, I realised it also had the possibility present the CMS as a subfolder of my site, ie &amp;quot;/admin/&amp;quot;. That was dead simple to setup and now I am down to using GitHub for storing and publishing my content and Forestry for editing the content, but being able to do so from my own domain. Small detail, but I like it.&lt;/p&gt;
+&lt;h2&gt;Free, as in beer&lt;/h2&gt;
+&lt;p&gt;Most of the services and tools I&#39;ve used over the last few months are free for my level of usage. This is great. I am always amazed at the ability of companies to offer free plans. This is not like Facebook selling your user data. This is simply the fact that for small users, the costs to companies hosting them are not very significant compared to large enterprise clients. Also, I imagine with many small scale users, they get to iron out all the annoying edge cases that you only encounter by being a &amp;quot;stupid end user&amp;quot;.&lt;/p&gt;
+&lt;p&gt;So how much does all this cost me? Well up until I switched to Netlify, it was free. But using GitHub pages with my own domain required some DNS configurations which obviously Netlify won&#39;t do for domain not using their services. So I switched my DNS servers back to those of my registrar and previous hosting provider, nearlyfreespeech. They do charge for this service though. Thankfully it&#39;s less than $4 per year, it&#39;s hardly going to break the bank. My goal of running my site for free is currently not quite met. I know there are free DNS providers, but since I already pay about $12 per year for my domain name, an extra few dollars is hardly an issue.&lt;/p&gt;
+&lt;p&gt;So my entire setup is almost, but not quite, free (as in beer). It&#39;s less $20 per year though. That&#39;s quite a miracle in my books!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Improving the publishing workflow</title>
+		<link href="https://www.contentedweb.com/posts/2021/improving-the-publishing-workflow/"/>
+		<updated>2021-11-27T00:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/improving-the-publishing-workflow/</id>
+		<content type="html">&lt;p&gt;In my previous posts I mentioned how I tried out Netlify CMS, but then chose not to go down that route. So I kept looking for other options. My aim being to do as much as possible in one place, whilst avoiding as little lock-in as possible.&lt;/p&gt;
+&lt;p&gt;I discovered &lt;a href=&quot;https://cloudcannon.com/&quot;&gt;cloudcannon&lt;/a&gt; and checked out how I can make use of that. In the end it wasn&#39;t for me, but it had one feature which prompted a rethink. It has output syncing, which copies your static files to another &amp;quot;Live&amp;quot; repository if you want. I tried this out and it worked great. Pointing Netlify to this live repository significantly reduced the Netlify build times. Since I am on the Netlify free plan with limited build minutes, this seemed like a good idea.&lt;/p&gt;
+&lt;p&gt;But how to build my static files without cloudcannon or getting Netlify to do so. Well &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub has actions&lt;/a&gt; and there is &lt;a href=&quot;https://github.com/features/actions&quot;&gt;an action created by another user to build eleventy sites&lt;/a&gt;.  So I got that working.&lt;/p&gt;
+&lt;p&gt;Then I remembered that GitHub also has &amp;quot;Pages&amp;quot; for hosting static websites. So I thought if I am already building my static files to &amp;quot;Live&amp;quot; repo on GitHub, why not use &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; to host them. Setting that up was quite straightforward without using a custom domain. So now I have my pages hosted on GitHub pages and edited through &lt;a href=&quot;https://forestry.io/&quot;&gt;forestry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The final thing to do is to update the DNS settings so that I can use my own domain name.  Once I have done this, I can potentially remove Netlify from my publishing workflow. This is a shame, because I liked their product and service. But if I can manage this through GitHub that would be one less tool I need to interact with.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Testing Netlify CMS, take two.</title>
+		<link href="https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/"/>
+		<updated>2021-11-26T18:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/</id>
+		<content type="html">&lt;p&gt;After playing around with &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt; some more, I got it working the way I wanted. Then I discovered the workflow settings and they were cool, but somehow did not seem too stable. Probably something I did wrong, but it got me thinking, maybe there is an alternative solution.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Testing Netlify CMS</title>
+		<link href="https://www.contentedweb.com/posts/2021/testing-netlify-cms/"/>
+		<updated>2021-11-24T00:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/testing-netlify-cms/</id>
+		<content type="html">&lt;p&gt;Currently I use &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt; to create posts for this blog.  That workflow works fine, but I was curious about integrating &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt; into my &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; based static site.&lt;/p&gt;
+&lt;p&gt;So I followed the instructions on the Netlify CMS website on how to add it to an existing app.  So far so good. Here I am trying to create my first post using the CMS.&lt;/p&gt;
+&lt;p&gt;Overall Netlify CMS seems OK. Not sure if it is an improvement on Forestry, but for my needs it doesn&#39;t appear to worse either.  The only thing I have not managed to do is list all my post subfolders in the collections tab. My site&#39;s post folder is structured by year:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;src/posts/2021&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;src/posts/2020&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;src/posts/2019&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;.&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;.&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And I want the same template applied to all of them, plus to be able to decide which folder to place a new blog post in.  I don&#39;t want to create an extra item in the &amp;quot;collections&amp;quot; of the config.yml file.&lt;/p&gt;
+&lt;p&gt;I will keep trying and looking for solutions.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Dog on a log</title>
+		<link href="https://www.contentedweb.com/posts/2021/dog-log/"/>
+		<updated>2021-11-14T00:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/dog-log/</id>
+		<content type="html">&lt;p&gt;Angie jumped onto this log and then sat still for the photo shoot - there&#39;s a first time for everything!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51678802532_eebfdab884_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>All in on user fonts</title>
+		<link href="https://www.contentedweb.com/posts/2021/fonts-all-in/"/>
+		<updated>2021-11-11T00:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/fonts-all-in/</id>
+		<content type="html">&lt;p&gt;Yesterday I &lt;a href=&quot;https://www.contentedweb.com/posts/2021/user-preferences-font/&quot;&gt;switched my site to simply use the user&#39;s font&lt;/a&gt; defined in their browser for the main content of pages. Today I went all in and switched all fonts to respect the user&#39;s choice. So if you want to read my site using webdings, you can:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51672778922_f3247e42e1_c.jpg&quot; alt=&quot;This website rendered using the webding font &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You could also install the &lt;a href=&quot;https://fontmeme.com/fonts/klingon-font/&quot;&gt;klingon font&lt;/a&gt; and use that. Happy reading!&lt;/p&gt;
+</content>
+	</entry>
+</feed>
