@@ -164,7 +164,7 @@ header nav {
 
 header.masthead nav a {
     text-decoration: underline;
-    text-decoration-color: rgb(248, 119, 175);
+    /*text-decoration-color: rgb(248, 119, 175);*/
     text-decoration-thickness: 3px;
 }
 
@@ -517,7 +517,7 @@ footer a {
 
 footer span.power a {
     text-decoration: underline;
-    text-decoration-color: rgb(248, 119, 175);
+    /*text-decoration-color: rgb(248, 119, 175);*/
     text-decoration-thickness: 3px;
     font-weight: bold;
     color: rgb(0, 92, 92);
