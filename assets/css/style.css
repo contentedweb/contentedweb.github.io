@@ -58,7 +58,7 @@ a {
     border-color: rgba(255, 255, 255);
     border-color: rgba(0, 0, 0, 0);
     color: #000000;
-    text-decoration-color: rgb(248, 119, 175);
+    text-decoration-color: #AE0951; /*rgb(248, 119, 175);*/
     text-decoration-thickness: 3px;
 }
 
