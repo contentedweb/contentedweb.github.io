@@ -6,13 +6,23 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2021-12-14T23:30:00Z</updated>
+	<updated>2021-12-19T09:05:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Karma</title>
+		<link href="https://www.contentedweb.com/posts/2021/karma/"/>
+		<updated>2021-12-19T09:05:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/karma/</id>
+		<content type="html">&lt;p&gt;So I had a delivery sent to my parents&#39; address. When the delivery driver arrived at the bottom of their block of flats he couldn&#39;t find the correct bell to ring. So he gave me a ring. I answered him and started getting frustrated because I did not understand how he could not see their name. Anyway I told him I&#39;d phone my parents and get them to come down. By the time I got hold of them my dad was already on the way down to pick up the delivery. Later on my parents let me know that I&#39;d got the number of the apartment block wrong, so I was giving the guy a hard time whilst he was in the wrong entrance, which was of course my fault.&lt;/p&gt;
+&lt;p&gt;So where&#39;s the Karma? Well, as I took the phone out of my pocket to answer the call from the delivery driver, I&#39;d dropped it and cracked the screen! Had I given the correct number on the address, the delivery driver would never have called me and my screen would still be intact.😃&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>RSS Feed</title>
@@ -138,16 +148,6 @@
 &lt;code&gt;.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;And I want the same template applied to all of them, plus to be able to decide which folder to place a new blog post in.  I don&#39;t want to create an extra item in the &amp;quot;collections&amp;quot; of the config.yml file.&lt;/p&gt;
 &lt;p&gt;I will keep trying and looking for solutions.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Dog on a log</title>
-		<link href="https://www.contentedweb.com/posts/2021/dog-log/"/>
-		<updated>2021-11-14T00:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/dog-log/</id>
-		<content type="html">&lt;p&gt;Angie jumped onto this log and then sat still for the photo shoot - there&#39;s a first time for everything!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51678802532_eebfdab884_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
