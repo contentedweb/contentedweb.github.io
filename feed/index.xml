@@ -6,13 +6,23 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2021-12-19T09:05:00Z</updated>
+	<updated>2021-12-20T11:14:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Vaccine Hesitancy</title>
+		<link href="https://www.contentedweb.com/posts/2021/vaccine-hesitancy/"/>
+		<updated>2021-12-20T11:14:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/vaccine-hesitancy/</id>
+		<content type="html">&lt;p&gt;Across the developed world, it seems there is a small but significant percentage of the population refusing to get vaccinated, even it mean losing their job. The exact percentages aren&#39;t important, generally it&#39;s between about 10 and 25% of the local population. There is a lot of finger pointing and anger at this.  Personally I am vaccinated and think everyone should be. Not because it is good for me or anyone in particular, but for the common good. It&#39;s statistical fact that covid patients in hospitals across the developed world are mainly unvaccinated patients.&lt;/p&gt;
+&lt;p&gt;There is also quite some anger on both sides of the vaccine debate. However one question not being addressed is why a significant portion of the population no longer trusts its leaders as well as scientists and basically anyone with an informed opinion on the matter. Rather they believe what their friends or their social media streams tell them. It is clear that ultimately the politicians only have themselves to blame for this situation. It&#39;s probably been a generation since most countries had anything resembling trustworthy politicians. When politicians ignore the rules they create, when policies are for sale to the highest bidders, when contracts go to their friends and donors, when minorities are routinely incorrectly blamed and scapegoated, we should not be surprised that people and citizens, and especially minorities and the vulnerable no longer listen.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Karma</title>
@@ -129,25 +139,6 @@
 		<updated>2021-11-26T18:00:00Z</updated>
 		<id>https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/</id>
 		<content type="html">&lt;p&gt;After playing around with &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt; some more, I got it working the way I wanted. Then I discovered the workflow settings and they were cool, but somehow did not seem too stable. Probably something I did wrong, but it got me thinking, maybe there is an alternative solution.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Testing Netlify CMS</title>
-		<link href="https://www.contentedweb.com/posts/2021/testing-netlify-cms/"/>
-		<updated>2021-11-24T00:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/testing-netlify-cms/</id>
-		<content type="html">&lt;p&gt;Currently I use &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry&lt;/a&gt; to create posts for this blog.  That workflow works fine, but I was curious about integrating &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt; into my &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; based static site.&lt;/p&gt;
-&lt;p&gt;So I followed the instructions on the Netlify CMS website on how to add it to an existing app.  So far so good. Here I am trying to create my first post using the CMS.&lt;/p&gt;
-&lt;p&gt;Overall Netlify CMS seems OK. Not sure if it is an improvement on Forestry, but for my needs it doesn&#39;t appear to worse either.  The only thing I have not managed to do is list all my post subfolders in the collections tab. My site&#39;s post folder is structured by year:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;src/posts/2021&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;src/posts/2020&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;src/posts/2019&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;.&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;.&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;And I want the same template applied to all of them, plus to be able to decide which folder to place a new blog post in.  I don&#39;t want to create an extra item in the &amp;quot;collections&amp;quot; of the config.yml file.&lt;/p&gt;
-&lt;p&gt;I will keep trying and looking for solutions.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

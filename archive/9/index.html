@@ -77,6 +77,45 @@
   
       <article>
         <header>
+          <h2><a href="/posts/2012/accessible-hover-image-links/">Accessible hover image links</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">25</span> 
+            <span class="date-month">May</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
+---
+<p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
+<p>HTML:</p>
+<pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
+ &lt;img alt="Facebook" src="Facebook_Icon.png"&gt;
+&lt;/a&gt;</pre>
+<p>CSS:</p>
+<pre>.social-links a.facebook {
+  background:url(Facebook_Icon_On.png) no-repeat;
+}
+<p>.social-links a.facebook:hover img {<br>
+display:none;<br>
+border: 1px solid #000;<br>
+}</pre></p>
+<p>This technique is rather straightforward. There's an image, with meaningful alt text for accessibility, wrapped in a anchor tag. The anchor tag itself has a background image with appropriate height and width all set using CSS. The key is the :hover pseudo-class that hides the image using "display:none;". When the image is hidden, you see the background image of the anchor tag. The anchor tag itself is still clickable due to it's fixed height and width.</p>
+<p>Having tested this technique in all modern mainstream browsers (ie latest versions of IE, Opera, Firefox, Chrome and Safari) it copes with the following situations better than many more complex techniques.</p>
+<ul>
+<li><strong>CSS <em>on</em>, Images <em>on</em></strong>: Works as you would expect</li>
+<li><strong>CSS <em>off</em>, Images <em>on</em></strong>: Page lays out in basic fashion. Image hover doesn't work, but links do.</li>
+<li><strong>CSS <em>on</em>, Images <em>off</em>:</strong> Images replaced by Alt text. Hover creats  a border to create active feel.</li>
+<li><strong>CSS <em>off</em>, Images <em>off</em>:</strong> This would be more or less how a screen reader might see the page. The Image is replaced by it's alt text and the link thus remains meaningful.</li>
+</ul>
+<p>Simple, but effective.</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
           <h2><a href="/posts/2012/minervation-com-wordpress-migration/">Minervation.com Wordpress migration</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">23</span> 
@@ -564,30 +603,6 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <li><a href="http://www.thediabeteself.net/">The Diabetes Elf</a></li>
 <li><a href="http://www.weldblog.net/">The Learning Disabilities Elf</a></li>
 <li><a href="http://www.minervation.com/national-elf-service-on-the-way/">Minervation news item on National Elf Service</a></li>
-</ul>
-        
-      </article>
-      <hr aria-hidden="true"/>
-  
-      <article>
-        <header>
-          <h2><a href="/posts/2011/vitamin-d-council/">Vitamin D Council</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">14</span> 
-            <span class="date-month">October</span>, 
-            <span class="date-year">2011</span>
-          </time>
-        </header>
-        
-          <p><img src="/assets/images/vitd.png" alt="Homepage of Vitamin D Council" width="300" height="265" />The Vitamin D Council is a US charity promoting the health benefits of Vitamin D as well as the consequences of being Vitamin D deficient. It is Minervation's highest traffic website and required the development of a caching system to ensure it could be hosted efficiently. It also makes extensive use of the news section, image manager and the taxonomy module for the Health Conditions section.</p>
----
-<p>The website also includes a frequent and free newsletter as well as a largely members only Wordpress blog for discussing all things Vitamin D. The site was launched in May 2011, with the members blog going live about 3 months later.</p>
-<p><strong>Launch date:</strong> 18th May 2011</p>
-<h3>Links</h3>
-<ul>
-<li><a href="http://www.vitamindcouncil.org/">Vitamin D Council</a></li>
-<li><a href="http://blog.vitamindcouncil.org/">Vitamin D Council member's blog</a></li>
-<li><a href="http://www.minervation.com/are-you-vitamin-d-deficient/">Minervation news item about the launch</a></li>
 </ul>
         
       </article>
