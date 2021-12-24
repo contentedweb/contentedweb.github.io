@@ -65,6 +65,49 @@
     
       <article>
         <header>
+          <h2><a href="/posts/2021/adding-tags-to-images-in-windows-11/">Adding tags to images in Windows 11</a></h2>
+          <time datetime="2022-11-12 08-00-00">
+            <span class="date-day">12</span> 
+            <span class="date-month">November</span>, 
+            <span class="date-year">2022</span>
+          </time>
+        </header>
+        
+          <p>Sometimes when I am adding tags to images using the properties dialog of Windows explorer I get the following error:</p>
+<blockquote>
+<p>error 0x88982F52: there is too much metadata...</p>
+</blockquote>
+<p>This is frustrating as it means some of my photos cannot be tagged and I can't find an obvious reason for this. It has been happening across photos taken on different devices for years.</p>
+<p>I came across <a href="https://answers.microsoft.com/en-us/windows/forum/all/windows-10-0x88982f52-there-is-too-much-metadata/9b5ab801-bd14-4e4b-9108-e34cc4e48b83">this discussion on the problem</a>. It turns out the problem is probably related to the size of thumbnail image that is stored in the metadata. The problem can be fixed by opening the image in the photos app, rotating it until it returns to it's original position and then closing the image. Not terribly elegant, but it does work!</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+    
+  
+    
+      <article>
+        <header>
+          <h2><a href="/posts/2021/merry-christmas/">Merry Christmas</a></h2>
+          <time datetime="2021-12-25 12-00-00">
+            <span class="date-day">25</span> 
+            <span class="date-month">December</span>, 
+            <span class="date-year">2021</span>
+          </time>
+        </header>
+        
+          <h2>Merry Christmas</h2>
+<p>I wish everyone reading this blog (all two of you) a Merry Christmas.</p>
+<p>🎄🎁🎄</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+    
+  
+    
+      <article>
+        <header>
           <h2><a href="/posts/2021/vaccine-hesitancy/">Vaccine Hesitancy</a></h2>
           <time datetime="2021-12-20 11-14-00">
             <span class="date-day">20</span> 
@@ -73,7 +116,7 @@
           </time>
         </header>
         
-          <p>Across the developed world, it seems there is a small but significant percentage of the population refusing to get vaccinated, even if it mean losing their job. The exact percentages aren't important, generally it's between about 10 and 25% of the local population. There is a lot of finger pointing and anger at this.  Personally I am vaccinated and think everyone should be. Not because it is good for me or anyone in particular, but for the common good. It's statistical fact that covid patients in hospitals across the developed world are mainly unvaccinated patients.</p>
+          <p>Across the developed world, it seems there is a small but significant percentage of the population refusing to get vaccinated, even if it means losing their job. The exact percentages aren't important, generally it's between about 10 and 25% of the local population. There is a lot of finger pointing and anger at this.  Personally I am vaccinated and think everyone should be. Not because it is good for me or anyone in particular, but for the common good. It's statistical fact that covid patients in hospitals across the developed world are mainly unvaccinated patients.</p>
 <p>There is also quite some anger on both sides of the vaccine debate. However one question not being addressed is why a significant portion of the population no longer trusts its leaders. Rather they believe what their friends or their social media streams tell them. It is clear that ultimately the politicians only have themselves to blame for this situation. It's probably been a generation since most countries had anything resembling trustworthy politicians, if they ever did.</p>
 <p>When politicians ignore the rules they create, when policies are for sale to the highest bidders, when contracts go to friends of those in parliament, when minorities are routinely incorrectly blamed and scapegoated, we should not be surprised that especially minorities and the vulnerable and exploited no longer listen.</p>
 
@@ -349,51 +392,7 @@
     
   
     
-      <article>
-        <header>
-          <h2><a href="/posts/2021/user-preferences-font/">Respecting the user&#39;s preferred font</a></h2>
-          <time datetime="2021-11-10 00-00-00">
-            <span class="date-day">10</span> 
-            <span class="date-month">November</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <p>I feel designing and publishing web content should be more about how the user wishes to experience a site and less about how the designer wants to the site to be experience. The web is after all a more fluid medium than traditional print media.</p>
-<p>Most websites, certainly those who care about accessibility and usability by now implement font sizes using relative units such as &quot;ems&quot; or percentages. However few respect a user's preferred font. All common browsers on all common platforms let a user define their preferred font. But almost no websites take this into account. And yet it is trivial. Simply use for your site's font:</p>
-<pre><code>body { 
-	font-family: sans-serif, serif;
-}
-</code></pre>
-<p>This will always display text in the font set by the user in their browser. Of course one thing that is missing in this, is knowing whether a user has actually set a specific font or is simply using the default font of the browser. There seems to be no way of specifying something like:</p>
-<pre><code>body {
-	font-family: user-font, 'Lucia Grande', Arial, sans-serif, serif;
-}
-</code></pre>
-<p>I've now adapted this website to respect this choice for the main text on this site. I've not yet done so for the more specific texts such as header, footer and navigation.  Probably I should.</p>
-
-        
-      </article>
-      <hr aria-hidden="true"/>
-    
   
-    
-      <article>
-        <header>
-          <h2><a href="/posts/2021/autumn-leaves/">Autumn leaves</a></h2>
-          <time datetime="2021-11-10 00-00-00">
-            <span class="date-day">10</span> 
-            <span class="date-month">November</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <p>Another autumn photo of yellow leaves in sunny blue afternoon sky.</p>
-<p><img src="https://live.staticflickr.com/65535/51672019929_406170de69_c.jpg" alt=""></p>
-
-        
-      </article>
-      <hr aria-hidden="true"/>
     
   
     
