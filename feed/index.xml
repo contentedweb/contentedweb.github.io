@@ -6,27 +6,13 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-11-12T08:00:00Z</updated>
+	<updated>2021-12-25T12:00:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
-	
-	<entry>
-		<title>Adding tags to images in Windows 11</title>
-		<link href="https://www.contentedweb.com/posts/2021/adding-tags-to-images-in-windows-11/"/>
-		<updated>2022-11-12T08:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/adding-tags-to-images-in-windows-11/</id>
-		<content type="html">&lt;p&gt;Sometimes when I am adding tags to images using the properties dialog of Windows explorer I get the following error:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;error 0x88982F52: there is too much metadata...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is frustrating as it means some of my photos cannot be tagged and I can&#39;t find an obvious reason for this. It has been happening across photos taken on different devices for years.&lt;/p&gt;
-&lt;p&gt;I came across &lt;a href=&quot;https://answers.microsoft.com/en-us/windows/forum/all/windows-10-0x88982f52-there-is-too-much-metadata/9b5ab801-bd14-4e4b-9108-e34cc4e48b83&quot;&gt;this discussion on the problem&lt;/a&gt;. It turns out the problem is probably related to the size of thumbnail image that is stored in the metadata. The problem can be fixed by opening the image in the photos app, rotating it until it returns to it&#39;s original position and then closing the image. Not terribly elegant, but it does work!&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>Merry Christmas</title>
@@ -36,6 +22,40 @@
 		<content type="html">&lt;h2&gt;Merry Christmas&lt;/h2&gt;
 &lt;p&gt;I wish everyone reading this blog (all two of you) a Merry Christmas.&lt;/p&gt;
 &lt;p&gt;🎄🎁🎄&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Natural commemoration</title>
+		<link href="https://www.contentedweb.com/posts/2021/natural-commemoration/"/>
+		<updated>2021-12-24T09:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/natural-commemoration/</id>
+		<content type="html">&lt;p&gt;Whilst waiting for my wife and daughter to get their haircut I took a walk around the fields and woods of Olm in Luxembourg. I came across this lovely area for commemorating those who have passed away. The idea being that you can choose a numbered tree at which your loved ones could commemorate you by laying flowers at it&#39;s trunk. You also had your name engraved on wall so you can see the names of all those being commemorated in these woods. There was also a little hut and small clearing so you could hold a little service.&lt;/p&gt;
+&lt;p&gt;The remembrance wall:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51771589506_5fa130f145_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Each leaf shaped plaque on the all has a name on it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51772477925_3563000dc0_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The plaque also has a number on it to mark the tree this person would like to be remembered at:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51772237394_3d9c984a54_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;People can the leave flowers at the foot of the appropriate tree:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51772477685_c0bb3d3a0a_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51772477570_cb9a434a58_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Finally, inside the hut is a board explaining it all:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51771589871_234808234d_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Adding tags to images in Windows 11</title>
+		<link href="https://www.contentedweb.com/posts/2021/adding-tags-to-images-in-windows-11/"/>
+		<updated>2021-12-23T08:00:01Z</updated>
+		<id>https://www.contentedweb.com/posts/2021/adding-tags-to-images-in-windows-11/</id>
+		<content type="html">&lt;p&gt;Sometimes when I am adding tags to images using the properties dialog of Windows explorer I get the following error:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;error 0x88982F52: there is too much metadata...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is frustrating as it means some of my photos cannot be tagged and I can&#39;t find an obvious reason for this. It has been happening across photos taken on different devices for years.&lt;/p&gt;
+&lt;p&gt;I came across &lt;a href=&quot;https://answers.microsoft.com/en-us/windows/forum/all/windows-10-0x88982f52-there-is-too-much-metadata/9b5ab801-bd14-4e4b-9108-e34cc4e48b83&quot;&gt;this discussion on the problem&lt;/a&gt;. It turns out the problem is probably related to the size of thumbnail image that is stored in the metadata. The problem can be fixed by opening the image in the photos app, rotating it until it returns to it&#39;s original position and then closing the image. Not terribly elegant, but it does work!&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -109,40 +129,6 @@
 		<content type="html">&lt;h2&gt;by Iain M. Banks&lt;/h2&gt;
 &lt;p&gt;Very well written book with an interesting way of telling the story forward and backwards at the same time.  I do find it helps to check my understanding of the author&#39;s books by reading online reviews and critiques, as I am otherwise missing details.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://uk.bookshop.org/books/use-of-weapons/9781857231359&quot;&gt;&lt;img src=&quot;https://images-eu.bookshop.org/images/9781857231359.jpg?height=500&amp;amp;v=v4&quot; alt=&quot;&amp;quot;Further information on this book&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Thoughts on tooling for static sites</title>
-		<link href="https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/"/>
-		<updated>2021-11-28T11:11:11Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/</id>
-		<content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Since moving my site from &lt;a href=&quot;https://wordpress.com/&quot;&gt;Wordpress&lt;/a&gt; to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; at the beginning of the year I&#39;ve been trying find the most comfortable workflow for writing, editing and publishing posts. I love the control over my site given by using a static site generator. The speed my little site now loads in is phenomenal - way beyond anything Wordpress could deliver. Not that Wordpress was slow at all, but it can&#39;t compete with loading a few KBs of data with no processing at all. However the editing experience of Wordpress, and the workflow it included is still hard to replicate without jumping between services, repositories and branches. In Wordpress everything is in one place. You edit, create drafts, reviews and ultimately publish all from one place. So this is the description of the journey I&#39;ve been on and where I have go to so far in my search of replicating the Wordpress experience for my static site generator.&lt;/p&gt;
-&lt;h2&gt;Requirements&lt;/h2&gt;
-&lt;p&gt;The key requirements for me are:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Code and content must be stored in GitHub.&lt;/li&gt;
-&lt;li&gt;As few services as possible. If I could do it all efficiently in GitHub, I would.&lt;/li&gt;
-&lt;li&gt;A user friendly editing experience&lt;/li&gt;
-&lt;li&gt;As far as possible this should all be free!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;GitHub&lt;/h2&gt;
-&lt;p&gt;Why GitHub? It&#39;s free for my needs and I always have access to my content from anywhere. I still struggle with many concepts in git, but GitHub itself is easy to use and lots of online support and documentation is available. It&#39;s also the de facto authentication service for all online developer services. No need to create endless accounts with passwords if you just authenticate through GitHub.&lt;/p&gt;
-&lt;h2&gt;Services&lt;/h2&gt;
-&lt;p&gt;With WordPress you go there, draft your post, publish it and you are done. Since moving to Eleventy I&#39;ve been trying to reproduce this experience as best I can.  Initially I coded, wrote my posts and generated my site locally on my laptop then copied it to my hosting provider (&lt;a href=&quot;https://www.nearlyfreespeech.com/&quot;&gt;nearlyfreespeech.com&lt;/a&gt;). This worked a treat after some initial config and scripting in PowerShell to automate it as much as possible.&lt;/p&gt;
-&lt;p&gt;But this was not the most portable solution, so I looked for options to use online services as much as possible. First, I needed an online editor, which could edit my markdown posts stored in GitHub. This would enable me to write posts from anywhere, not just my laptop. After trying a number of services, &lt;a href=&quot;https://www.contentedweb.com/posts/2021/forestry-io/&quot;&gt;I chose Forestry&lt;/a&gt;. It suits my basic needs perfectly without all the complexity of other services. Forestry does one thing only: enable you create content. It&#39;s not a development environment or anything else. It&#39;s content authoring only.&lt;/p&gt;
-&lt;p&gt;Next was the building and hosting my site. Again, I tried a number of options before &lt;a href=&quot;https://www.contentedweb.com/posts/2021/netlify/&quot;&gt;settling on Netlify&lt;/a&gt;. This was easy setup and trigger builds from pull requests to GitHub repositories. It is great.&lt;/p&gt;
-&lt;p&gt;Finally, I was curious about online coding environments and used &lt;a href=&quot;https://www.contentedweb.com/posts/2021/gitpod/&quot;&gt;GitPod for a while&lt;/a&gt;. But in the end I gave that up and still do my coding on my laptop using Visual Studio Code. If &lt;a href=&quot;https://github.com/features/codespaces&quot;&gt;GitHub Codespaces&lt;/a&gt; is ever available for free to basic users, I would be interested. For now I don&#39;t code that much and I can do that on my laptop.&lt;/p&gt;
-&lt;p&gt;So for most of the year I have been coding locally in Visual Studio Code, writing my posts in Forestry, storing my content in GitHub and publishing and hosting my site using Netlify.&lt;/p&gt;
-&lt;h2&gt;Editing experience&lt;/h2&gt;
-&lt;p&gt;I like Forestry, but didn&#39;t want to keep jumping to it to edit my posts. So &lt;a href=&quot;https://www.contentedweb.com/posts/2021/testing-netlify-cms-take-two/&quot;&gt;I tried out Netlify CMS&lt;/a&gt;, but decided that wasn&#39;t really an improvement over Forestry. I did like the ability pull in the CMS as a subfolder of my domain (using &amp;quot;/admin/&amp;quot;). But I preferred Forestry, so stuck with that.&lt;/p&gt;
-&lt;p&gt;A few days ago I &lt;a href=&quot;https://www.contentedweb.com/posts/2021/improving-the-publishing-workflow/&quot;&gt;tried out cloudcannon&lt;/a&gt;. Whilst this was not for me, it led me to the idea of outputting my static files to a repository to be used by GitHub Pages. If I could build my site using GitHub Actions I could point GitHub Pages to my static files and host my files directly on GitHub. This took me a day to get working, helped a lot by this &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action&quot;&gt;GitHub Action for building Eleventy sites&lt;/a&gt;. It works great and means I no longer have a need for Netlify. So as much as I really liked Netlify, I decided to move my site&#39;s hosting to GitHub Pages.&lt;/p&gt;
-&lt;p&gt;Finally, after looking further into the settings available in Forestry, I realised it also had the possibility present the CMS as a subfolder of my site, ie &amp;quot;/admin/&amp;quot;. That was dead simple to setup and now I am down to using GitHub for storing and publishing my content and Forestry for editing the content, but being able to do so from my own domain. Small detail, but I like it.&lt;/p&gt;
-&lt;h2&gt;Free, as in beer&lt;/h2&gt;
-&lt;p&gt;Most of the services and tools I&#39;ve used over the last few months are free for my level of usage. This is great. I am always amazed at the ability of companies to offer free plans. This is not like Facebook selling your user data. This is simply the fact that for small users, the costs to companies hosting them are not very significant compared to large enterprise clients. Also, I imagine with many small scale users, they get to iron out all the annoying edge cases that you only encounter by being a &amp;quot;stupid end user&amp;quot;.&lt;/p&gt;
-&lt;p&gt;So how much does all this cost me? Well up until I switched to Netlify, it was free. But using GitHub pages with my own domain required some DNS configurations which obviously Netlify won&#39;t do for domain not using their services. So I switched my DNS servers back to those of my registrar and previous hosting provider, nearlyfreespeech. They do charge for this service though. Thankfully it&#39;s less than $4 per year, it&#39;s hardly going to break the bank. My goal of running my site for free is currently not quite met. I know there are free DNS providers, but since I already pay about $12 per year for my domain name, an extra few dollars is hardly an issue.&lt;/p&gt;
-&lt;p&gt;So my entire setup is almost, but not quite, free (as in beer). It&#39;s less $20 per year though. That&#39;s quite a miracle in my books!&lt;/p&gt;
 </content>
 	</entry>
 </feed>
