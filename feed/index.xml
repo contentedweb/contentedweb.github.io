@@ -85,7 +85,7 @@
 		<link href="https://www.contentedweb.com/posts/2021/rss-feed/"/>
 		<updated>2021-12-14T23:30:00Z</updated>
 		<id>https://www.contentedweb.com/posts/2021/rss-feed/</id>
-		<content type="html">&lt;p&gt;I finally got my &lt;a href=&quot;https://www.contentedweb.com/feed/&quot;&gt;RSS feed&lt;/a&gt; working and even managed to style thanks to help &lt;a href=&quot;https://aboutfeeds.com/&quot;&gt;aboutfeeds.com&lt;/a&gt; and also copying some xsl code from &lt;a href=&quot;https://www.ciccarello.me/blog/2021/04/17/styling-an-rssatom-feed-with-xsl/&quot;&gt;ciccarello&lt;/a&gt;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;I finally got my &lt;a href=&quot;https://www.contentedweb.com/feed/&quot;&gt;RSS feed&lt;/a&gt; working and even managed to style it thanks to help  &lt;a href=&quot;https://aboutfeeds.com/&quot;&gt;aboutfeeds.com&lt;/a&gt; and also copying some xsl code from &lt;a href=&quot;https://www.ciccarello.me/blog/2021/04/17/styling-an-rssatom-feed-with-xsl/&quot;&gt;ciccarello&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
