@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>ContentedWeb</title>
-	<subtitle>Web accessibility, photos, travel and random stuff</subtitle>
+	<subtitle>Web accessibility, photos, travel and random noise</subtitle>
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
