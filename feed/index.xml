@@ -6,13 +6,26 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2021-12-25T19:00:00Z</updated>
+	<updated>2022-01-01T00:01:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Happy New Year</title>
+		<link href="https://www.contentedweb.com/posts/2022/happy-new-year/"/>
+		<updated>2022-01-01T00:01:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/happy-new-year/</id>
+		<content type="html">&lt;p&gt;Happy New Year!&lt;/p&gt;
+&lt;p&gt;Честита Нова Година!&lt;/p&gt;
+&lt;p&gt;Bonne année!&lt;/p&gt;
+&lt;p&gt;Schéint Neit Joer!&lt;/p&gt;
+&lt;p&gt;🥂🍷🍸🍾🍹&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Reimberg cicular walk</title>
@@ -127,17 +140,6 @@
 		<content type="html">&lt;h2&gt;$12.20 * 2&lt;/h2&gt;
 &lt;p&gt;In a previous post on the &lt;a href=&quot;https://www.contentedweb.com/posts/2021/thoughts-on-tooling-for-static-sites/&quot;&gt;tooling I use for my site&lt;/a&gt;, I said it cost me an extra $4 per year to host my site now that I moved from Netlify to Github pages.  This is to cover the DNS charges of my registrar, which was free if I used Netlify&#39;s DNS. Turns out I was wrong. The charges are actually only $1.20 per year.  So I decided to move another static, one page, 600 byte, site of mine from Netlify to GitHub pages in order to close my Netlify account. So now for each of my sites I pay $12.20 ($11 for the domain name and $1.2 for the DNS). So $24.40 per site in total. Not bad given that this is irrespective of usage. Not that my sites actually get any visitors. It&#39;s great value, thanks to my old hosting provider, but still current registrar &lt;a href=&quot;https://www.nearlyfreespeech.com/&quot;&gt;Nearlyfreespeech.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A word on &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;. It might sound like I don&#39;t like their service, as I am moving to a setup which actually costs me more. In fact I thought Netlify was great, but for my rather basic needs I preferred to have less services to manage. I already used &lt;a href=&quot;https://www.github.com/&quot;&gt;GitHub&lt;/a&gt;, so using &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; removes one provider from the workflow and simplifies things for me.  This is true even though the setup on GitHub pages is quite a bit more involved as you need to create an action to trigger the build of your static pages whenever you want to re-publish. With Netlify this comes out of the box, so actually it is easier to get things going with Netlify than Github pages. Netlify just worked immediately for me. GitHub pages took some &lt;s&gt;coding&lt;/s&gt; googling and hacking around to get working.  But once implemented it is quite simple to maintain and keep going.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>The Outsiders</title>
-		<link href="https://www.contentedweb.com/posts/2021/the-outsiders/"/>
-		<updated>2021-12-03T12:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/the-outsiders/</id>
-		<content type="html">&lt;h2&gt;by S.E. Hinton&lt;/h2&gt;
-&lt;p&gt;Easy to read book written when the author was a 16 year old in the 60s. Finished it in a week. Makes a change to the Iain M. Banks books I&#39;ve read recently. Some quite insightful commentary on the pace of life of the rich not allowing them to anytime to actually enjoy life. Instead always running after more more more in the rat race. Once they have everything they need they still need to find something to run after. Also commentary on the poor never having anything but being more honest and down to earth, even if they are stealing and breaking the law. Otherwise a straightforward story with some violence, but not described in any real detail by today&#39;s standards.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/7840334-the-outsiders&quot;&gt;&lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599948067l/7840334._SY475_.jpg&quot; alt=&quot;More info on the book&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>

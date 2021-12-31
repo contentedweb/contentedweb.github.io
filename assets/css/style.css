@@ -1,3 +1,21 @@
+:root {
+    --header-bg-color: #F2E3A9; /*#009cd7;*/
+    --header-title-color: #B85F01; /*#fff;*/
+    --header-title-focus-color: #000; /*#B85F01;*/
+    --header-subtitle-color: #800020;
+    --header-navtext-color: #005c5c;
+    --main-highlight-color: #AE0951;
+    --main-bg-color: #ffffff;
+    --main-font-family: "'Lucia Grande', Verdana, Helvetica, Arial, sans-serif, serif";
+    --footer-bg-color: #eeeeee;
+    --footer-text-color: var(--header-navtext-color);
+    --footer-navtext-color: var(--header-navtext-color);
+    --link-color: #000000;
+    --link-focus-bg-color: #ffff00;
+    --date-bg-color: var(--header-title-color); /*var(--header-bg-color);*/
+    --date-text-color: var(--header-bg-color); /*var(--header-title-color);*/
+}
+
 html {
     /*See: https://www.sitepoint.com/understanding-and-using-rem-units-in-css/*/
     font-size: 62.5%;
@@ -54,21 +72,20 @@ p {
 }
 
 a {
-    border:1px solid;
-    border-color: rgba(255, 255, 255);
-    border-color: rgba(0, 0, 0, 0);
-    color: #000000;
-    text-decoration-color: #AE0951; /*rgb(248, 119, 175);*/
+    border:2px solid;
+    border-color: rgba(0,0,0,0); /*use alpha = 0 to remove border color completely for all links*/
+    color: var(--link-color);
+    text-decoration-color: var(--main-highlight-color); /*rgb(248, 119, 175);*/
     text-decoration-thickness: 3px;
 }
 
 a:visited {
-    color: #000000;
+    color: var(--link-color);
 }
 
 a:focus, a:hover{
-    background-color: rgb(255, 255, 0)!important;
-    /*color: #800020!important; */
+    background-color: var(--link-focus-bg-color);
+    color: var(--link-color)!important;
     border:2px solid;
     text-decoration: none!important;
 }
@@ -77,7 +94,7 @@ header.masthead {
     margin:0;
     padding:15px 0;
     width:100%;
-    background-color: #F2E3A9;
+    background-color: var(--header-bg-color);
     margin-bottom: 10px;
 }
 
@@ -134,8 +151,7 @@ header h1 {
 header div.subtitle {
     margin:0;
     font-size: 1.4em;
-    color: rgb(0, 92, 92);
-    color: #800020!important;
+    color: var(--header-subtitle-color);
     font-weight: bold;
     padding-top: 5px;
 }
@@ -146,15 +162,14 @@ header div.sitetitle {
     margin: 0;
     margin-right:0;
     margin-left:15px;
-    color: #000000;
-    color: #B85F01;
+    color: var(--header-title-color);
     font-weight: bold;
     font-size: 2.7em;
     font-style: normal;
 }
 
 header div.sitetitle a:visited, header div.sitetitle a {
-    color: #B85F01;
+    color: var(--header-title-color);
 }
 
 header nav {
@@ -164,7 +179,6 @@ header nav {
 
 header.masthead nav a {
     text-decoration: underline;
-    /*text-decoration-color: rgb(248, 119, 175);*/
     text-decoration-thickness: 3px;
 }
 
@@ -219,7 +233,7 @@ nav ul li:last-child {
 }
 
 nav a, nav a:visited, div.access a, div.access a:visited {
-    color: rgb(0, 92, 92);
+    color: var(--header-navtext-color);
     font-weight: bold;
     /*padding:0 2px;*/
 }   
@@ -227,7 +241,7 @@ nav a, nav a:visited, div.access a, div.access a:visited {
 nav ul li.current a {
     font-weight: bold;
     /*text-decoration: none;*/
-    border-bottom: 3px solid rgb(0, 92, 92);
+    border-bottom: 3px solid var(--header-navtext-color);
 }
 
 main {
@@ -239,7 +253,7 @@ main {
     font-family: sans-serif, serif;
     line-height: 1.6;
     font-size: 1.8em;
-    background-color: #ffffff;
+    background-color: var(--main-bg-color);
     margin-bottom: 30px;
 }
 
@@ -285,7 +299,7 @@ main article header {
 }
 
 blockquote {
-    border-left: 5px solid rgb(248, 119, 175);
+    border-left: 5px solid var(--main-highlight-color);
     padding: 10px 0 10px 20px;
     margin-left: 0;
 }
@@ -318,15 +332,8 @@ ul.posts-list > li time span.date-day {
     font-weight: bolder;
     font-size: 1.5em;
     display:inline-block;
-    color: #800020;
-    color: rgb(0, 92, 92);
-    color: #B85F01;
-    color: #F2E3A9;
-    /*background-color: #000000;*/
-    background-color: rgb(248, 119, 175);
-    background-color: rgb(224,255,204);
-    background-color: #F2E3A9;
-    background-color: #B85F01;
+    color: var(--date-text-color);
+    background-color: var(--footer-bg-color);
     text-align: center;
     width: 2em;
     height: 2em;
@@ -348,15 +355,8 @@ article header time span.date-day, h2 time span.date-day {
     font-size: 1.2em;
     line-height: 1.6;
     display:inline-block;
-    color: #800020;
-    color: rgb(0, 92, 92);
-    color: #B85F01;
-    color: #F2E3A9;
-    /*background-color: #000000;*/
-    background-color: rgb(248, 119, 175);
-    background-color: rgb(224,255,204);
-    background-color: #F2E3A9;
-    background-color: #B85F01;
+    color: var(--date-text-color);
+    background-color: var(--date-bg-color);
     text-align: center;
     width: 2em;
     height: 2em;
@@ -492,13 +492,13 @@ main ul, main ol {
 
 .webmentions footer a {
     text-decoration: underline;
-    text-decoration-color: rgb(248, 119, 175);
+    text-decoration-color: var(--main-highlight-color);
     text-decoration-thickness: 3px;
 }
 
 footer {
-    border-top: #F2E3A9 solid 10px;
-    background-color: #eeeeee;
+    border-top: var(--header-bg-color) solid 10px;
+    background-color: var(--footer-bg-color);
     padding: 10px 20px;
     font-style: normal;
     font-size: 1.5em;
@@ -508,7 +508,7 @@ footer {
 
 footer span {
     display: inline-block;    
-    color: rgb(0, 92, 92);
+    color: var(--footer-text-color);
 }
 
 footer a {
@@ -520,7 +520,7 @@ footer span.power a {
     /*text-decoration-color: rgb(248, 119, 175);*/
     text-decoration-thickness: 3px;
     font-weight: bold;
-    color: rgb(0, 92, 92);
+    color: var(--footer-navtext-color);
 }
 
 footer span.emojis {
