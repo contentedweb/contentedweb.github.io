@@ -1517,16 +1517,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/postsbyyear/</loc>
-    <lastmod>2022-01-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/covid/</loc>
-    <lastmod>2022-01-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/walk/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
@@ -1538,6 +1528,16 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/work/</loc>
+    <lastmod>2022-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
+    <lastmod>2022-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/postsbyyear/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
   
@@ -1562,7 +1562,7 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/covid/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
   
@@ -1593,6 +1593,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/now-reading/</loc>
+    <lastmod>2022-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/posts/2022/rollingen-circular-walk/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
 </urlset>

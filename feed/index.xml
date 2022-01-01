@@ -6,13 +6,30 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-01-01T00:01:00Z</updated>
+	<updated>2022-01-01T17:00:00Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Rollingen Circular Walk</title>
+		<link href="https://www.contentedweb.com/posts/2022/rollingen-circular-walk/"/>
+		<updated>2022-01-01T17:00:00Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/rollingen-circular-walk/</id>
+		<content type="html">&lt;p&gt;This was a nice quick &lt;a href=&quot;https://www.visitluxembourg.com/en/place/walking/circular-walk-rollingen&quot;&gt;walk of 6km around the woods of Rollingen&lt;/a&gt;. The walk takes about an hour and has a couple of slightly steep steps up the rock formations past some small caves with religious meaning. There would have been nice views, if it hadn&#39;t been a foggy day. Lovely forest walk which took about an hour and a half.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792779935_d3912d65ac_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791097072_0ede69dea2_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792159633_959e107663_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792418014_c736311091_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791097567_6e9e3c7e7d_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792780525_2d15483d20_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792042821_c4e5ee45bc_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791096722_79fa8f67e7_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Happy New Year</title>
@@ -33,7 +50,7 @@
 		<updated>2021-12-31T17:00:00Z</updated>
 		<id>https://www.contentedweb.com/posts/2021/lorentzweiler-circular-walk/</id>
 		<content type="html">&lt;p&gt;A lovely late afternoon &lt;a href=&quot;https://www.visitluxembourg.com/en/place/walking/circular-walk-lorentzweiler&quot;&gt;9km walk around our local area in Lorentzweiler&lt;/a&gt; on New Year&#39;s Eve. The setting sun made this walk even more wonderful than expected. We knew the route well enough, except for the first third which was new to us and goes to show it is worth exploring your local area as a tourist from time to time!&lt;/p&gt;
-&lt;p&gt;The first part up to Blaschette is quite steep on an uneven path, the rest of the walk is straightforward and leads past a local cave known as Fautelfiels, which has wonderful look out over the Alzette valley.  The route does miss the neolithic village just next to Blaschette, so keep an eye out for that on your walk. It&#39;s not a real neolithic village. Rather it was built for educational purposes, but it makes a nice place to rest if needed.&lt;/p&gt;
+&lt;p&gt;The first part up to Blaschette is quite steep on an uneven path, the rest of the walk is straightforward and leads past a local cave known as Fautelfiels, which has wonderful look out over the Alzette valley.  The route does miss the neolithic village just next to Blaschette, so keep an eye out for that on your walk. It&#39;s not a real neolithic village. Rather it was built for educational purposes, but it makes a nice place to rest if needed. The walk took us about two and a half hours.&lt;/p&gt;
 &lt;p&gt;The sunset from Fautelfiels:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791816034_2b417ed225_c.jpg&quot; alt=&quot;The sun setting over the green valley of the Alzette&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The path down from Fautelfiels:&lt;/p&gt;
@@ -144,16 +161,6 @@
 		<updated>2021-12-14T23:30:00Z</updated>
 		<id>https://www.contentedweb.com/posts/2021/rss-feed/</id>
 		<content type="html">&lt;p&gt;I finally got my &lt;a href=&quot;https://www.contentedweb.com/feed/&quot;&gt;RSS feed&lt;/a&gt; working and even managed to style it thanks to help  &lt;a href=&quot;https://aboutfeeds.com/&quot;&gt;aboutfeeds.com&lt;/a&gt; and also copying some xsl code from &lt;a href=&quot;https://www.ciccarello.me/blog/2021/04/17/styling-an-rssatom-feed-with-xsl/&quot;&gt;ciccarello&lt;/a&gt;.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Lala the penguin</title>
-		<link href="https://www.contentedweb.com/posts/2021/lala-the-penguin/"/>
-		<updated>2021-12-14T08:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/lala-the-penguin/</id>
-		<content type="html">&lt;p&gt;This &lt;a href=&quot;https://www.flixxy.com/pet-penguin-goes-shopping.htm&quot;&gt;penguin does his own shopping&lt;/a&gt;. 🙂🐧&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/LcpcMxmLtCQ&quot;&gt;Direct youtube link to the penguin video&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

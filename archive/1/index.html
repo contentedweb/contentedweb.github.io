@@ -78,6 +78,33 @@
   
       <article>
         <header>
+          <h2><a href="/posts/2021/user-preferences-font/">Respecting the user&#39;s preferred font</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">10</span> 
+            <span class="date-month">November</span>, 
+            <span class="date-year">2021</span>
+          </time>
+        </header>
+        
+          <p>I feel designing and publishing web content should be more about how the user wishes to experience a site and less about how the designer wants to the site to be experience. The web is after all a more fluid medium than traditional print media.</p>
+<p>Most websites, certainly those who care about accessibility and usability by now implement font sizes using relative units such as &quot;ems&quot; or percentages. However few respect a user's preferred font. All common browsers on all common platforms let a user define their preferred font. But almost no websites take this into account. And yet it is trivial. Simply use for your site's font:</p>
+<pre><code>body { 
+	font-family: sans-serif, serif;
+}
+</code></pre>
+<p>This will always display text in the font set by the user in their browser. Of course one thing that is missing in this, is knowing whether a user has actually set a specific font or is simply using the default font of the browser. There seems to be no way of specifying something like:</p>
+<pre><code>body {
+	font-family: user-font, 'Lucia Grande', Arial, sans-serif, serif;
+}
+</code></pre>
+<p>I've now adapted this website to respect this choice for the main text on this site. I've not yet done so for the more specific texts such as header, footer and navigation.  Probably I should.</p>
+
+        
+      </article>
+      <hr aria-hidden="true"/>
+  
+      <article>
+        <header>
           <h2><a href="/posts/2021/autumn-leaves/">Autumn leaves</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">10</span> 
@@ -469,24 +496,6 @@
 <p>Asparagus, Beer, Eggs, Cucumber, Tomato, Wine</p>
 <h3>Negligible carbs (below 1g)</h3>
 <p>Meat, Spirits</p>
-
-        
-      </article>
-      <hr aria-hidden="true"/>
-  
-      <article>
-        <header>
-          <h2><a href="/posts/2021/gitpod/">Online coding environment with Gitpod</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">11</span> 
-            <span class="date-month">July</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <p>Over the last few months I've made my hosting environment entirely serverless thanks to the help of <a href="https://github.com/">GitHub</a>, <a href="https://forestry.io/">Forrestry </a>and <a href="https://www.netlify.com/">Netlify</a>. Next, I wanted a cloud based development environment, so if I wasn't at my laptop and wanted to make a change, I could.</p>
-<p>There were quite a few options, but the two that seemed to fit the bill for me were <a href="https://www.gitpod.io/">GitPod </a>and <a href="https://github.com/features/codespaces">GitHub Codespaces</a>. The latter is not yet available to the general public. Whilst I did register for access, it's not yet been granted. That left me with GitPod. So I signed up, pointed it at my preview branch on GitHub, added a few config settings and I was done. I had a fully fledged development environment in the cloud, including full preview functionality. The IDE is basically Visual Studio Code in the browser. It is true that coding in a browser is not quite as user friendly as in a dedicated desktop app, but it's still very much manageable for me. I don't code that much, most of it is tinkering with existing code.</p>
-<p>So now I have both my hosting and development environment fully in the cloud. The cost of all this? Surely all these services must cost something. Well, for my basic needs the monthly cost is zero. Nothing, zilch, nada!</p>
 
         
       </article>
