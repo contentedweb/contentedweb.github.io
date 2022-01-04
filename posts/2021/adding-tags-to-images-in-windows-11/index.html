@@ -42,7 +42,7 @@
                     
                     <ul>
                         <li >
-                            <a href="/about/">About</a>
+                            <a href="/pages/about/">About</a>
                         </li>
                         <li >
                             <a href="/archive/">Archive</a>
@@ -52,32 +52,35 @@
             </div>
         </div>
     </header>
-    <main id="site-content" >
-       <article>
+    <main id="site-content"  class="tmpl-post">
         
-          <header>
-              
-                  <h1>Adding tags to images in Windows 11</h1> 
-              
-              
-                  <h2 class="published">
-                      <time class="dt-published" datetime="Invalid DateTime">
-                          <span class="date-day">23</span> 
-                          <span class="date-month">December</span>, 
-                          <span class="date-year">2021</span>
-                      </time>
-                  </h2>
-              
-          </header>
-        
-        <p>Sometimes when I am adding tags to images using the properties dialog of Windows explorer I get the following error:</p>
+<article>
+  <header>
+      <h1>Adding tags to images in Windows 11</h1> 
+      <h2 class="published">
+          <time class="dt-published" datetime="Invalid DateTime">
+              <span class="date-day">23</span> 
+              <span class="date-month">December</span>, 
+              <span class="date-year">2021</span>
+          </time>
+      </h2>
+  </header>
+  <p>Sometimes when I am adding tags to images using the properties dialog of Windows explorer I get the following error:</p>
 <blockquote>
 <p>error 0x88982F52: there is too much metadata...</p>
 </blockquote>
 <p>This is frustrating as it means some of my photos cannot be tagged and I can't find an obvious reason for this. It has been happening across photos taken on different devices for years.</p>
 <p>I came across <a href="https://answers.microsoft.com/en-us/windows/forum/all/windows-10-0x88982f52-there-is-too-much-metadata/9b5ab801-bd14-4e4b-9108-e34cc4e48b83">this discussion on the problem</a>. It turns out the problem is probably related to the size of thumbnail image that is stored in the metadata. The problem can be fixed by opening the image in the photos app, rotating it until it returns to it's original position and then closing the image. Not terribly elegant, but it does work!</p>
  
-      </article>
+
+  <hr>
+  <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a>
+  </div>
+  <div class="prev-next"><a class="next" rel="next" href="/posts/2021/natural-commemoration/">« Newer</a> | <a class="prev" rel="prev" href="/posts/2021/vaccine-hesitancy/">Older »</a>
+  </div>
+</article>
+
+ 
     </main>
     <footer>
         <div class="footer-area">

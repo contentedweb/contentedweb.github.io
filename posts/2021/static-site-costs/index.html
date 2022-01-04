@@ -42,7 +42,7 @@
                     
                     <ul>
                         <li >
-                            <a href="/about/">About</a>
+                            <a href="/pages/about/">About</a>
                         </li>
                         <li >
                             <a href="/archive/">Archive</a>
@@ -52,29 +52,32 @@
             </div>
         </div>
     </header>
-    <main id="site-content" >
-       <article>
+    <main id="site-content"  class="tmpl-post">
         
-          <header>
-              
-                  <h1>The cost of my static sites</h1> 
-              
-              
-                  <h2 class="published">
-                      <time class="dt-published" datetime="Invalid DateTime">
-                          <span class="date-day">12</span> 
-                          <span class="date-month">December</span>, 
-                          <span class="date-year">2021</span>
-                      </time>
-                  </h2>
-              
-          </header>
-        
-        <h2>$12.20 * 2</h2>
+<article>
+  <header>
+      <h1>The cost of my static sites</h1> 
+      <h2 class="published">
+          <time class="dt-published" datetime="Invalid DateTime">
+              <span class="date-day">12</span> 
+              <span class="date-month">December</span>, 
+              <span class="date-year">2021</span>
+          </time>
+      </h2>
+  </header>
+  <h2>$12.20 * 2</h2>
 <p>In a previous post on the <a href="/posts/2021/thoughts-on-tooling-for-static-sites/">tooling I use for my site</a>, I said it cost me an extra $4 per year to host my site now that I moved from Netlify to Github pages.  This is to cover the DNS charges of my registrar, which was free if I used Netlify's DNS. Turns out I was wrong. The charges are actually only $1.20 per year.  So I decided to move another static, one page, 600 byte, site of mine from Netlify to GitHub pages in order to close my Netlify account. So now for each of my sites I pay $12.20 ($11 for the domain name and $1.2 for the DNS). So $24.40 per site in total. Not bad given that this is irrespective of usage. Not that my sites actually get any visitors. It's great value, thanks to my old hosting provider, but still current registrar <a href="https://www.nearlyfreespeech.com">Nearlyfreespeech.com</a>.</p>
 <p>A word on <a href="https://www.netlify.com">Netlify</a>. It might sound like I don't like their service, as I am moving to a setup which actually costs me more. In fact I thought Netlify was great, but for my rather basic needs I preferred to have less services to manage. I already used <a href="https://www.github.com">GitHub</a>, so using <a href="https://pages.github.com/">GitHub Pages</a> removes one provider from the workflow and simplifies things for me.  This is true even though the setup on GitHub pages is quite a bit more involved as you need to create an action to trigger the build of your static pages whenever you want to re-publish. With Netlify this comes out of the box, so actually it is easier to get things going with Netlify than Github pages. Netlify just worked immediately for me. GitHub pages took some <s>coding</s> googling and hacking around to get working.  But once implemented it is quite simple to maintain and keep going.</p>
  
-      </article>
+
+  <hr>
+  <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+  </div>
+  <div class="prev-next"><a class="next" rel="next" href="/posts/2021/lala-the-penguin/">« Newer</a> | <a class="prev" rel="prev" href="/posts/2021/the-outsiders/">Older »</a>
+  </div>
+</article>
+
+ 
     </main>
     <footer>
         <div class="footer-area">

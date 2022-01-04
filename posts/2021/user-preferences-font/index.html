@@ -42,7 +42,7 @@
                     
                     <ul>
                         <li >
-                            <a href="/about/">About</a>
+                            <a href="/pages/about/">About</a>
                         </li>
                         <li >
                             <a href="/archive/">Archive</a>
@@ -52,25 +52,20 @@
             </div>
         </div>
     </header>
-    <main id="site-content" >
-       <article>
+    <main id="site-content"  class="tmpl-post">
         
-          <header>
-              
-                  <h1>Respecting the user&#39;s preferred font</h1> 
-              
-              
-                  <h2 class="published">
-                      <time class="dt-published" datetime="Invalid DateTime">
-                          <span class="date-day">10</span> 
-                          <span class="date-month">November</span>, 
-                          <span class="date-year">2021</span>
-                      </time>
-                  </h2>
-              
-          </header>
-        
-        <p>I feel designing and publishing web content should be more about how the user wishes to experience a site and less about how the designer wants to the site to be experience. The web is after all a more fluid medium than traditional print media.</p>
+<article>
+  <header>
+      <h1>Respecting the user&#39;s preferred font</h1> 
+      <h2 class="published">
+          <time class="dt-published" datetime="Invalid DateTime">
+              <span class="date-day">10</span> 
+              <span class="date-month">November</span>, 
+              <span class="date-year">2021</span>
+          </time>
+      </h2>
+  </header>
+  <p>I feel designing and publishing web content should be more about how the user wishes to experience a site and less about how the designer wants to the site to be experience. The web is after all a more fluid medium than traditional print media.</p>
 <p>Most websites, certainly those who care about accessibility and usability by now implement font sizes using relative units such as &quot;ems&quot; or percentages. However few respect a user's preferred font. All common browsers on all common platforms let a user define their preferred font. But almost no websites take this into account. And yet it is trivial. Simply use for your site's font:</p>
 <pre><code>body { 
 	font-family: sans-serif, serif;
@@ -83,7 +78,15 @@
 </code></pre>
 <p>I've now adapted this website to respect this choice for the main text on this site. I've not yet done so for the more specific texts such as header, footer and navigation.  Probably I should.</p>
  
-      </article>
+
+  <hr>
+  <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+  </div>
+  <div class="prev-next"><a class="next" rel="next" href="/posts/2021/fonts-all-in/">« Newer</a> | <a class="prev" rel="prev" href="/posts/2021/autumn-leaves/">Older »</a>
+  </div>
+</article>
+
+ 
     </main>
     <footer>
         <div class="footer-area">

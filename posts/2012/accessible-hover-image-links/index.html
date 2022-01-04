@@ -42,7 +42,7 @@
                     
                     <ul>
                         <li >
-                            <a href="/about/">About</a>
+                            <a href="/pages/about/">About</a>
                         </li>
                         <li >
                             <a href="/archive/">Archive</a>
@@ -52,25 +52,20 @@
             </div>
         </div>
     </header>
-    <main id="site-content" >
-       <article>
+    <main id="site-content"  class="tmpl-post">
         
-          <header>
-              
-                  <h1>Accessible hover image links</h1> 
-              
-              
-                  <h2 class="published">
-                      <time class="dt-published" datetime="Invalid DateTime">
-                          <span class="date-day">25</span> 
-                          <span class="date-month">May</span>, 
-                          <span class="date-year">2012</span>
-                      </time>
-                  </h2>
-              
-          </header>
-        
-        <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
+<article>
+  <header>
+      <h1>Accessible hover image links</h1> 
+      <h2 class="published">
+          <time class="dt-published" datetime="Invalid DateTime">
+              <span class="date-day">25</span> 
+              <span class="date-month">May</span>, 
+              <span class="date-year">2012</span>
+          </time>
+      </h2>
+  </header>
+  <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
 ---
 <p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
 <p>HTML:</p>
@@ -95,7 +90,15 @@ border: 1px solid #000;<br>
 </ul>
 <p>Simple, but effective.</p>
  
-      </article>
+
+  <hr>
+  <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+  </div>
+  <div class="prev-next"><a class="next" rel="next" href="/posts/2012/the-end-of-web-design/">« Newer</a> | <a class="prev" rel="prev" href="/posts/2012/minervation-com-wordpress-migration/">Older »</a>
+  </div>
+</article>
+
+ 
     </main>
     <footer>
         <div class="footer-area">
