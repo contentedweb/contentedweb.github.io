@@ -6,13 +6,28 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-01-01T06:00:00Z</updated>
+	<updated>2022-01-11T10:52:47Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Kopstal Circular Walk</title>
+		<link href="https://www.contentedweb.com/posts/2022/kopstal-circular-walk/"/>
+		<updated>2022-01-11T10:52:47Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/kopstal-circular-walk/</id>
+		<content type="html">&lt;p&gt;This was a &lt;a href=&quot;https://www.visitluxembourg.com/en/place/walking/circular-walk-kopstal&quot;&gt;6km walk around the wooded hills of Kopstal&lt;/a&gt;, which I competed during a longer lunch break.  Roughly the first kilometer, whilst in the woods, was just above a busy road. So the start was a little noisy with traffic below. Eventually you got away from the busy road and most of the rest of the walk was a pleasant stroll through the woods.  There was nobody on the walk, perhaps because it was just below freezing! It meant the dog got to be off leash nearly the whole time. The last kilometer or so was again along a fairly busy road, which you had to cross on a couple of occasions, as well as walk right along side it for short distances. It&#39;s not much fun to be walking right next cars, lorries and buses. Overall, whilst I enjoyed the parts of the walk away from the roads, it would be great if they could find away to avoid the roads, especially at the end.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815452899_bc21418fdf_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51814149562_122a4cc079_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815214228_487da23d29_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815452679_f5bb932fef_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815213998_4095f582b7_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815213863_238d586ee0_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Rollingen Circular Walk</title>
@@ -152,15 +167,6 @@
 		<id>https://www.contentedweb.com/posts/2021/karma/</id>
 		<content type="html">&lt;p&gt;So I had a delivery sent to my parents&#39; address. When the delivery driver arrived at the bottom of their block of flats he couldn&#39;t find the correct bell to ring. So he gave me a ring. I answered him and started getting frustrated because I did not understand how he could not see their name. Anyway I told him I&#39;d phone my parents and get them to come down. By the time I got hold of them my dad was already on the way down to pick up the delivery. Later on my parents let me know that I&#39;d got the number of the apartment block wrong, so I was giving the guy a hard time whilst he was in the wrong entrance, which was of course my fault.&lt;/p&gt;
 &lt;p&gt;So where&#39;s the Karma? Well, as I took the phone out of my pocket to answer the call from the delivery driver, I&#39;d dropped it and cracked the screen! Had I given the correct number on the address, the delivery driver would never have called me and my screen would still be intact.😃&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>RSS Feed</title>
-		<link href="https://www.contentedweb.com/posts/2021/rss-feed/"/>
-		<updated>2021-12-14T23:30:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/rss-feed/</id>
-		<content type="html">&lt;p&gt;I finally got my &lt;a href=&quot;https://www.contentedweb.com/feed/&quot;&gt;RSS feed&lt;/a&gt; working and even managed to style it thanks to help  &lt;a href=&quot;https://aboutfeeds.com/&quot;&gt;aboutfeeds.com&lt;/a&gt; and also copying some xsl code from &lt;a href=&quot;https://www.ciccarello.me/blog/2021/04/17/styling-an-rssatom-feed-with-xsl/&quot;&gt;ciccarello&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
