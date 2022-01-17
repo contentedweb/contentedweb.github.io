@@ -292,6 +292,12 @@ ul.postlist li:before {
     padding-right: 0.5em;    
 }
 
+main div.main-content {
+    margin:auto;
+    padding: 0 20px;
+}
+
+
 main article header {
     /*width: calc(100% - 4rem);*/
     text-align: center;
@@ -309,40 +315,10 @@ blockquote p {
 }
 
 div.posts-list hr {
-    margin-top: 70px;
+    margin-top: 30px;
+    border-top: #dddddd solid 1px;
 }
 
-ul.posts-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul.posts-list > li {
-    position: relative;
-    margin-bottom: 4em;
-    border-top: 1px solid #cccccc;
-}
-
-ul.posts-list > li time {
-    font-weight: bold;
-    font-size: 0.8em;
-}
-
-ul.posts-list > li time span.date-day {
-    font-weight: bolder;
-    font-size: 1.5em;
-    display:inline-block;
-    color: var(--date-text-color);
-    background-color: var(--footer-bg-color);
-    text-align: center;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    box-sizing: border-box;
-    padding-top: 6px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-}
 
 article header time, h2 time {
     font-weight: bold;
@@ -367,15 +343,7 @@ article header time span.date-day, h2 time span.date-day {
     margin-top: 5px;
 }
 
-ul.posts-list > li h2 {
-    margin-bottom: 3px;
-}
-
-ul.posts-list > li p {
-    margin-top: 5px;
-}
-
-main > article, div.posts-list, div.footer-area, header.masthead div.header-area {
+main > div.main-content, div.footer-area, header.masthead div.header-area {
     max-width: 75rem;
     width: calc(100% - 4rem); 
     margin: 0 auto; 
@@ -569,34 +537,12 @@ footer span.copy {
     header div.sitetitle {
         font-size: 4em;
     }
+}
 
-    ul.posts-list {
-        padding-left: 7.5em;
-    }
-    
-    ul.posts-list > li time {
-        display: block;
-        width: 10em;
-        position: absolute;
-        left:-150px;
-        top: 0;
-        font-weight: bold;
-        font-size: 0.6em;
-        text-align: center;
-        /*border-top: 1px solid #cccccc;*/
-    }
-    
-    ul.posts-list > li time span.date-day {
-        font-weight: bolder;
-        font-size: 3.5em;
-        display:block;
-        width: 2em;
-        height: 2em;
-        padding-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-top: 5px;
+@media (min-width: 900px) { 
+    main div.main-content {
+        border-left: #eeeeee solid 2px;
+        border-right: #eeeeee solid 2px;
     }
 }
 
