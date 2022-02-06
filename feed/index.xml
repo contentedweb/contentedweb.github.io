@@ -6,13 +6,29 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-01-17T02:00:06Z</updated>
+	<updated>2022-01-29T10:23:28Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Mamer 2 Circular Walk</title>
+		<link href="https://www.contentedweb.com/posts/2022/mamer-2-circular-walk/"/>
+		<updated>2022-01-29T10:23:28Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/mamer-2-circular-walk/</id>
+		<content type="html">&lt;p&gt;This was a simple 6.4km &lt;a href=&quot;https://www.visitluxembourg.com/en/place/walking/circular-walk-mamer-II&quot;&gt;circular walk around the woods of Mamer&lt;/a&gt;. It was a wet and windy day, so the first 20 minutes walking through the fields against the winds was not so pleasant. Once we entered the woods and were out of the wind it was more pleasant. A part of the path comes within a stone&#39;s throw of the motorway, so it was a bit noisy. It is is supposed to be wheelchair accessible, which is true for the tarmacked parts through the fields. In the woods it would have been difficult, perhaps impossible at this time of year. So be warned. Maybe when it&#39;s a bit drier it would be OK. Quite a few people walking their dogs, so ours was happy to have some time chasing after them.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51851276421_3bd5735f7f_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://live.staticflickr.com/65535/51851284391_eb7bbe71ee_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://live.staticflickr.com/65535/51851931595_8a5792d30c_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://live.staticflickr.com/65535/51851276676_72b8aacb9e_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://live.staticflickr.com/65535/51851604229_b0faf0fc1f_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://live.staticflickr.com/65535/51851347553_fce72fdd9f_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://live.staticflickr.com/65535/51851603864_33063ff366_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Atomic Habits</title>
@@ -167,20 +183,6 @@
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51772477570_cb9a434a58_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Finally, inside the hut is a board explaining it all:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51771589871_234808234d_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Adding tags to images in Windows 11</title>
-		<link href="https://www.contentedweb.com/posts/2021/adding-tags-to-images-in-windows-11/"/>
-		<updated>2021-12-23T08:00:01Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/adding-tags-to-images-in-windows-11/</id>
-		<content type="html">&lt;p&gt;Sometimes when I am adding tags to images using the properties dialog of Windows explorer I get the following error:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;error 0x88982F52: there is too much metadata...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is frustrating as it means some of my photos cannot be tagged and I can&#39;t find an obvious reason for this. It has been happening across photos taken on different devices for years.&lt;/p&gt;
-&lt;p&gt;I came across &lt;a href=&quot;https://answers.microsoft.com/en-us/windows/forum/all/windows-10-0x88982f52-there-is-too-much-metadata/9b5ab801-bd14-4e4b-9108-e34cc4e48b83&quot;&gt;this discussion on the problem&lt;/a&gt;. It turns out the problem is probably related to the size of thumbnail image that is stored in the metadata. The problem can be fixed by opening the image in the photos app, rotating it until it returns to it&#39;s original position and then closing the image. Not terribly elegant, but it does work!&lt;/p&gt;
 </content>
 	</entry>
 </feed>
