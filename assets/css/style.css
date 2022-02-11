@@ -23,7 +23,8 @@ html {
 
 body {
     margin: 0;
-    }
+    font-family: sans-serif, serif;
+}
 
 .skip-link {
     left: -9999rem;
@@ -204,7 +205,7 @@ main article section {
 }
 
 nav ul {
-    font-size: 1.5em;
+    font-size: 1.7em;
     display: inline-flex;
     flex-wrap: wrap;
     margin: 10px 0 0 0;
@@ -249,8 +250,8 @@ main {
 /*    
     font-family: 'Times New Roman', Times, serif;
     font-family: 'Lucia Grande', Verdana, Helvetica, Arial, sans-serif, serif;
-*/
     font-family: sans-serif, serif;
+*/
     line-height: 1.6;
     font-size: 1.8em;
     background-color: var(--main-bg-color);
@@ -261,12 +262,12 @@ main h1, main h2, main h3 {
     color: #000; 
 }
 
-h1, h2, h3, footer, header.nav, time, div.sitetitle, div.subtitle {
 /* 
+h1, h2, h3, footer, header.nav, time, div.sitetitle, div.subtitle {
     font-family: Verdana;
-*/
     font-family: sans-serif, serif;
 }
+*/
 
 header time {
     font-size: 0.75em;
