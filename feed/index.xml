@@ -6,13 +6,40 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-02-09T12:12:00Z</updated>
+	<updated>2022-02-20T01:38:17Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Barcelona</title>
+		<link href="https://www.contentedweb.com/posts/2022/barcelona/"/>
+		<updated>2022-02-20T01:38:17Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/barcelona/</id>
+		<content type="html">&lt;h2&gt;Barcelona&lt;/h2&gt;
+&lt;h3&gt;Day 0&lt;/h3&gt;
+&lt;p&gt;Arrive in Barcelona, nice ramen place in the evening&lt;/p&gt;
+&lt;h3&gt;Day 1&lt;/h3&gt;
+&lt;p&gt;Walking around eixample, beach, barceloneta, crunch and brunch, Gothic Quarter, La Rambla, Catalunya Parliament, Cathedral de Barcelona and dancing&lt;/p&gt;
+&lt;h3&gt;Day 2&lt;/h3&gt;
+&lt;p&gt;Sagrada Familia, Parc Guell, Casa Mila and Casa Batllo&lt;/p&gt;
+&lt;h3&gt;Day 3&lt;/h3&gt;
+&lt;p&gt;Walking round town, Montjuic, cable car, tapas restaurant, ramble de catalunya&lt;/p&gt;
+&lt;h3&gt;Day 4&lt;/h3&gt;
+&lt;p&gt;Arc Triomf, Palau de musica, picasso musem, santa maria del mar chruch&lt;/p&gt;
+&lt;h3&gt;Day 5&lt;/h3&gt;
+&lt;p&gt;Montserrat moastery day trip&lt;/p&gt;
+&lt;h3&gt;Day 6&lt;/h3&gt;
+&lt;p&gt;Walking round town and beach on final full day. Very sunny. Latin restaurant&lt;/p&gt;
+&lt;h3&gt;Day 7&lt;/h3&gt;
+&lt;p&gt;Flight back&lt;/p&gt;
+&lt;h3&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;/h3&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Hold on to your kids</title>
@@ -171,17 +198,6 @@
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51780895292_eb0490bf7e_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51782346549_5da6ce8fcc_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51780895217_2685185acc_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Merry Christmas</title>
-		<link href="https://www.contentedweb.com/posts/2021/merry-christmas/"/>
-		<updated>2021-12-25T12:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2021/merry-christmas/</id>
-		<content type="html">&lt;h2&gt;Merry Christmas&lt;/h2&gt;
-&lt;p&gt;I wish everyone reading this blog (all two of you) a Merry Christmas.&lt;/p&gt;
-&lt;p&gt;🎄🎁🎄&lt;/p&gt;
 </content>
 	</entry>
 </feed>
