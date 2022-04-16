@@ -6,13 +6,22 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-04-05T06:35:53Z</updated>
+	<updated>2022-04-16T08:23:14Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Bulgarian speeding fine</title>
+		<link href="https://www.contentedweb.com/posts/2022/bulgarian-speeding-fine/"/>
+		<updated>2022-04-16T08:23:14Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/bulgarian-speeding-fine/</id>
+		<content type="html">&lt;p&gt;So, in Bulgaria when you get a speeding fine, they don&#39;t tell you about it. They don&#39;t send you a letter. Instead at some, point later on, eg when renewing your passport, you get an official notification that you have a fine to pay, in our case from December 2020. When you then eventually go and pay it you&#39;re told the fine will be reduced by 30% if you pay. So our fine was either 70lv if we paid or 100lv if we didn&#39;t. Nobody could tell me what happens if you don&#39;t pay! All of this for going 72 in a 50 zone. And we weren&#39;t even in the country, at the time, but the car&#39;s in our name...&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Wordle&#39;s end</title>
@@ -39,7 +48,7 @@
 &lt;h2&gt;Big Pharma&lt;/h2&gt;
 &lt;p&gt;The other issue is Big Pharma itself. On the one hand what they have achieved is fantastic, bringing to market an apparently safe vaccine, saving possibly millions of lives. On the other hand, the history of Big Pharma is not exactly one of openness and social responsibility. Rather it is about profit above all else. Sure companies should be profitable, but not at the expense of our collective health and social systems. It is why they are generally unwilling to fund research into diseases which could be cured by a one shot vaccine. Where&#39;s the long term profit in that? Rather they like to research far more profitable long term treatments such as Cancer research. Nothing wrong with Cancer research, but it is not the only deadly condition on this planet.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;So there you have my thoughts. Let those who want to boosted, be boosted. Leave those who don&#39;t in peace. Let all of us get on with our lives. And maybe encourage continued mask use and improved ventilation in crowded areas.&lt;/p&gt;
+&lt;p&gt;So there you have my thoughts. Let those who want to boosted, be boosted. Leave those who don&#39;t in peace. Let all of us get on with our lives. And maybe enforce our at least encourage continued mask use and improved ventilation in crowded areas.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -235,19 +244,6 @@
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792780525_2d15483d20_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792042821_c4e5ee45bc_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791096722_79fa8f67e7_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Happy New Year</title>
-		<link href="https://www.contentedweb.com/posts/2022/happy-new-year/"/>
-		<updated>2022-01-01T00:01:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2022/happy-new-year/</id>
-		<content type="html">&lt;p&gt;Happy New Year!&lt;/p&gt;
-&lt;p&gt;Честита Нова Година!&lt;/p&gt;
-&lt;p&gt;Bonne année!&lt;/p&gt;
-&lt;p&gt;Schéint Neit Joer!&lt;/p&gt;
-&lt;p&gt;🥂🍷🍸🍾🍹&lt;/p&gt;
 </content>
 	</entry>
 </feed>
