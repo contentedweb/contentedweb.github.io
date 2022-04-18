@@ -6,13 +6,25 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-04-16T08:23:14Z</updated>
+	<updated>2022-04-18T02:05:25Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>The State Of The Art</title>
+		<link href="https://www.contentedweb.com/posts/2022/the-state-of-the-art/"/>
+		<updated>2022-04-18T02:05:25Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/the-state-of-the-art/</id>
+		<content type="html">&lt;h2&gt;by Iain M. Banks&lt;/h2&gt;
+&lt;p&gt;Intersesting book of short stories, including one by the same name about the Culture observing Earth in 70s and deciding to leave it in peace as a &amp;quot;control&amp;quot; to better understand what happens to planets apparently intent on destroying themselves!&lt;/p&gt;
+&lt;p&gt;Overall I enjoyed the stories. They are far easier to follow than his larger novels. Except for the last one, hich was incomprehensible and appropriately named &amp;quot;Scratch&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://uk.bookshop.org/books/the-state-of-the-art/9781857230307&quot;&gt;&lt;img src=&quot;https://images-eu.bookshop.org/images/9781857230307.jpg?height=500&quot; alt=&quot;&amp;quot;Further information on this book&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Bulgarian speeding fine</title>
@@ -227,23 +239,6 @@
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815452679_f5bb932fef_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815213998_4095f582b7_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815213863_238d586ee0_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Rollingen Circular Walk</title>
-		<link href="https://www.contentedweb.com/posts/2022/rollingen-circular-walk/"/>
-		<updated>2022-01-01T06:00:00Z</updated>
-		<id>https://www.contentedweb.com/posts/2022/rollingen-circular-walk/</id>
-		<content type="html">&lt;p&gt;This was a nice quick &lt;a href=&quot;https://www.visitluxembourg.com/en/place/walking/circular-walk-rollingen&quot;&gt;walk of 6km around the woods of Rollingen&lt;/a&gt;. The walk takes about an hour and has a couple of slightly steep steps up the rock formations past some small caves with religious meaning. There would have been nice views, if it hadn&#39;t been a foggy day. Lovely forest walk which took about an hour and a half.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792779935_d3912d65ac_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791097072_0ede69dea2_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792159633_959e107663_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792418014_c736311091_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791097567_6e9e3c7e7d_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792780525_2d15483d20_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51792042821_c4e5ee45bc_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51791096722_79fa8f67e7_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
