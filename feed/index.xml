@@ -6,13 +6,106 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-04-18T02:05:25Z</updated>
+	<updated>2022-04-19T04:18:37Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Design Web Usability: a retrospective</title>
+		<link href="https://www.contentedweb.com/posts/2022/design-web-usability-a-retrospective/"/>
+		<updated>2022-04-19T04:18:37Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/design-web-usability-a-retrospective/</id>
+		<content type="html">&lt;h2&gt;Designing Web Usability&lt;/h2&gt;
+&lt;h3&gt;by Jakob Nielsen&lt;/h3&gt;
+&lt;p&gt;This book was written by Jakob Nielsen almost a quarter of century ago. It&#39;s been sitting untouched on my bookshelf for at least half of that time. Whilst in isolation due to covid, I decided to browse through it to see how relevant it still is.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/22149.Designing_Web_Usability&quot;&gt;&lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385224263l/22149.jpg&quot; alt=&quot;&amp;quot;Further information on this book&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Preface&lt;/h3&gt;
+&lt;p&gt;In the preface, to answer the question why he published this information as a printed book and not online, he gave three reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Computers screens are not yet good enough to read so much content on&lt;/li&gt;
+&lt;li&gt;Web browsing is not yet straightforward enough compared to turning pages on a book&lt;/li&gt;
+&lt;li&gt;Readers (and authors) are not yet comfortable reading through non-linear information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;He predicted 2007 to be the year books would be finally replaced by online information.&lt;/p&gt;
+&lt;p&gt;Looking back from 2022, none of his conditions are satisfied to the extent that books are no longer needed. there are still plenty of bookshops, selling plenty of books.&lt;/p&gt;
+&lt;p&gt;Whilst there has been improvement in all three, addressing them point by point:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;only eReaders (such as the Kindle) are good and affordable enough for reading books on,&lt;/li&gt;
+&lt;li&gt;web browsing has improved immensely, but at times I wonder if it is going backwards. Certainly the browser back button is often broken due to poor site design&lt;/li&gt;
+&lt;li&gt;readers are certainly more used to browsing the web in a non-linear fashion to find information quickly. I am not sure how keen they are on reading 300 page novels online though.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below are my thoughts on each of the chapters in the book.&lt;/p&gt;
+&lt;h3&gt;1. Why Web Usability&lt;/h3&gt;
+&lt;p&gt;The basic point made here is that bad usability equals no customers. And that you are not just competing with other similar services, but with all services on the web. If a user can&#39;t easily figure out how to use your services online, they might end up spending their time and money on another, unrelated service instead.&lt;/p&gt;
+&lt;p&gt;This point is certainly still very true. With one caveat, it doesn&#39;t apply to all the government services that are now online. If you need to file a tax return form online, you can only do this on the dedicated government site. It is probably why so many public sector websites have such poor usability, never mind accessibility. Although thankfully the picture is now improving.&lt;/p&gt;
+&lt;h3&gt;2. Page Design&lt;/h3&gt;
+&lt;p&gt;This section begins by stating that site design is more important than page design from a usability perspective, because it is unlikely the first page a user lands on will be the correct one. This is still the case, even if Google (which had only just been founded when this book was published) does a good job at pointing you to the correct information.&lt;/p&gt;
+&lt;h4&gt;Screen real estate&lt;/h4&gt;
+&lt;p&gt;It then continues onto screen real estate in which most of the points made are still relevant. Don&#39;t waste space (which doesn&#39;t mean all white space is bad), use most of the available space for the content, minimise space dedicated to navigation and adverts (which if needed, should eat into the space dedicated to navigation). Whilst these principles still stand, unfortunately adverts rule the web and so few pages follow them anymore.&lt;/p&gt;
+&lt;p&gt;Next up it takes on how to deal with screen resolutions, and the fact that you cannot predict your users&#39; browser environment. The book makes the point that you should not assume too much about that environment and make sure your design can adapt to the most common environments, including being careful how you use non-standard components (thankfully this is less of an issue now). These points are still valid, in fact they are a pre-cursor to responsive design and graceful degradation I suppose.&lt;/p&gt;
+&lt;p&gt;It continues on to make the case for semantic markup which is now well understood even if not yet always implemented.&lt;/p&gt;
+&lt;h4&gt;Download speeds&lt;/h4&gt;
+&lt;p&gt;It also goes into quite some detail about download times and keeping these to a minimum (below one second). Whilst download times are no longer so relevant thanks to bandwidth improvements, the pure download speed problem has been replaced by the latency in the browser having to download many, often hundreds, of additional files and then process them before they can display a page. It means that despite all the advancements in browser tech, bandwidth, cloud caching and edge computing, very few websites meet the one second display time recommended here. That is a truly saddening turn of events. We&#39;ve taken all the improvements in tech and made things worse.&lt;/p&gt;
+&lt;h4&gt;Links&lt;/h4&gt;
+&lt;p&gt;The book makes a lot of still valid points about links. The link titles should be meaningful and two links pointing to the same place should use the same URL, so the browser can indicate a link has already been visited.&lt;/p&gt;
+&lt;p&gt;On this last point, I would say this is no longer relevant. Nor is the point about making links blue or underlining them. Users are now used to the fact that anything can be a link and don&#39;t care too much whether they have visited a link or not. Not that this is a usability improvement, but it is the current state of web design.  In fact these are now considered more to be accessibility issues than usability issues.&lt;/p&gt;
+&lt;p&gt;Quite a bit of discussion on the need for outgoing links and not to be afraid of them. I think this is now well understood by most site owners.  A good point is made about incoming links. The only way to make these work, is to use permalinks. After 20 years the web is now awash with broken links, so it&#39;s kind of accepted that not all links work. But if an incoming link does not work, make sure to offer suitable alternatives on your error page to the user.&lt;/p&gt;
+&lt;p&gt;The book does make the point that site registration breaks incoming links and leads to loss of users. Interestingly it also states that micropayments might take care of this. Unfortunately this never happened. Facebook, user tracking and selling our data happened instead.&lt;/p&gt;
+&lt;h4&gt;CSS, Frames and printing&lt;/h4&gt;
+&lt;p&gt;The points on CSS and frames are probably no longer relevant. The web is mature enough to make good use of the former and scarce use of the latter, although iframes are making something of a comeback now.&lt;/p&gt;
+&lt;p&gt;It also covers how to make a webpage printable, although not using CSS, which probably wasn&#39;t standardised yet at the time. Instead it recommends linking to PDF (or PostScript) versions of the page. It does make the very important (and still 100% accurate) point that PDFs are for printing and not for reading on-screen. Don&#39;t make important information only available in PDF format.&lt;/p&gt;
+&lt;h3&gt;3. Content design&lt;/h3&gt;
+&lt;p&gt;Overall this section is still very applicable.  Users don&#39;t like reading online. Keep it simple, keep it to the point, enable users to scan pages. Use clear headings, bullet points and plain language. And employ a &amp;quot;web editor&amp;quot; - writing for the web is a difficult skill that needs to be learned.&lt;/p&gt;
+&lt;p&gt;It covers the need for clear fonts and colour contrast and to avoid ALL CAPS content.&lt;/p&gt;
+&lt;p&gt;The section then spends a lot of time on multimedia content. A lot of the considerations are only partially relevant now, since bandwidth and smartphones have made multimedia an ubiquitous part of the web in 2022.&lt;/p&gt;
+&lt;p&gt;One point I disagree strongly with is that good sound can increase the user experience. Whilst true, it stems from the time when perhaps people browsed the web at home or in their own office. The point is also made that sound should be unobtrusive and quiet. Still it is infuriating when a website which plays sound without me asking it to. If I start a video, or music file, I am happy to hear sound. Otherwise, keep quiet.&lt;/p&gt;
+&lt;p&gt;Finally, I am happy to see this point made about content:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Any time you use any format other than plain text and standard HTML, you risk depriving users with disabilities from being able to use your site.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;4. Site design&lt;/h3&gt;
+&lt;p&gt;This section hasn&#39;t really dated and thankfully the advice is largely followed nowadays. Key points are around the importance of an informative homepage, the scorn for splash pages and the pointlessness of under construction warnings. Websites are always under construction.&lt;/p&gt;
+&lt;p&gt;It goes on to warn about metaphors from the real world, such as the shopping cart, because the user might not always understand them.  It does make the point that the online shopping cart had already back then become an interface standard and was no longer metaphor.&lt;/p&gt;
+&lt;h4&gt;Navigation and structure&lt;/h4&gt;
+&lt;p&gt;The point is made that good site navigation is achieved when a user can answer the three questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Where am I?&lt;/li&gt;
+&lt;li&gt;Where have I been?&lt;/li&gt;
+&lt;li&gt;Where can I go?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am not sure the second is still so relevant anymore, at least most  designs now don&#39;t try to indicate this anymore, unless through the means of breadcrumbs. Also your browser history could tell you where you have been.&lt;/p&gt;
+&lt;p&gt;Structuring the site according to user needs, not the company&#39;s internal organisation is a well made point. It is now better understood, but still not universally applied.  The fact that the user is in control of where they want to go and not the site designer is also made and still very true. The need to reduce navigational clutter is also raised and has to some extent been addressed through expandable menus (eg hover menus, which have become &amp;quot;click to open&amp;quot; menus due to the lack of hover on smartphones).&lt;/p&gt;
+&lt;h4&gt;Search&lt;/h4&gt;
+&lt;p&gt;Since the book was written before Google completely redefined how finding information on the web works, the section on search is now not so relevant, except perhaps to intranets. I have yet to find an intranet with a decent search mechanism, often because the basic search algorithm considers all content equal. But keywords found in a page title are surely more important than when found in the main page content.&lt;/p&gt;
+&lt;p&gt;Finally URLs themselves are discussed. But other than trying to keep them alive as long as possible, I am not sure URLs are very relevant anymore. Whilst users do sometimes try to guess a URL (I know I do), since most of the web is now browsed on a smartphone it is probably less the case. In addition the prevalence of walled gardens and closed apps has made URLs less of a thing - with the exception that they need to work of course.&lt;/p&gt;
+&lt;h3&gt;5. Intranet Design&lt;/h3&gt;
+&lt;p&gt;This is more about the business need for a good intranet than the actual design. User testing is key, along with an appropriate level of investment. The economic loss of poorly designed tasks in an intranet can costs millions when replicated daily by 1000s of employees. Still very relevant.&lt;/p&gt;
+&lt;h3&gt;6. Accessibility for users with disabilities.&lt;/h3&gt;
+&lt;p&gt;Quite a short section, maybe reflecting that this was still a niche consideration at the time. It does make the point that various legislation actually requires certain websites to be accessible. The techniques mentioned are all still very applicable today.&lt;/p&gt;
+&lt;p&gt;Unfortunately the point was not heeded and accessibility (or lack of it) is still a major issue in 2022. This is despite the following prescient comment:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Those of us who plan to be around for a few more years also have personal reasons to promote accessibility because as we get older, we will experience more disabilities ourselves.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It looks like we only have ourselves to blame if we are unable to claim our online pensions due to accessibility reasons.&lt;/p&gt;
+&lt;h3&gt;7. International Use&lt;/h3&gt;
+&lt;p&gt;This chapter is interesting because it recognises that the web is global and you might need to consider the cultures and languages you design your site for. The points are still very relevant especially this one:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Make translations bookmarkable: different URLs should be used for different translations of the same content so it can be bookmarked in the correct language.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Overall I am not sure the problem of country / language / culture has yet been solved adequately on the web. Certainly not in any uniform manner that could be considered an &amp;quot;interface standard&amp;quot; such as the shopping cart. I am still too often displayed content in the wrong language because of poor assumptions and design choices.&lt;/p&gt;
+&lt;h3&gt;8. Future Predictions&lt;/h3&gt;
+&lt;p&gt;On the one hand this chapter is now largely irrelevant, on the other it is interesting to see if the predictions were correct. Many of the more specific predictions have not happened as predicted. Nevertheless, the underlying point that as the web becomes more common it will at some point be ubiquitous and change everything, has indeed happened.&lt;/p&gt;
+&lt;p&gt;The chapter does predict mobile devices, although fails to foresee many of the effects of this, especially with respect to the pros and cons of social media and the power of big companies that run them. It does predict that &lt;strong&gt;privacy becomes precious&lt;/strong&gt;, however assumes that users will be willing to pay for this privacy. Unfortunately it seems we are at the moment only too happy to give away our privacy for free. But privacy awareness is raising and maybe this will change in another 25 years time.&lt;/p&gt;
+&lt;p&gt;The death of both browsers and newspapers is predicted. The former are still very much around, but having to contend with mobile apps and the power of the companies that profit from the app stores. The latter are clearly now struggling as a print media. Integrated media services are predicted to happen once bandwidth can support them. Welcome to the present day!&lt;/p&gt;
+&lt;h3&gt;9. Conclusion: Simplicity in Web Design&lt;/h3&gt;
+&lt;p&gt;The points raised here are still relevant today, but I feel the web is no longer something to be discovered and we spend less of our time trying to find new services and more of it simply using the ones we already know how to use.&lt;/p&gt;
+&lt;p&gt;The virtual real-estate land has been divided up amongst the big players. Facebook, Google, Microsoft, Amazon and Apple are the obvious ones. However, within most sectors there are now established winners (Netflix, Strava, Spotify) and whilst competition is still rife, it is impossible to break into this without billions in financial backing. And even when you do, the most likely outcome is that your patch of virtual space will be bought. ie You will either be acquired or forced out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The State Of The Art</title>
@@ -224,21 +317,6 @@
 		<content type="html">&lt;p&gt;This &lt;a href=&quot;https://xkcd.com/2347/&quot;&gt;xkcd comic&lt;/a&gt; pretty much sums up the state of things on the internet:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/dependency.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;and probably elsewhere too. The &lt;a href=&quot;https://www.ncsc.gov.uk/information/log4j-vulnerability-what-everyone-needs-to-know&quot;&gt;log4js vulnerability&lt;/a&gt; comes to mind.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Kopstal Circular Walk</title>
-		<link href="https://www.contentedweb.com/posts/2022/kopstal-circular-walk/"/>
-		<updated>2022-01-11T10:52:47Z</updated>
-		<id>https://www.contentedweb.com/posts/2022/kopstal-circular-walk/</id>
-		<content type="html">&lt;p&gt;This was a &lt;a href=&quot;https://www.visitluxembourg.com/en/place/walking/circular-walk-kopstal&quot;&gt;6km walk around the wooded hills of Kopstal&lt;/a&gt;, which I competed during a longer lunch break.  Roughly the first kilometer, whilst in the woods, was just above a busy road. So the start was a little noisy with traffic below. Eventually you got away from the busy road and most of the rest of the walk was a pleasant stroll through the woods.  There was nobody on the walk, perhaps because it was just below freezing! It meant the dog got to be off leash nearly the whole time. The last kilometer or so was along a fairly busy road, which you had to cross on a couple of occasions, as well as walk right along side it for short distances. It&#39;s not much fun to be walking right next cars, lorries and buses. Overall, whilst I enjoyed the parts of the walk away from the roads, it would be great if they could find away to avoid the roads at the end.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815452899_bc21418fdf_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51814149562_122a4cc079_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815214228_487da23d29_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815452679_f5bb932fef_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815213998_4095f582b7_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51815213863_238d586ee0_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
