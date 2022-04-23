@@ -7,6 +7,7 @@
     --main-highlight-color: #AE0951;
     --main-bg-color: #ffffff;
     --main-font-family: "'Lucia Grande', Verdana, Helvetica, Arial, sans-serif, serif";
+    --postlist-navtext-color: var(--header-navtext-color);
     --footer-bg-color: #eeeeee;
     --footer-text-color: var(--header-navtext-color);
     --footer-navtext-color: var(--header-navtext-color);
@@ -239,6 +240,10 @@ nav a, nav a:visited, div.access a, div.access a:visited {
     /*padding:0 2px;*/
 }   
 
+div.posts-list nav a {
+    color: var(--postlist-navtext-color);
+}   
+
 nav ul li.current a {
     font-weight: bold;
     /*text-decoration: none;*/
@@ -291,6 +296,14 @@ ul.postlist li:before {
     font-size: 0.9em;
     vertical-align: top;
     padding-right: 0.5em;    
+}
+
+ul.taglist {
+    list-style-type: none;
+}
+
+ul.taglist li {
+    display: inline;
 }
 
 main div.main-content {
