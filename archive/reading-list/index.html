@@ -84,455 +84,98 @@
   <header>
     <h1>Reading List</h1> 
   </header>
-
-  <p>An incomplete list of the books I have read over time.</p>
-  
-
 </article>
 
-<div class="posts-list">
-<nav class="paging" aria-label="pagination">
-    <ul>
-      <li>First</li>
-      <li>Previous</li>
-      <li>Next</li>
-      <li>Last</li>
-    </ul>
-  </nav>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2022/design-web-usability-a-retrospective/">Designing Web Usability: a retrospective</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">19</span> 
-            <span class="date-month">April</span>, 
-            <span class="date-year">2022</span>
-          </time>
-        </header>
-        
-          <h2>Designing Web Usability</h2>
-<h3>by Jakob Nielsen</h3>
-<p>This book was written by Jakob Nielsen almost a quarter of a century ago. It's been sitting untouched on my bookshelf for at least half of that time. Whilst in isolation due to covid, I decided to browse through it to see how relevant it still is.</p>
-<p><a href="https://www.goodreads.com/book/show/22149.Designing_Web_Usability"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385224263l/22149.jpg" alt="&quot;Further information on this book&quot;"></a></p>
-<h3>Preface</h3>
-<p>In the preface, to answer the question why he published this information as a printed book and not online, he gave three reasons:</p>
-<ul>
-<li>Computers screens are not yet good enough to read so much content,</li>
-<li>Web browsing is not yet straightforward enough compared to turning pages on a book,</li>
-<li>Readers (and authors) are not yet comfortable reading through non-linear information.</li>
-</ul>
-<p>He predicted 2007 to be the year books would be finally replaced by online information.</p>
-<p>Looking back from 2022, none of his conditions are satisfied to the extent that books are no longer needed. there are still plenty of bookshops, selling plenty of books.</p>
-<p>Whilst there has been improvement in all three, addressing them point by point:</p>
-<ul>
-<li>only e-readers (such as the Kindle) are good and affordable enough for reading books on,</li>
-<li>web browsing has improved immensely, but at times I wonder if it is going backwards. Certainly the browser back button is often broken due to poor site design,</li>
-<li>readers are certainly more used to browsing the web in a non-linear fashion to find information quickly. I am not sure how keen they are on reading 300 page novels online though.</li>
-</ul>
-<p>Below are my thoughts on each of the chapters in the book.</p>
-<h3>1. Why Web Usability</h3>
-<p>The basic point made here is that bad usability equals no customers. That you are not just competing with other similar services, but with all services on the web. If a user can't easily figure out how to use your services online, they might end up spending their time and money on another, unrelated service instead.</p>
-<p>This point is certainly still very true. With one caveat, it doesn't apply to all the government services that are now online. If you need to file a tax return form online, you can only do this on the dedicated government site. It is probably why so many public sector websites had such poor usability, never mind accessibility in the past. But thanks to legislation the picture has now improved to the point where <a href="https://webaim.org/projects/million/#categories">public sector websites have least detectable accessibility errors</a> according to the latest WebAIM figures.</p>
-<h3>2. Page Design</h3>
-<p>This section begins by stating that site design is more important than page design from a usability perspective, because it is unlikely the first page a user lands on will be the correct one. This is still the case, even if Google (which had only just been founded when this book was published) does a good job at pointing you to the correct information.</p>
-<h4>Screen real estate</h4>
-<p>It then continues onto screen real estate in which most of the points made are still relevant. Don't waste space (which doesn't mean all white space is bad), use most of the available space for the content, minimise space dedicated to navigation and adverts (which if needed, should eat into the space dedicated to navigation). Whilst these principles still stand, unfortunately adverts rule the web and so few commercial pages follow them anymore.</p>
-<p>Next up it discusses how to deal with screen resolutions, and the fact that you cannot predict your users' browser environment. The book makes the point that you should not assume too much about that environment and make sure your design can adapt to the most common environments, including being careful how you use non-standard components (thankfully this is less of an issue now). These points are still valid, in fact they are a pre-cursor to responsive design and graceful degradation I suppose.</p>
-<p>It continues on to make the case for semantic markup which is now well understood even if not yet always implemented.</p>
-<h4>Download speeds</h4>
-<p>It also goes into quite some detail about download times and keeping these to a minimum (below one second). Whilst download times are no longer so relevant thanks to bandwidth improvements, the pure download speed problem has been replaced by the latency in the browser having to download many, often hundreds, of additional files and then process them before they can display a page. It means that despite all the advancements in browser tech, bandwidth, cloud caching and edge computing, very few websites meet the one second display time recommended here. That is a truly saddening turn of events. We've taken all the improvements in tech and made things worse.</p>
-<h4>Links</h4>
-<p>The book makes a lot of still valid points about links. The link titles should be meaningful and two links pointing to the same place should use the same URL, so the browser can indicate a link has already been visited.</p>
-<p>On this last point, I would say this is no longer relevant. Nor is the point about making links blue or underlining them. Users are now used to the fact that anything can be a link and don't care too much whether they have visited a link or not. Not that this is a usability improvement, but it is the current state of web design.  In fact these are now considered more to be accessibility issues than usability issues.</p>
-<p>Quite a bit of discussion on the need for outgoing links and not to be afraid of them. I think this is now well understood by most site owners.  A good point is made about incoming links. The only way to make these work, is to use permalinks. After 20 years the web is now awash with broken links, so it's kind of accepted that not all links work. But if an incoming link does not work, make sure to offer suitable alternatives on your error page to the user.</p>
-<p>The book does make the point that site registration breaks incoming links and leads to loss of users. Interestingly it also states that micropayments might take care of this. Unfortunately this never happened. Facebook, user tracking and selling our data happened instead.</p>
-<h4>CSS, Frames and printing</h4>
-<p>The points on CSS and frames are probably no longer relevant. The web is mature enough to make good use of the former and scarce use of the latter, although iframes are making something of a comeback now.</p>
-<p>It also covers how to make a webpage printable, although not using CSS, which probably wasn't standardised yet at the time. Instead it recommends linking to PDF (or PostScript) versions of the page. It does make the very important (and still 100% accurate) point that PDFs are for printing and not for reading on-screen. Don't make important information only available in PDF format.</p>
-<h3>3. Content design</h3>
-<p>Overall this section is still very applicable.  Users don't like reading online. Keep it simple, keep it to the point, enable users to scan pages. Use clear headings, bullet points and plain language. And employ a &quot;web editor&quot; - writing for the web is a difficult skill that needs to be learned.</p>
-<p>It covers the need for clear fonts and colour contrast and to avoid ALL CAPS content.</p>
-<p>The section then spends a lot of time on multimedia content. A lot of the considerations are only partially relevant now, since bandwidth and smartphones have made multimedia an ubiquitous part of the web in 2022.</p>
-<p>One point I disagree strongly with is that good sound can increase the user experience. Whilst true, it stems from the time when perhaps people browsed the web at home or in their own office. The point is also made that sound should be unobtrusive and quiet. Still it is infuriating when a website plays sound without me asking it to. If I start a video, or music file, I am happy to hear sound. Otherwise, keep quiet.</p>
-<p>Finally, I am happy to see this point made about content:</p>
-<blockquote>
-<p>Any time you use any format other than plain text and standard HTML, you risk depriving users with disabilities from being able to use your site.</p>
-</blockquote>
-<h3>4. Site design</h3>
-<p>This section hasn't really dated and thankfully the advice is largely followed nowadays. Key points are around the importance of an informative homepage, the scorn for splash pages and the pointlessness of under construction warnings. Websites are always under construction.</p>
-<p>It goes on to warn about metaphors from the real world, such as the shopping cart, because the user might not always understand them.  It does make the point that the online shopping cart had already back then become an interface standard and was no longer a metaphor.</p>
-<h4>Navigation and structure</h4>
-<p>The point is made that good site navigation is achieved when a user can answer the three questions:</p>
-<ul>
-<li>Where am I?</li>
-<li>Where have I been?</li>
-<li>Where can I go?</li>
-</ul>
-<p>I am not sure the second is still so relevant anymore, at least most  designs now don't try to indicate this anymore, unless through the means of breadcrumbs. Also your browser history could tell you where you have been.</p>
-<p>Structuring the site according to user needs, not the company's internal organisation is a well made point. It is now better understood, but still not universally applied.  The fact that the user is in control of where they want to go and not the site designer is also made and still very true. The need to reduce navigational clutter is also raised and has to some extent been addressed through expandable menus (eg hover menus, which have become &quot;click to open&quot; menus due to the lack of hover on smartphones).</p>
-<h4>Search</h4>
-<p>Since the book was written before Google completely redefined how finding information on the web works, the section on search is now not so relevant, except perhaps to intranets. I have yet to find an intranet with a decent search mechanism, often because the basic search algorithm considers all content equal. But keywords found in a page title are surely more important than when found in the main page content.</p>
-<p>Finally URLs themselves are discussed. But other than trying to keep them alive as long as possible, I am not sure URLs are very relevant anymore. Whilst users do sometimes try to guess a URL (I know I do), since most of the web is now browsed on a smartphone it is probably less the case. In addition the prevalence of walled gardens and closed apps has made URLs less of a thing - with the exception that they need to work of course.</p>
-<h3>5. Intranet Design</h3>
-<p>This is more about the business need for a good intranet than the actual design. User testing is key, along with an appropriate level of investment. The economic loss of poorly designed tasks in an intranet can costs millions when replicated daily by 1000s of employees. Still very relevant.</p>
-<h3>6. Accessibility for users with disabilities.</h3>
-<p>Quite a short section, maybe reflecting that this was still a niche consideration at the time. It does make the point that various legislation actually requires certain websites to be accessible. The techniques mentioned are all still very applicable today.</p>
-<p>Unfortunately the point was not heeded and accessibility (or lack of it) is still a major issue in 2022. This is despite the following prescient comment:</p>
-<blockquote>
-<p>Those of us who plan to be around for a few more years also have personal reasons to promote accessibility because as we get older, we will experience more disabilities ourselves.</p>
-</blockquote>
-<p>It looks like we only have ourselves to blame if we are unable to claim our online pensions due to accessibility reasons.</p>
-<h3>7. International Use</h3>
-<p>This chapter is interesting because it recognises that the web is global and you might need to consider the cultures and languages you design your site for. The points are still very relevant especially this one:</p>
-<blockquote>
-<p>Make translations bookmarkable: different URLs should be used for different translations of the same content so it can be bookmarked in the correct language.</p>
-</blockquote>
-<p>Overall I am not sure the problem of country / language / culture has yet been solved adequately on the web. Certainly not in any uniform manner that could be considered an &quot;interface standard&quot; such as the shopping cart. I am still too often displayed content in the wrong language because of poor assumptions and design choices.</p>
-<h3>8. Future Predictions</h3>
-<p>On the one hand this chapter is now largely irrelevant, on the other it is interesting to see if the predictions were correct. Many of the more specific predictions have not happened as predicted. Nevertheless, the underlying point that as the web becomes more common it will at some point be ubiquitous and change everything, has indeed happened.</p>
-<p>The chapter does predict mobile devices, although fails to foresee many of the effects of this, especially with respect to the pros and cons of social media and the power of big companies that run them. It does predict that <strong>privacy becomes precious</strong>, however assumes that users will be willing to pay for this privacy. Unfortunately it seems we are at the moment only too happy to give away our privacy for free. But privacy awareness is raising and maybe this will change in another 25 years time.</p>
-<p>The death of both browsers and newspapers is predicted. The former are still very much around, but having to contend with mobile apps and the power of the companies that profit from the app stores. The latter are clearly now struggling as a print media. Integrated media services are predicted to happen once bandwidth can support them. Welcome to the present day!</p>
-<h3>9. Conclusion: Simplicity in Web Design</h3>
-<p>The points raised here are still relevant today, but I feel the web is no longer something to be discovered and we spend less of our time trying to find new services and more of it simply using the ones we already know how to use. So the need to keep people on your site it's perhaps somewhat diminished.</p>
-<p>The virtual real-estate land has been divided up amongst the big players. Facebook, Google, Microsoft, Amazon and Apple are the obvious ones. However, within most sectors there are now established winners (Netflix, Strava, Spotify) and whilst competition is still rife, it is impossible to break into this without billions in financial backing. And even when you do, the most likely outcome is that your patch of virtual space will be bought. ie You will either be acquired or forced out.</p>
-<h3>Conclusion</h3>
-<p>The book has dated very well. Most of the points are still valid. Sadly few of them are universally applied. Still some way to go then.</p>
+<p>
+An incomplete list of the books I have read over time. 
+</p>
+ 
 
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
+<ul class="postlist">
   
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2022/the-state-of-the-art/">The State Of The Art</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">18</span> 
-            <span class="date-month">April</span>, 
-            <span class="date-year">2022</span>
-          </time>
-        </header>
-        
-          <h2>by Iain M. Banks</h2>
-<p>Interesting book of short stories, including one by the same name about the Culture observing Earth in the 70s. They decide to leave it in peace, as a &quot;control&quot; to better understand what happens to planets apparently intent on destroying themselves!</p>
-<p>Overall I enjoyed the stories. They are far easier to follow than his larger novels. Except for the last one, which was incomprehensible and appropriately named &quot;Scratch&quot;.</p>
-<p><a href="https://uk.bookshop.org/books/the-state-of-the-art/9781857230307"><img src="https://images-eu.bookshop.org/images/9781857230307.jpg?height=500" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a><a href="/archive/tagged/general/" class="post-tag">general</a>
-        </div>
-      </article>
+    <li>
+      <a href="/posts/2022/design-web-usability-a-retrospective/" class="post-title">Designing Web Usability: a retrospective</a>
+      <time class="postlist-date" datetime="2022-04-19">April 19, 2022</time>
+    </li>
   
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2022/hold-on-to-your-kids/">Hold on to your kids</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">9</span> 
-            <span class="date-month">February</span>, 
-            <span class="date-year">2022</span>
-          </time>
-        </header>
-        
-          <h2>by Dr Gordon Neufeld and Gabor Maté</h2>
-<p>This is an interesting read about the impact of modern society on our kids and their future. The overall premise is that our kids need to &quot;attach&quot; to their parents and other caring adults in their environment, rather than to their peers.  As the saying goes:</p>
-<blockquote>
-<p>it takes a village to raise a child</p>
-</blockquote>
-<p>The overall premise of the book is good in my opinion. For sure in our current society children are too &quot;peer-orientated&quot;, as the book calls it.  Interestingly the bulk of the book was written almost 20 years ago, so before the social media and internet revolution. The book adds a couple of chapters on this at the end, but doesn't add much in terms of how to deal with it, except to fight for the parent attachment of the kids.</p>
-<p>I do have some problems with the book though. First of all the length. The first 150 odd pages are about the need for children to attach to their parents. It repeats the message over and over again, until you are quite fed up with it.  But it also uses some spurious examples, with little in the way of peer reviewed references.  In one case using the entirely fictional &quot;Lord of the flies&quot; as evidence of what happens with &quot;peer-oriented&quot; children. In fact the <a href="https://www.theguardian.com/books/2020/may/09/the-real-lord-of-the-flies-what-happened-when-six-boys-were-shipwrecked-for-15-months">real world lord of the flies</a> turned out quite different.</p>
-<p>The next 100 pages then offer some solutions. These are helpful, but the issue is quite disheartening as you are essentially told to fight society. It doesn't reflect the reality of people's lives and I wonder whether the well meant advice really only works in specific, upper middle class environments.  The book acknowledges the difficulties of today's parents, but offers solutions which might well not work in their environments.</p>
-<p>In summary I liked the book and certainly agree with the issues of children's peer-orientation and lack attachment to their parents. I do feel though, that the book exaggerates both the impact and the possibilities to do anything about it, short of getting in a time machine and going back to some mythical 50s.</p>
-<p>In addition, despite the importance of adult attachment, we should not also forget that not all adults have the best interests of the children under their care at heart. The slow trickle of stories (turning into a bit of an avalanche now) of children having been abused by adults who were supposed to care for them is testament that it is not automatically the case that children are better off around adults. Rather, children should have a healthy mix of adults looking out for them, as well kids looking out for them too.</p>
-<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574709877l/40617055._SY475_.jpg" alt=""></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
+    <li>
+      <a href="/posts/2022/the-state-of-the-art/" class="post-title">The State Of The Art</a>
+      <time class="postlist-date" datetime="2022-04-18">April 18, 2022</time>
+    </li>
   
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2022/atomic-habits/">Atomic Habits</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">17</span> 
-            <span class="date-month">January</span>, 
-            <span class="date-year">2022</span>
-          </time>
-        </header>
-        
-          <h2>by James Clear</h2>
-<p>A well written book on how to get good habits to stick and bad habits to fade away.  Very entertaining with well chosen examples, including personal ones.</p>
-<p>The book is based around the author's four laws for building good habits:</p>
-<ol>
-<li>Make it obvious</li>
-<li>Make it attractive</li>
-<li>Make it easy</li>
-<li>Make it satisfying</li>
-</ol>
-<p>(I'm sure there's acronym to be found there somehow: OAES 😃)</p>
-<p>If you don't want to read the whole book then simply following guidelines in the final two tables on creating good habits and breaking bad ones is probably enough.  Additionally you could read the summary at the end of each chapter. Which is not to say you shouldn't read the whole book. It's definitely worth reading. Just that the book does a great job of efficiently summarising the key points to building good habits.</p>
-<p><a href="https://www.goodreads.com/book/show/40244063-atomic-habits"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529573787l/40244063.jpg" alt="&quot;Further information on this book&quot;"></a></p>
-<p>Useful links:</p>
-<ul>
-<li><a href="https://jamesclear.com/atomic-habits/resources">Atomic Habits Resources - James Clear</a></li>
+    <li>
+      <a href="/posts/2022/hold-on-to-your-kids/" class="post-title">Hold on to your kids</a>
+      <time class="postlist-date" datetime="2022-02-09">February 09, 2022</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2022/atomic-habits/" class="post-title">Atomic Habits</a>
+      <time class="postlist-date" datetime="2022-01-17">January 17, 2022</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2021/the-outsiders/" class="post-title">The Outsiders</a>
+      <time class="postlist-date" datetime="2021-12-03">December 03, 2021</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2021/use-of-weapons/" class="post-title">Use of weapons</a>
+      <time class="postlist-date" datetime="2021-11-29">November 29, 2021</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2021/one-second-after/" class="post-title">One second after</a>
+      <time class="postlist-date" datetime="2021-10-07">October 07, 2021</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2021/player-of-games/" class="post-title">The player of games</a>
+      <time class="postlist-date" datetime="2021-09-30">September 30, 2021</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2021/blindsight/" class="post-title">Blindsight</a>
+      <time class="postlist-date" datetime="2021-08-31">August 31, 2021</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2021/time-war/" class="post-title">This is How You Lose the Time War</a>
+      <time class="postlist-date" datetime="2021-01-31">January 31, 2021</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2020/martian-chronicles/" class="post-title">The Martian Chronicles</a>
+      <time class="postlist-date" datetime="2020-06-09">June 09, 2020</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2020/farenheit-451/" class="post-title">Farenheit 451</a>
+      <time class="postlist-date" datetime="2020-04-14">April 14, 2020</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2020/brave-new-world/" class="post-title">Brave New World</a>
+      <time class="postlist-date" datetime="2020-02-10">February 10, 2020</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2020/handmaids-tale/" class="post-title">Handmaid&#39;s Tale</a>
+      <time class="postlist-date" datetime="2020-01-15">January 15, 2020</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2020/one-hundred-years-of-soltitude/" class="post-title">One hundred years of soltitude</a>
+      <time class="postlist-date" datetime="2020-01-04">January 04, 2020</time>
+    </li>
+  
+    <li>
+      <a href="/posts/2019/consider-phlebas/" class="post-title">Consider Phlebas</a>
+      <time class="postlist-date" datetime="2019-12-12">December 12, 2019</time>
+    </li>
+  
 </ul>
 
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/the-outsiders/">The Outsiders</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">3</span> 
-            <span class="date-month">December</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <h2>by S.E. Hinton</h2>
-<p>Easy to read book written when the author was a 16 year old in the 60s. Finished it in a week. Makes a change to the Iain M. Banks books I've read recently. Some quite insightful commentary on the pace of life of the rich not allowing them to anytime to actually enjoy life. Instead always running after more more more in the rat race. Once they have everything they need they still need to find something to run after. Also commentary on the poor never having anything but being more honest and down to earth, even if they are stealing and breaking the law. Otherwise a straightforward story with some violence, but not described in any real detail by today's standards.</p>
-<p><a href="https://www.goodreads.com/book/show/7840334-the-outsiders"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599948067l/7840334._SY475_.jpg" alt="More info on the book"></a></p>
 
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/use-of-weapons/">Use of weapons</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">29</span> 
-            <span class="date-month">November</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <h2>by Iain M. Banks</h2>
-<p>Very well written book with an interesting way of telling the story forward and backwards at the same time.  I do find it helps to check my understanding of the author's books by reading online reviews and critiques, as I am otherwise missing details.</p>
-<p><a href="https://uk.bookshop.org/books/use-of-weapons/9781857231359"><img src="https://images-eu.bookshop.org/images/9781857231359.jpg?height=500&amp;v=v4" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/one-second-after/">One second after</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">7</span> 
-            <span class="date-month">October</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <h3>by William R. Forstchen</h3>
-<p>Easy to read story depicting how quickly our very civilized societies can be returned to the middle ages, feudal systems, sky high death rates and even cannibalism. A real page turner, which I finished over the course of a week. The back story is a little too &quot;we're American, how could this happen&quot;, but the detail of what happens when anything electrical stops working is all too alarming. Highly recommended.</p>
-<p><a href="https://www.goodreads.com/book/show/4922079-one-second-after"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1316728333l/4922079.jpg" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/player-of-games/">The player of games</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">30</span> 
-            <span class="date-month">September</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <h3>by Iain M. Banks</h3>
-<p>Great book from one of the all time greats of science fiction. An Intergalactic game of Risk determines the fate of the main protagonists and the future of billions.</p>
-<p><a href="https://uk.bookshop.org/books/the-player-of-games-a-culture-novel/9781857231465"><img src="https://images-eu.bookshop.org/images/9781857231465.jpg?height=500&amp;v=v4" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/blindsight/">Blindsight</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">31</span> 
-            <span class="date-month">August</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <h3>by Peter Watts</h3>
-<p>A well written hard science fiction book. The hard science can be difficult follow at times, but the concepts and storyline are original.</p>
-<p><a href="https://www.goodreads.com/book/show/48484.Blindsight"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924412l/48484.jpg" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/time-war/">This is How You Lose the Time War</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">31</span> 
-            <span class="date-month">January</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <h3>by Amal El-Mohtar and Max Gladstone</h3>
-<p>An interesting approach to cooperating on a book with each author &quot;playing&quot; one of the two spies chasing each other through time and space.</p>
-<p><a href="https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545755487l/43352954._SX318_.jpg" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2020/martian-chronicles/">The Martian Chronicles</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">9</span> 
-            <span class="date-month">June</span>, 
-            <span class="date-year">2020</span>
-          </time>
-        </header>
-        
-          <h2>by Ray Bradbury</h2>
-<p>Sci-fi book about the colonisation of Mars by Earthlings!  I like these sci-fi books from the 50s because even if the technology is all dated, the story and concepts are fresh and intriguing. Very nice story.</p>
-<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374049948l/76778.jpg" alt="The Martian Chronicles book cover"></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2020/farenheit-451/">Farenheit 451</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">14</span> 
-            <span class="date-month">April</span>, 
-            <span class="date-year">2020</span>
-          </time>
-        </header>
-        
-          <h2>by Ray Bradbury</h2>
-<p>Story set in the future about an oppressive government that controls its citizens by burning all the books and keeping them entertained through television and social media like services. Somewhat prescient, given the current state of the media, especially social media and that the book was written in 1953.</p>
-<p><img src="https://images-eu.bookshop.org/images/9780006546061.jpg?height=500&amp;v=v4" alt="Farenheit 451 book cover"></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2020/brave-new-world/">Brave New World</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">10</span> 
-            <span class="date-month">February</span>, 
-            <span class="date-year">2020</span>
-          </time>
-        </header>
-        
-          <p>Very interesting read and incredibly prescient for a book written in the 1930s. Well worth reading.</p>
-<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551151249l/3180338._SY475_.jpg" alt=""></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2020/handmaids-tale/">Handmaid&#39;s Tale</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">15</span> 
-            <span class="date-month">January</span>, 
-            <span class="date-year">2020</span>
-          </time>
-        </header>
-        
-          <h2>by Margaret Atwood</h2>
-<p>Good read, interesting alternate future scenario on the oppression of women by men.</p>
-<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578028274l/38447._SY475_.jpg" alt="Handmaid's tale book cover"></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2020/one-hundred-years-of-soltitude/">One hundred years of soltitude</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">4</span> 
-            <span class="date-month">January</span>, 
-            <span class="date-year">2020</span>
-          </time>
-        </header>
-        
-          <p>Fantastically written book about, quite a different style to other books.</p>
-<p><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361l/320.jpg" alt=""></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2019/consider-phlebas/">Consider Phlebas</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">12</span> 
-            <span class="date-month">December</span>, 
-            <span class="date-year">2019</span>
-          </time>
-        </header>
-        
-          <h2>by Iain M. banks</h2>
-<p>Interesting read setting the scene for the other Culture novels, although there is no real continuity between the novels. It describes the galactic battles between the Culture and Idirans on a scale hard to imagine, but well brought to life in the novel.  Also a good introduction to the authors style for writing science fiction. I find it hard to read, but the stories are interesting enough to make me want to continue. And let's not mention the names he comes up with!</p>
-<p><a href="https://www.goodreads.com/book/show/8935689-consider-phlebas"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327951890l/8935689.jpg" alt="&quot;Further information on this book&quot;"></a></p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/reading/" class="post-tag">reading</a>
-        </div>
-      </article>
-    
-  <nav class="paging" aria-label="pagination">
-    <ul>
-      <li>First</li>
-      <li>Previous</li>
-      <li>Next</li>
-      <li>Last</li>
-    </ul>
-  </nav>
-</div> 
 
 
 
