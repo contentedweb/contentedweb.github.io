@@ -100,98 +100,41 @@
       <hr aria-hidden="true"/>
       <article>
         <header>
-          <h2><a href="/posts/2012/ubuntu-useful-hints/">Ubuntu useful hints</a></h2>
+          <h2><a href="/posts/2012/accessible-hover-image-links/">Accessible hover image links</a></h2>
           <time datetime="Invalid DateTime">
-            <span class="date-day">9</span> 
-            <span class="date-month">March</span>, 
+            <span class="date-day">25</span> 
+            <span class="date-month">May</span>, 
             <span class="date-year">2012</span>
           </time>
         </header>
         
-          <p>In this post I will be maintaing a list of useful hints for future reference.</p>
-<p><strong>Mouse speed</strong></p>
-<p>I find the default mouse speed much too fast. And even after reducing both speed and acceleration to a minimum it is still too fast. Some googling through up this handy hint:</p>
-<p><a href="http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/">http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/</a></p>
-<p>So I ran these commands:<code></code></p>
-<p><code>xinput --list --short<br />
-xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br />
-</code></p>
+          <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
 ---
-<p><strong>View hidden files in browser:</strong> CTRL+H</p>
-<p><strong>List only directories:</strong> ls -l | grep ^d</p>
-<p>This, if I understand it properly, takes a list in "long" format, pipes it through grep and includes only lines starting with "d". d being the directory indicator.</p>
-<p><strong>Windows Manager</strong></p>
-<p>To get the Compiz working in Ubuntu, install CompizConfig Settings Manager: sudo apt-get install compizconfig-settings-manager</p>
-<p>Moving window to next screen (on dual monitor): CompizConfig Settings Manager -&gt; Window Management -&gt; Put -&gt; Bindings (tab) -&gt; Put To Next Output (keyboard shortcut)</p>
-<p><strong>Handy shortcuts</strong></p>
-<p>http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html</p>
-<p><strong>Default programs/extensions</strong></p>
-<p>Useful info here: http://askubuntu.com/questions/16580/where-are-file-associations-stored</p>
-<p>Associations are located here: ~/.local/share/applications/mimeapps.list<br /><strong>Mounting Windows drive on startup</strong></p>
-<p>This is done using fstab, see here: <a href="http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions">http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions</a></p>
-<p>Also had to prevent auto-mounting by Nautilus: <a href="http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences">http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences</a></p>
+<p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
+<p>HTML:</p>
+<pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
+ &lt;img alt="Facebook" src="Facebook_Icon.png"&gt;
+&lt;/a&gt;</pre>
+<p>CSS:</p>
+<pre>.social-links a.facebook {
+  background:url(Facebook_Icon_On.png) no-repeat;
+}
+<p>.social-links a.facebook:hover img {<br>
+display:none;<br>
+border: 1px solid #000;<br>
+}</pre></p>
+<p>This technique is rather straightforward. There's an image, with meaningful alt text for accessibility, wrapped in a anchor tag. The anchor tag itself has a background image with appropriate height and width all set using CSS. The key is the :hover pseudo-class that hides the image using "display:none;". When the image is hidden, you see the background image of the anchor tag. The anchor tag itself is still clickable due to it's fixed height and width.</p>
+<p>Having tested this technique in all modern mainstream browsers (ie latest versions of IE, Opera, Firefox, Chrome and Safari) it copes with the following situations better than many more complex techniques.</p>
+<ul>
+<li><strong>CSS <em>on</em>, Images <em>on</em></strong>: Works as you would expect</li>
+<li><strong>CSS <em>off</em>, Images <em>on</em></strong>: Page lays out in basic fashion. Image hover doesn't work, but links do.</li>
+<li><strong>CSS <em>on</em>, Images <em>off</em>:</strong> Images replaced by Alt text. Hover creats  a border to create active feel.</li>
+<li><strong>CSS <em>off</em>, Images <em>off</em>:</strong> This would be more or less how a screen reader might see the page. The Image is replaced by it's alt text and the link thus remains meaningful.</li>
+</ul>
+<p>Simple, but effective.</p>
+
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2012/ubuntu-on-windows-7/">Using Google to install Ubuntu on a separate hard disk without touching Windows 7</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">29</span> 
-            <span class="date-month">February</span>, 
-            <span class="date-year">2012</span>
-          </time>
-        </header>
-        
-          <p>As we develop more and more Wordpress sites at Minervation, Linux is becoming an operating system I can no longer ignore. Sure Wordpress runs just fine on Windows however most of the information written about Wordpress pertains to Linux and Apache. It also makes little sense to pay licence fees in order to use Open Source Software. So I decided to install Ubuntu Linux on my PC over the weekend.</p>
----
-<p>What has this got to do with Google searching? Well my requirements for installing Ubuntu were quite specific but not unusual (or at least I thought so): Ubuntu needs to be on a separate hard disk and not touch my Windows 7 hard disk in anyway, <em>whatsoever</em>. My entire work life is on my Windows hard disk so I couldn't risk it being corrupted in anyway. I have used Ubuntu using their excellent Wubi installer as well using Virtual Machines, but that was not what I wanted. My aim was a clean install as the main OS on a separate hard disk on my PC with a bootloader to choose which OS to boot into.</p>
-<p>So I downloaded the iso file for my system from the Ubuntu website and burnt it to a CD. I then started to search the web for instructions on how to achieve what I wanted. My main premise with anything technical is always that someone has:</p>
-<p>a) already solved this problem<br />b) written about it in on the web</p>
-<p>I am not so foolish to believe that I am the first one to come across my specific problem.</p>
-<p>So I started searching the web with searches such as:</p>
-<blockquote>
-<p>install ubuntu windows 7 on separate hard disk</p>
-</blockquote>
-<p>This led me to lots of useful links about installing Ubuntu, but interestingly most of them would mess with my Windows 7 disk in order give me the option to choose Ubuntu on starting the PC. I really didn't want to touch that hard disk. After reading through lots and lots info I came across this link:</p>
-<p><a title="Installing Ubuntu and Windows 7 on seperate drives" href="http://forums.techarena.in/operating-systems/1258191.htm" target="_blank" rel="noopener">http://forums.techarena.in/operating-systems/1258191.htm</a></p>
-<p>Where the <a href="http://forums.techarena.in/operating-systems/1258191.htm#post4650143" target="_blank" rel="noopener">final comment by Rudra.J</a> suggested exactly what I was looking for:</p>
-<blockquote>
-<p>...just change the disk boot priority and make the ubuntu as the first disk. Now boot into ubuntu and run the following command</p>
-<p>... [example code to edit GRUB]...</p>
-<p>I am considering there are two hard disk and on the first one, you have installed Ubuntu and Windows 7 on the second hard disk after changing the disk priority. Ubuntu is the first disk here and Windows 7 is the second disk so for ubuntu the disk is hd0,0 and for Windows 7 it is hd1,0. This above will let to add a boot entry in Ubuntu's boot loader [grub] without making any changes to any disk's MBR. This means even if there occurs any problem in any of one disk, the other OS will remain intact.</p>
-</blockquote>
-<p>All the other suggestions were to have the Windows disk with highest boot priority, but this would involve messing with the MBR on the Windows disk. This I really did not want.</p>
-<p>So it was time to install Ubuntu. Many posts also suggested disconnecting the Windows disk whilst installing Ubuntu and I decided this was prudent. So I disconnected that disk, placed my Ubuntu CD into the cd drive and rebooted. The installation went smoothly and took about 15 minutes.</p>
-<p>I then reconnected my Windows 7 drive and set it to priority one to check that Windows was still working. It was. Reboot again. Set Ubuntu drive to priority one and log into Ubuntu. Obviously I didn't want to switch drive priorities in the BIOS everytime I changed OS. So I ran the example code in the above comment and rebooted. And landed straight back in Ubuntu. I was given no choice to switch to Windows. Not ideal.</p>
-<p>I then noted that the comment was from a couple of years back and might be outdated, so I started searching for GRUB and Ubuntu</p>
-<blockquote>
-<p>ubuntu grub</p>
-</blockquote>
-<p>After reading through a bunch of info on this it became clear that there is now a GRUB2 and that this the default in Ubuntu for quite some time:</p>
-<p><a title="GRUB2 - Ubuntu" href="https://help.ubuntu.com/community/Grub2" target="_blank" rel="noopener">https://help.ubuntu.com/community/Grub2</a></p>
-<p>So I refined my search to:</p>
-<blockquote>
-<p>ubuntu grub2 Windows 7</p>
-</blockquote>
-<p>This had lots of useful info and led me to this thread:</p>
-<p><a href="http://ubuntuforums.org/showthread.php?t=1264354" target="_blank" rel="noopener">Grub2 won't load Windows 7 (which is on second hard drive)</a></p>
-<p>Which was exactly my situation. Lots of info in here about editing files and whatnot, but hidden away amongst them was this <a href="http://ubuntuforums.org/showthread.php?t=1264354#post8768311" target="_blank" rel="noopener">gem of a suggestion by Mark Phelps</a></p>
-<blockquote>
-<p>Did you try just letting GRUB2 find Win7 and add its own entries?</p>
-<p>I have multiple drives, with Win7 NOT on the first drive, I boot from one of my Ubuntu drives -- and GRUB2 found the Win7 OS just fine when I ran update-grub.</p>
-</blockquote>
-<p>So back in an Ubuntu terminal I ran:</p>
-<blockquote>
-<p>sudo update-grub</p>
-</blockquote>
-<p>And, hey presto, I now have Windows 7 as an option when my PC boots up and I never touched the Windows 7 hard disk. Mission accomplished.</p>
-<p>And a big thanks to all the bloggers, forum frequenters, documentation writers and of course Google for helping me accomplishing my aim.</p>
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/a11y/" class="post-tag">a11y</a><a href="/archive/tagged/development/" class="post-tag">development</a>
         </div>
       </article>
   
@@ -213,7 +156,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>On the other hand I can see why Google have introduced this feature and why they take the approach that they do. All sites nowadays are filled with Javascript and Ajax calls. On the ones who do this properly you won't really notice.  But on lots and lots of sites the page gets reformatted slightly about 2 seconds after it initially got displayed. This is <em><strong>really</strong></em> annoying if you've just read the first sentence and then text text shifts. Or you're about to click a link and then the text shifts so you click another link. Both of these have been happening more often recently, especially when browsing on my six year old laptop. And I must say: <strong>It is really annoying</strong>.</p>
 <p>So I can fully understand why they are measuring this.  I do hope though that their algorithm is clever enough to evaluate what the consequence of the extra loading to the end user is. Do they take into account how quickly the initial content loads? Do they measure how the text displaces after the Javascript has finished? I sure hope so.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/ux/" class="post-tag">ux</a><a href="/archive/tagged/google/" class="post-tag">google</a><a href="/archive/tagged/development/" class="post-tag">development</a>
         </div>
       </article>
   
@@ -237,7 +180,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 </blockquote>
 <p>Comments welcome via Twitter: <a title="Tweet me." href="http://twitter.com/rmassart">@rmassart</a>.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/a11y/" class="post-tag">a11y</a><a href="/archive/tagged/development/" class="post-tag">development</a><a href="/archive/tagged/standards/" class="post-tag">standards</a>
         </div>
       </article>
   
@@ -274,7 +217,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 </ul>
 <p>I see that a had full of prominent web developers have recently started something similar with the <a href="http://futurefriend.ly/">Future Friendly</a> website. It would be great if they could capture their thoughts on that website in one paragraph a little like the agile manifesto did. Something that you can point your client to or fit on a small flyer to give them to take home.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/standards/" class="post-tag">standards</a><a href="/archive/tagged/browsers/" class="post-tag">browsers</a>
         </div>
       </article>
   
@@ -344,7 +287,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <li><a href="http://www.abookapart.com/">Any of the books published by A Book Apart</a></li>
 </ul>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/development/" class="post-tag">development</a>
         </div>
       </article>
   
@@ -365,7 +308,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 ---
 
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/development/" class="post-tag">development</a><a href="/archive/tagged/ux/" class="post-tag">ux</a>
         </div>
       </article>
   
@@ -405,7 +348,31 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>Not that it really matters. In my opinion the choice of browser has become irrelevant. That is not to say browsers are irrelevant though, just the choice.  It also means there is no reason for Windows users (at least those not on XP or earlier) to switch <em>from</em> Internet Explorer 9. In the end Microsoft has, even if not intentionally, got what it wanted: ensure Windows users browse the web using Microsoft technology.</p>
 <p>On the otherhand, even that is not relevant anymore. Whilst at the Enterprise level Windows will remain the dominant player, at the consumer level the Internet will be accessed using gadgets running any number of operating systems. No matter whether it is iPhone, iPads, Galaxys, Nexus' or wrist watches. The consumer based Internet is moving  away from being merely the world wide web and towards being truly ubiquitous. Give it a few more years and "browsing the web" will be only a small part of what we do on the Internet everyday.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/browsers/" class="post-tag">browsers</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
+          <h2><a href="/posts/2011/botch-job/">Botch job</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">9</span> 
+            <span class="date-month">March</span>, 
+            <span class="date-year">2011</span>
+          </time>
+        </header>
+        
+          <p>Does this sound familiar?</p>
+<blockquote>
+<p>'As for repair', he said, 'well, I don't know about repair. Rebuild, maybe. Of course, it's hard to get the bristles these days even if you can find people to do the proper binding, and the spells need...'<br />'I don't want it rebuilt, I just want it to work properly,' said Granny.<br />'It's an early model, you see', the dwarf plugged on. 'Very tricky, those early models. You can't get the wood...'<br />He was picked up bodily until his eyes were level with Granny's. Dwarves, being magical in themselves, as it were, are quite resistant to magic but her expression looked as though she was trying to weld his eyeballs to the back of his skull.<br />'Just repair it,' she hissed. 'Please?'<br />'What, make a bodge job?' said the dwarf, his pipe clattering to the floor.<br />'Yes.'<br />'Patch it up, you mean? Betray my training by doing a half job?'<br />'Yes,' said Granny. Her pupils were two little black holes.<br />'Oh,' said the dwarf. 'Right, then.'</p>
+<p class="author">Equal Rites, Terry Pratchett</p>
+</blockquote>
+<p>You're certainly not the first to do (or request!) a botch job and nor will you be the last...</p>
+---
+
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/programming/" class="post-tag">programming</a><a href="/archive/tagged/discworld/" class="post-tag">discworld</a><a href="/archive/tagged/quotes/" class="post-tag">quotes</a>
         </div>
       </article>
   
@@ -426,7 +393,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>Well, shortly after reading the above article, I also came across this one by Tim Berners-Lee, called <a href="http://www.scientificamerican.com/article.cfm?id=long-live-the-web">Long Live the Web: A Call for Continued Open Standards and Neutrality</a> written on the 20th Anniversary of the Web (November 22, 2010) in <a href="http://www.scientificamerican.com/">Scientific American</a>. Largely about net neutrality, he also raises the idea of linked data and gives the fight against Alzheimers as an example of how it is already being put to use. So imagine a real-time linked data network of information designed to spot unusual trades on the world's financial markets and to link this back to those pulling the strings. We already have the ability to spot such trades as well as the ability link them to events that have happened. Once we can do this in real-time I think the ability to avert, or at least to perpare for, certain events should be within our grasp. I just hope we don't end up in a world like the one in <a href="http://en.wikipedia.org/wiki/Minority_Report_%28film%29">Minority Report</a>. Or maybe it will be more like the Issac Assimov's <a href="http://en.wikipedia.org/wiki/Foundation_series">Foundation Series</a> and their use of "psychohistory" to predict the future.</p>
 <p>Where it will really get interesting is when people, knowing about the existence of such a system, still try to gain financially from such attacks. They will be trying to game the system. A bit like certain sites try to game Google's AdWords system.  Perhaps Google will be the police as they have as good an insight into online behaviour as anybody. But what about privacy concerns? This discussion is endless, so I'll just leave it at that for now.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/conspiracy/" class="post-tag">conspiracy</a>
         </div>
       </article>
   
@@ -446,7 +413,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>This image has been doing the rounds recently. I think it represents all that one really needs to know about privacy on the internet. And I think it's also really important that everyone has this image pop into their minds whenever they are wondering about their privacy and am therefore reposting it here to help spread the knowledge!</p>
 <p><a href="http://www.flickr.com/photos/buriednexttoyou/5095255302/">Link to original image by Dave Hoffman</a></p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/privacy/" class="post-tag">privacy</a>
         </div>
       </article>
   
@@ -490,7 +457,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>I bought it the evening before going on holiday for some light reading whilst away. Unfortunately (for my holiday reading plans) I finished it before going to bed that day. It is clearly written, easy to understand and has just the right level of humour to keep you enternained for a couple of hours. At $9 for the ebook that makes it better value than a trip to the cinema.</p>
 <p>HTML5 For Web Designers is an enjoyable and informative read. I would recommend it to anybody who has a few years web design experience, but, like me, has not kept up-to-date with HTML5. Well, HTML5 is about to land on your website and this book is the perfect way to get up to speed. The ebook version is sufficient in my opinion and a bargain, costing no more than a couple of pints of fine ale in central London. But if you want add some colour to your bookshelf collecting the upcoming A Book Apart series of publications appears to be a good way of doing so.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/html/" class="post-tag">html</a><a href="/archive/tagged/review/" class="post-tag">review</a><a href="/archive/tagged/reading/" class="post-tag">reading</a><a href="/archive/tagged/book/" class="post-tag">book</a>
         </div>
       </article>
   
@@ -511,7 +478,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>I would love to now go onto to give a detailed description of the Semantic Web. Sadly, I have to admit that, having read a fair amount of material concerning the Semantic Web, I am now even more confused than before! If you are interested, www.semanticweb.org is a good place to start. To me, my confusion just shows the complexity of the task ahead. For, whilst it is not difficult to understand the specs for HTML, XHTML, CSS and DOM and with a bit of effort those of XML and its components, trying to get to grips with the Semantic Web is another thing altogether for the Semantic Web novice. If you thought XML was overflowing with acronyms, you should take a look at the Semantic Web. On top of this terms such as ontology, inference, assertion, axiom, intractability and higher order logic are commonly encountered and hint at the fact that this task encompasses linguistics, mathematics and metaphysics. The whole exercise appears to take on a philosophical nature. There's certainly a lot of debating going on.</p>
 <p>It is important to note right now though, that the Semantic Web is far from complete and certainly not available as a finished product along the lines of HTML or XML. On the other hand the sheer scale of the undertaking coupled with its very open approach means that the possibilities could be quite frightening. It may well make the Matrix look like kids stuff. Artificial Intelligence, though, is one thing the Semantic Web definitely is not. The Semantic Web is not attempting to make machines understand our language. Rather, it is trying to define a way to allow us to express ourselves in more detail to machines.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/semantic/" class="post-tag">semantic</a>
         </div>
       </article>
   
@@ -533,7 +500,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>If you have read this far you may well get the impression that I am a little skeptical about XML. This is not quite true. I believe XML is a very powerful tool for making business interactions a lot easier and more standardized. What I am skeptical about, though, is much of the hype I have read about XML, the worst of which is along the lines of "XML will empower computers to do business by themselves". Let's get one thing straight, XML cannot and never will do such a thing. Either I am completely missing the point or there's a lot of rubbish being written about XML by people who should know better. The problem which this creates is that people who have no reason to know better believe the hype and expect XML to do things it cannot do.</p>
 <p>In XML, the program interpreting the XML code, whilst being able to determine whether the XML is correct through the DTD and how to display the content using XSLT, can have no idea about the actual meaning of the information it is handling. Thus, whilst an XML interpreter may be able to correctly display a tag such as &lt;ADDRESS&gt; and will be able to determine that the an element of type ADDRESS can contain other elements such as &lt;POSTCODE&gt;, &lt;STREET&gt; and &lt;CITY&gt;, it has no way of knowing that an address is the location of someone's home or office. Of course it may well know what to do with the data because the businesses exchanging the data have previously agreed what these tags are for. However, the sort of thing described above implies that I can write my own XML file, say about aerodynamics, and send it to any XML interpreter. This will, upon processing the file, know that my &lt;LIFT&gt; tag refers to the aerodynamic upward force generated by a suitably shaped wing, and not to a cabin enabling vertical movement in a large building. This is what I understand by the claim, "XML will empower computers to do business by themselves". XML cannot and never will be able to this.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/xml/" class="post-tag">xml</a>
         </div>
       </article>
   
@@ -554,7 +521,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>Why have standards in the first place? The need for standards is mainly business driven. They enable different businesses to interact in a common and pre-defined way. Much like there is only one ?standard? kilogram, so there should only be one standard version of HTML 4.01. Imagine the confusion if every supermarket had its own definition of the kilogram. Well, this unthinkable situation has plagued the web for years. In the early days, when web standards were somewhat basic, the two main browser vendors decided on their own interpretation of HTML. They often added their own elements to increase functionality and usability. What resulted was an unprecedented mess for the web developers. Any web page worth its salt had to be written at least twice. The extra cost to business was and still is enormous.</p>
 <p>In defence of the early browsers, much of the apathy towards standards was on the grounds that existing standards were limited and failed to keep up with the possibilities of the web. On the other hand, whilst it takes time to develop sound standards, those for HTML 4.01, CSS 2 and DOM 2 have been around since roughly the turn of the century. So it is in fact the browser vendors who have been dragging their heels. In particular the market leader who understandably has little interest in fully supporting standards.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/standards/" class="post-tag">standards</a>
         </div>
       </article>
   
@@ -574,7 +541,45 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>Microsoft quickly realized that browser technology had the ability to supplant the operating system as the base element for computer users. In short, what operating system you used would be immaterial as long as you had a good web browser. This of course threatened the whole of Microsoft?s business model and they quickly developed a browser of their own, Internet Explorer, pushing its capabilities quicker than web standards could be fully developed and completely integrating it into it's Windows OS. Thus 90% of home computer users effectively had IE thrust on them overnight ? with no way of removing it if they didn't like it. The rest as they say "is history". IE became the de-facto standard and Netscape more or less went bust, being bought by AOL (who, curiously, themselves relied on IE browser technology). The internet has suffered ever since (and Microsoft has landed in a number of courts around the world on anti-trust and abuse of market power charges).</p>
 <p>Instead of one standard, the web ended up with a "one plus many" standard, where web developers had to cover a multitude of browsers, effectively at least doubling their work. Only recently have web standards made a strong comeback. And thanks to the efforts of the largely standards compliant browsers Mozilla, Opera and others are actually being followed. With universal support for HTML4.01 (at the least) more or less upon us, the future of the web appears to be back on the right track.</p>
         
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a>
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/history/" class="post-tag">history</a><a href="/archive/tagged/browsers/" class="post-tag">browsers</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
+          <h2><a href="/posts/2001/web-based-investment-banking-applications/">Web based investment banking applications</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">31</span> 
+            <span class="date-month">December</span>, 
+            <span class="date-year">2001</span>
+          </time>
+        </header>
+        
+          <h2>I spent three years developing large n-tier web based applications whilst working for <a href="https://dealogic.com">Dealogic</a>. No other links, as this is all internal client work.</h2>
+
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a><a href="/archive/tagged/web/" class="post-tag">web</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
+          <h2><a href="/posts/1999/web-based-astronaut-training-database/">Web Based Astronaut Training Database</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">31</span> 
+            <span class="date-month">December</span>, 
+            <span class="date-year">1999</span>
+          </time>
+        </header>
+        
+          <p>In my very first job after University, at Vega GmbH in Darmstadt, Germany, I worked on an astronaut training database for the European Astronaut Centre in Cologne. This was a browser based application that was used to train astronauts how to use various instruments that they would be using on the International Space Station. It was great fun, included lots media, videos and interactivity and was quite an advanced web application for the late 90s.</p>
+<p><a href="http://www.vega.de/">Vega GmbH</a></p>
+<h2><a href="http://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Astronauts/The_European_Astronaut_Centre">European Astronaut Centre</a></h2>
+
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a><a href="/archive/tagged/web/" class="post-tag">web</a>
         </div>
       </article>
     
