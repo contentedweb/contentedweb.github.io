@@ -1627,12 +1627,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/new-zealand/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/new-zealand/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
@@ -1682,16 +1682,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/pi/</loc>
-    <lastmod>2022-04-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/math/</loc>
-    <lastmod>2022-04-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/history/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
@@ -1702,12 +1692,27 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/pi/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/math/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/bulgaria/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/semantic/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/standards/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
@@ -1727,12 +1732,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/conspiracy/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/conspiracy/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
@@ -1767,16 +1772,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/standards/</loc>
-    <lastmod>2022-04-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
-    <lastmod>2022-04-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
@@ -1798,6 +1793,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/gold/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
@@ -2017,12 +2017,112 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/walk/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/food/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/javascript/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/batak/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/f1/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/covid/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/vaccines/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/eleventy/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/webmentions/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/forestry/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/cms/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/gitpod/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/jamstack/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/education/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/walk/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/hosting/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/netlify/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/wordpress/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/gdpr/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/rss/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/netlifycms/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/facebook/</loc>
+    <lastmod>2022-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/social-media/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
@@ -2033,11 +2133,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/fun/</loc>
-    <lastmod>2022-04-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/vaccines/</loc>
     <lastmod>2022-04-28</lastmod>
   </url>
   
