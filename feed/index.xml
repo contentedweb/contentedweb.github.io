@@ -6,13 +6,24 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-04-19T04:18:37Z</updated>
+	<updated>2022-05-01T03:47:29Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Mersch not quite circular walk</title>
+		<link href="https://www.contentedweb.com/posts/2022/mersch-not-quite-circular-walk/"/>
+		<updated>2022-05-01T03:47:29Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/mersch-not-quite-circular-walk/</id>
+		<content type="html">&lt;p&gt;I was hoping to do another circular walk, this time the one around Mersch. Unfortunately we took a wrong turn near the beginning and ended up a new part of the PC 14 cycle path heading to Schoenfels castle instead. Still it was a nice comfortable 7km walk taking about 2 hours at leisurely stroll with a dog more interested in smelling the flowers (and less pleasant things) than walking!&lt;/p&gt;
+&lt;p&gt;Here&#39;s a photo of the castle. Not exciting, but they apparently use it as a homeless shelter - or at least it houses the local &lt;a href=&quot;http://stemm.lu/en/about-us/&quot;&gt;homeless charity stemm.lu&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52041423247_720f0cc492_c.jpg&quot; alt=&quot;Schoenfels castle&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Designing Web Usability: a retrospective</title>
@@ -308,17 +319,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://jamesclear.com/atomic-habits/resources&quot;&gt;Atomic Habits Resources - James Clear&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Dependency</title>
-		<link href="https://www.contentedweb.com/posts/2022/dependency/"/>
-		<updated>2022-01-14T10:28:08Z</updated>
-		<id>https://www.contentedweb.com/posts/2022/dependency/</id>
-		<content type="html">&lt;p&gt;This &lt;a href=&quot;https://xkcd.com/2347/&quot;&gt;xkcd comic&lt;/a&gt; pretty much sums up the state of things on the internet:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/dependency.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;and probably elsewhere too. The &lt;a href=&quot;https://www.ncsc.gov.uk/information/log4j-vulnerability-what-everyone-needs-to-know&quot;&gt;log4js vulnerability&lt;/a&gt; comes to mind.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
