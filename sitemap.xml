@@ -1722,11 +1722,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/html/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
@@ -1782,12 +1777,22 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/windows/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/speech-recognition/</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/windows/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   
@@ -1798,11 +1803,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/gold/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   
@@ -1823,6 +1823,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/computers/</loc>
+    <lastmod>2022-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/flickr/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   
@@ -1898,11 +1903,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/brussels/</loc>
-    <lastmod>2022-05-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/flickr/</loc>
     <lastmod>2022-05-01</lastmod>
   </url>
   
