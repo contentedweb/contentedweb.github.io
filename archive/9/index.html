@@ -100,6 +100,29 @@
       <hr aria-hidden="true"/>
       <article>
         <header>
+          <h2><a href="/posts/2012/pif-redesign/">PiF redesign</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">16</span> 
+            <span class="date-month">December</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p><img src="/assets/images/pif-wp.png" alt="PiF Homepage" width="300" height="201" /></p>
+<p>Minervation have now launched the redesigned Patient Information Forum website. It has been moved to Wordpress and given a very nice facelift.  As I no longer work for Minervation my involvement was limited to the initial recommendations as to plugins and so on.</p>
+---
+<p>Well done to the team at Minervation and congratulations to PiF on their new website. Why not <a title="Join PiF" href="http://www.pifonline.org.uk/membership/membership-categories/">join PiF</a> to keep up-to-date on the latest developments in patient information?</p>
+<p><strong>Launch date:</strong> December 2012</p>
+<h2>Links</h2>
+<p><a href="http://www.pifonline.org.uk/">The Patient Information Forum</a></p>
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
           <h2><a href="/posts/2012/acta-community-theatre/">ACTA Community Theatre</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">7</span> 
@@ -533,47 +556,6 @@
 <p>Web design will continue to be a core aspect of publishing on the web, but it will focus less on over all site design and more on helping users to get at your content in an easy manner. I even wonder whether it will embrace aspects of print design? Perhaps a site will have a well designed, or branded, homepage (but not a splash screen!) with links to content who's design is more conservative, but respects best practices.&nbsp; I think the idea will work well, given that with the ubiquity of third party platforms such as Facebook, LinkedIn, YouTube and Twitter to name a few, <strong>your content is increasingly not published on your site</strong>.</p>
         
         <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/ux/" class="post-tag">ux</a><a href="/archive/tagged/development/" class="post-tag">development</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2012/accessible-hover-image-links/">Accessible hover image links</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">25</span> 
-            <span class="date-month">May</span>, 
-            <span class="date-year">2012</span>
-          </time>
-        </header>
-        
-          <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
----
-<p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
-<p>HTML:</p>
-<pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
- &lt;img alt="Facebook" src="Facebook_Icon.png"&gt;
-&lt;/a&gt;</pre>
-<p>CSS:</p>
-<pre>.social-links a.facebook {
-  background:url(Facebook_Icon_On.png) no-repeat;
-}
-<p>.social-links a.facebook:hover img {<br>
-display:none;<br>
-border: 1px solid #000;<br>
-}</pre></p>
-<p>This technique is rather straightforward. There's an image, with meaningful alt text for accessibility, wrapped in a anchor tag. The anchor tag itself has a background image with appropriate height and width all set using CSS. The key is the :hover pseudo-class that hides the image using "display:none;". When the image is hidden, you see the background image of the anchor tag. The anchor tag itself is still clickable due to it's fixed height and width.</p>
-<p>Having tested this technique in all modern mainstream browsers (ie latest versions of IE, Opera, Firefox, Chrome and Safari) it copes with the following situations better than many more complex techniques.</p>
-<ul>
-<li><strong>CSS <em>on</em>, Images <em>on</em></strong>: Works as you would expect</li>
-<li><strong>CSS <em>off</em>, Images <em>on</em></strong>: Page lays out in basic fashion. Image hover doesn't work, but links do.</li>
-<li><strong>CSS <em>on</em>, Images <em>off</em>:</strong> Images replaced by Alt text. Hover creats  a border to create active feel.</li>
-<li><strong>CSS <em>off</em>, Images <em>off</em>:</strong> This would be more or less how a screen reader might see the page. The Image is replaced by it's alt text and the link thus remains meaningful.</li>
-</ul>
-<p>Simple, but effective.</p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/a11y/" class="post-tag">a11y</a><a href="/archive/tagged/development/" class="post-tag">development</a>
         </div>
       </article>
     
