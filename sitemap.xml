@@ -1662,17 +1662,17 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
+    <lastmod>2022-05-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/preparation/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/reasons/</loc>
-    <lastmod>2022-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
@@ -1742,17 +1742,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/html/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/standards/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/review/</loc>
-    <lastmod>2022-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/book/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
@@ -1787,17 +1782,27 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/html/</loc>
+    <lastmod>2022-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/review/</loc>
+    <lastmod>2022-05-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/book/</loc>
+    <lastmod>2022-05-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/a11y/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/development/</loc>
-    <lastmod>2022-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/standards/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
@@ -1818,11 +1823,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/gold/</loc>
-    <lastmod>2022-05-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
@@ -1997,12 +1997,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/tenerife/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/strasbourg/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/strasbourg/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/tenerife/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
@@ -2102,12 +2102,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/jamstack/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/education/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/education/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/jamstack/</loc>
     <lastmod>2022-05-17</lastmod>
   </url>
   
