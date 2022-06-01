@@ -1578,7 +1578,7 @@
   
   <url>
     <loc>https://www.contentedweb.com/posts/2022/a-week-in-france-versailles/</loc>
-    <lastmod>2022-05-23</lastmod>
+    <lastmod>2022-05-24</lastmod>
   </url>
   
   <url>
@@ -1607,12 +1607,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/travel/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/web/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/travel/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1657,12 +1657,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/hawaii/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/java/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/java/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/hawaii/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1682,12 +1682,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/preparation/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/preparation/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1752,17 +1752,27 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/bulgaria/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/semantic/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/bulgaria/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/standards/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1778,11 +1788,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/book/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1822,17 +1827,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/speech-recognition/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/windows/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/speech-recognition/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1847,7 +1847,7 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1932,17 +1932,17 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/tryavna/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/estonia/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/tallinn/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/tryavna/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1987,12 +1987,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/alicante/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/yahoo/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/yahoo/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/alicante/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -2017,22 +2017,22 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/strasbourg/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/tenerife/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/lisbon/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/portugal/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/strasbourg/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/tenerife/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
