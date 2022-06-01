@@ -1572,6 +1572,11 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/posts/2022/a-week-in-france-paris-day-two/</loc>
+    <lastmod>2022-05-23</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/admin/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
@@ -1692,11 +1697,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/sumatra/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/spain/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
@@ -1712,12 +1712,27 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/sumatra/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/london/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/camden/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/pi/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/math/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1743,6 +1758,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/standards/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1777,16 +1797,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/pi/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/math/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/programming/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
@@ -1812,16 +1822,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/windows/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
@@ -1838,6 +1838,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/gold/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -1867,17 +1872,17 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/italy/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/patents/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/software/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/italy/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -2052,17 +2057,22 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/wcag/</loc>
+    <lastmod>2022-06-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/food/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/javascript/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/batak/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/batak/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/javascript/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
@@ -2193,11 +2203,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/circular/</loc>
-    <lastmod>2022-06-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/wcag/</loc>
     <lastmod>2022-06-01</lastmod>
   </url>
   
