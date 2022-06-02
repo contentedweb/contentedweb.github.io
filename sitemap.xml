@@ -1637,16 +1637,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/usa/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/california/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/indonesia/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
@@ -1657,17 +1647,27 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/usa/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/california/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/fiji/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/java/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/hawaii/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/hawaii/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/java/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -1772,16 +1772,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/conspiracy/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/html/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
@@ -1793,6 +1783,16 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/book/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/conspiracy/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -1827,7 +1827,7 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -1848,11 +1848,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/gold/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/ux/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -1887,22 +1882,22 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/prague/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/czechia/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/patents/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/software/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/prague/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/czechia/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -2012,17 +2007,17 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/strasbourg/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/hardware/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/pravets/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/strasbourg/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -2202,11 +2197,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/circular/</loc>
-    <lastmod>2022-06-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/concert/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
@@ -2223,6 +2213,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/devin-townsend/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/circular/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
@@ -2263,6 +2258,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/wordle/</loc>
+    <lastmod>2022-06-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-06-02</lastmod>
   </url>
   
