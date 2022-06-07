@@ -100,6 +100,40 @@
       <hr aria-hidden="true"/>
       <article>
         <header>
+          <h2><a href="/posts/2021/usable-design/">Usable design</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">5</span> 
+            <span class="date-month">August</span>, 
+            <span class="date-year">2021</span>
+          </time>
+        </header>
+        
+          <h3>Clean interfaces</h3>
+<p>Too much web design is focused on visual aesthetics and not on making things usable. Aesthetics has its place and not everything has to be intuitively usable. Cleanly designed web interface do look good. However, removing interaction clues in order to make something look neat and tidy is not always in the interests of the user.  Making them difficult to interact with leads to more user frustration.</p>
+<p>Microsoft's web based <a href="https://outlook.com">Outlook</a> is a good example. Don't get me wrong, I think Outlook is great. I use it every day, both at work and for my personal emails. The web version is very functional and generally well thought out in my opinion. Yet, the way the scrollbars are implemented is frustrating. Here's a screenshot of Outlook's user interface to illustrate my point:</p>
+<p><img src="/assets/images/use-outlook-1.PNG" alt="User interface of outlook"></p>
+<p>The layout is split into four columns. The application icons on the far left, the list of folders next to them, the list of emails in the selected folder and the content of the email selected to be read in the largest column on the right hand side. All four columns has a vertical scrollbar if needed. In the image you see it on the list of emails. There is no scrollbar in the email display column itself, because it is not needed. You would see it if the email was longer. However on the first two columns the scrollbar is needed because there is more content to scroll to. However you don't see it. It only appears if you hover over those columns, in which case it looks like in this image:</p>
+<p><img src="/assets/images/use-outlook-2.PNG" alt="Scrollbar in column showing list of folders"></p>
+<p>So what issues do I have with this?</p>
+<h3>Inconsistency</h3>
+<p>First of all I do not see the point in hiding the scrollbars when hover is removed from the column. This is inconsistent. Some scrollbars are permanently visible. Some aren't. How do I know there are more folders in the folder list without hovering over them?</p>
+<p>Hiding the scrollbars serves no purpose. They don't cover anything up when they do appear, so hiding them seems pointless. In addition they are so thin that even if they did cover up folder names, the amount covered would be minimal. Which leads me to the next point.</p>
+<h3>Interaction issues</h3>
+<p>Because these scrollbars are so thin, I find them difficult use. I don't have a target area before hovering over the list of folders. So I move the pointer over the list. The scrollbar appears and I have to move the pointer back a little to get to the scrollbar in order to scroll. However sometimes I move too far and the pointer leaves the column. As it is no longer hovering over that column, the scrollbar disappears. Then I move the pointer back over folder list. It occasionally leads to the frustrating effect of me chasing the scrollbar. Why can't it just remain visible all the time?</p>
+<h3>Old School</h3>
+<p>Interestingly this design is not repeated in Microsoft's desktop explorer:</p>
+<p><img src="/assets/images/use-desktop-1.PNG" alt="Windows explorer with visible scrollbars"></p>
+<p>As you can see all the scrollbars are visible and they are much wider than in the web interface. Admittedly this a bit of an old school design. But it works and is much more usable than the implementation of scrollbars in the Outlook web interface.</p>
+<p>Sometimes the old tried and tested design is better than the shiny new one.</p>
+
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/ux/" class="post-tag">ux</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
           <h2><a href="/posts/2021/floods/">Hundred Year Floods</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">30</span> 
@@ -593,40 +627,6 @@ The point he makes, much better than I can, is that the web actually has not cha
 
         
         <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/development/" class="post-tag">development</a><a href="/archive/tagged/javascript/" class="post-tag">javascript</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2021/nearlyfreespeech/">NearlyFreeSpeech.Net</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">5</span> 
-            <span class="date-month">February</span>, 
-            <span class="date-year">2021</span>
-          </time>
-        </header>
-        
-          <p>
-This site is <a href="https://www.nearlyfreespeech.net/">hosted on NearlyFreeSpeech.net</a>. I've been using them since 2006 and I couldn't recommend their service highly enough.  They are essentially a pay as you go service, where you pay for what you use. This makes them incredibly cheap for low use sites like mine. This site costs me less than $1 a month in hosting charges.
-</p>
----
-<img src="/assets/images/nfs-logo.gif" alt="NearlyFreeSpeech" />
-<p>Since this is a static site, I use static hosting. This provides me:</p>
-<ul>
-<li>static content space (pay for what you use)</li>
-<li>bandwidth of 1GB/day (they don't at the moment charge excess)</li>
-<li>full SSH environment in which to run scripts</li>
-<li>scheduled tasks</li>
-<li>autosetup of HTTPS using <a href="https://letsencrypt.org/">Let's Encrypt</a></li>
-<li>automatic stats generation using <a href="https://awstats.sourceforge.io/">Awstats</a></li>
-<li>great free support (they also offered paid support for those who need dedicated support)</li>
-</ul>
-<p>So if you need some fantastic, value for money hosting, maybe give them a try. There's no commitment. I don't get any referal benefits with this post. I posted this because I genuinely feel they offer a great service!</p>
-<p>Have fun!</p>
-
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/hosting/" class="post-tag">hosting</a>
         </div>
       </article>
     
