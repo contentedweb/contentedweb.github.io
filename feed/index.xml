@@ -6,13 +6,26 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-06-06T10:27:51Z</updated>
+	<updated>2022-06-21T11:57:20Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Cognitive abilities</title>
+		<link href="https://www.contentedweb.com/posts/2022/cognitive-abilities/"/>
+		<updated>2022-06-21T11:57:20Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/cognitive-abilities/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Whilst increasingly aware of neurodiversity, we still try to fit everyone into a world designed for a lucky few.&lt;/p&gt;
+&lt;p&gt;Rather than trying to squash everyone into a restrictive and shrinking box, we need to start expanding the box!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;from &lt;a href=&quot;https://twitter.com/ContentedW/status/1539612768449486850&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Pairi Daiza</title>
@@ -242,20 +255,6 @@
 		<id>https://www.contentedweb.com/posts/2022/ride-to-mersch/</id>
 		<content type="html">&lt;p&gt;A simple slow ride to Mersch and back in the lovely weather, before the Dream Theatre concert.  Around 18km in an hour and a bit.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52077068442_9054ccd6b0_c.jpg&quot; alt=&quot;View of sunny fields fields framed by shaded trees to the side and a bike in the foreground &quot; /&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Echternach 2 Circular Walk</title>
-		<link href="https://www.contentedweb.com/posts/2022/echternach-2-circular-walk/"/>
-		<updated>2022-05-09T02:57:49Z</updated>
-		<id>https://www.contentedweb.com/posts/2022/echternach-2-circular-walk/</id>
-		<content type="html">&lt;p&gt;A nice 7.2km walk around Echternach lake. It started off with a steep climb into the forest to one side of the lake.  The path returns to the level of the lake after about 4km in the forest. It then winds around the lake, past the Youth Hostel and back to the starting point. It was a lovely walk on a wonderfully warm and sunny day and the dog had a great time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52063157553_7f072aecee_c.jpg&quot; alt=&quot;The dog Angie playing in the leaves in the forest&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52063157593_769f91afa1_c.jpg&quot; alt=&quot;Echternach youth hostel overlooking the lake on a sunny day&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52062101672_2483210cf8_c.jpg&quot; alt=&quot;Overlooking the Echternach valley from forest above the lake&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52063371874_82ec5ec34d_c.jpg&quot; alt=&quot;Path winding through a sunny forest&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52063630280_474c5cf8f5_c.jpg&quot; alt=&quot;Looking down onto the large fountain in the centre of Echternach lake&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
