@@ -6,13 +6,23 @@
 	
 	<link href="https://www.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://www.contentedweb.com/" rel="alternate" type="text/html"/>
-	<updated>2022-06-21T11:57:20Z</updated>
+	<updated>2022-06-30T05:18:27Z</updated>
 	<id>https://www.contentedweb.com/</id>
 	<author>
 		<name>ContentedWeb</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	
+	
+	<entry>
+		<title>Dog on a log - again</title>
+		<link href="https://www.contentedweb.com/posts/2022/dog-on-a-log-again/"/>
+		<updated>2022-06-30T05:18:27Z</updated>
+		<id>https://www.contentedweb.com/posts/2022/dog-on-a-log-again/</id>
+		<content type="html">&lt;p&gt;Angie is now getting better at sitting still - and jumping on the same log as &lt;a href=&quot;https://www.contentedweb.com/posts/2021/dog-log/&quot; title=&quot;Dog sitting on a log in a green spring forest&quot;&gt;six months ago&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52183889480_6207ab628d_c.jpg&quot; alt=&quot;Dog sitting on a log in a green spring forest&quot; /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Cognitive abilities</title>
@@ -245,16 +255,6 @@
 &lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52079761005_9e4ca4415e_c.jpg&quot; alt=&quot;Dream Theater on stage against a red backdrop with several yellow search lights flooding the stage&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/rmassart/52079273986/in/datetaken/&quot; title=&quot;PXL_20220515_190734915&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/31337/52079273986_915c19aae5_c.jpg&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;PXL_20220515_190734915&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/rmassart/52079506929/in/datetaken/&quot; title=&quot;PXL_20220515_204508886&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/31337/52079506929_29ee8f82ff_c.jpg&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;PXL_20220515_204508886&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Ride to Mersch</title>
-		<link href="https://www.contentedweb.com/posts/2022/ride-to-mersch/"/>
-		<updated>2022-05-15T01:50:50Z</updated>
-		<id>https://www.contentedweb.com/posts/2022/ride-to-mersch/</id>
-		<content type="html">&lt;p&gt;A simple slow ride to Mersch and back in the lovely weather, before the Dream Theatre concert.  Around 18km in an hour and a bit.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52077068442_9054ccd6b0_c.jpg&quot; alt=&quot;View of sunny fields fields framed by shaded trees to the side and a bike in the foreground &quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
