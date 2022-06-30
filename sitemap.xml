@@ -1772,17 +1772,17 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/bulgaria/</loc>
+    <lastmod>2022-06-30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/history/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/browsers/</loc>
-    <lastmod>2022-06-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/bulgaria/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
@@ -1812,17 +1812,22 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
-    <lastmod>2022-06-30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/conspiracy/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
+    <lastmod>2022-06-30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/health/</loc>
+    <lastmod>2022-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
@@ -1848,11 +1853,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/development/</loc>
-    <lastmod>2022-06-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
@@ -1897,12 +1897,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/computers/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/flickr/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/flickr/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/computers/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
@@ -2333,6 +2333,16 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/wordle/</loc>
+    <lastmod>2022-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/esch/</loc>
+    <lastmod>2022-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/belval/</loc>
     <lastmod>2022-06-30</lastmod>
   </url>
   
