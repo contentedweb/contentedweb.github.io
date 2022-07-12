@@ -100,6 +100,32 @@
       <hr aria-hidden="true"/>
       <article>
         <header>
+          <h2><a href="/posts/2012/testing-treatments-interactive/">Testing Treatments Interactive</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">11</span> 
+            <span class="date-month">September</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p><img src="/assets/images/tti.png" alt="Testing Treatments Interactive homepage" width="300" height="246" /></p>
+<p>The second edition of the Testing Treatments site is now online. It is an international edition with translations of the site into several different languages in progress. It includes intelligent cross-linking between the various languages.</p>
+---
+<p>We developed the site in WordPress. Initially we went with the multisite version of WordPress. However the DISQUS commenting plugin had issues with keeping comments separated properly between the various language sites. So we extracted the main site and will now be managing the various language sites as individual WordPress installations.</p>
+<p>I am very happy with the outcome of this site. I hope the content can be translated into as many languages as possible as it is very informative.</p>
+<p><strong>Launch date:</strong> September 2012</p>
+<h3>Links</h3>
+<ul>
+<li><a href="http://www.testingtreatments.org/">Testing Treatments International website</a></li>
+</ul>
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
           <h2><a href="/posts/2012/round-the-world-trip-reloaded/">Round The World Trip Reloaded</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">31</span> 
@@ -550,44 +576,6 @@ border: 1px solid #000;<br>
 </ul>
         
         <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2012/ubuntu-useful-hints/">Ubuntu useful hints</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">9</span> 
-            <span class="date-month">March</span>, 
-            <span class="date-year">2012</span>
-          </time>
-        </header>
-        
-          <p>In this post I will be maintaing a list of useful hints for future reference.</p>
-<p><strong>Mouse speed</strong></p>
-<p>I find the default mouse speed much too fast. And even after reducing both speed and acceleration to a minimum it is still too fast. Some googling through up this handy hint:</p>
-<p><a href="http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/">http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/</a></p>
-<p>So I ran these commands:<code></code></p>
-<p><code>xinput --list --short<br />
-xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br />
-</code></p>
----
-<p><strong>View hidden files in browser:</strong> CTRL+H</p>
-<p><strong>List only directories:</strong> ls -l | grep ^d</p>
-<p>This, if I understand it properly, takes a list in "long" format, pipes it through grep and includes only lines starting with "d". d being the directory indicator.</p>
-<p><strong>Windows Manager</strong></p>
-<p>To get the Compiz working in Ubuntu, install CompizConfig Settings Manager: sudo apt-get install compizconfig-settings-manager</p>
-<p>Moving window to next screen (on dual monitor): CompizConfig Settings Manager -&gt; Window Management -&gt; Put -&gt; Bindings (tab) -&gt; Put To Next Output (keyboard shortcut)</p>
-<p><strong>Handy shortcuts</strong></p>
-<p>http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html</p>
-<p><strong>Default programs/extensions</strong></p>
-<p>Useful info here: http://askubuntu.com/questions/16580/where-are-file-associations-stored</p>
-<p>Associations are located here: ~/.local/share/applications/mimeapps.list<br /><strong>Mounting Windows drive on startup</strong></p>
-<p>This is done using fstab, see here: <a href="http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions">http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions</a></p>
-<p>Also had to prevent auto-mounting by Nautilus: <a href="http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences">http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences</a></p>
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/linux/" class="post-tag">linux</a><a href="/archive/tagged/ubuntu/" class="post-tag">ubuntu</a>
         </div>
       </article>
     
