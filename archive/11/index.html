@@ -100,6 +100,118 @@
       <hr aria-hidden="true"/>
       <article>
         <header>
+          <h2><a href="/posts/2012/accessible-hover-image-links/">Accessible hover image links</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">25</span> 
+            <span class="date-month">May</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
+---
+<p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
+<p>HTML:</p>
+<pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
+ &lt;img alt="Facebook" src="Facebook_Icon.png"&gt;
+&lt;/a&gt;</pre>
+<p>CSS:</p>
+<pre>.social-links a.facebook {
+  background:url(Facebook_Icon_On.png) no-repeat;
+}
+<p>.social-links a.facebook:hover img {<br>
+display:none;<br>
+border: 1px solid #000;<br>
+}</pre></p>
+<p>This technique is rather straightforward. There's an image, with meaningful alt text for accessibility, wrapped in a anchor tag. The anchor tag itself has a background image with appropriate height and width all set using CSS. The key is the :hover pseudo-class that hides the image using "display:none;". When the image is hidden, you see the background image of the anchor tag. The anchor tag itself is still clickable due to it's fixed height and width.</p>
+<p>Having tested this technique in all modern mainstream browsers (ie latest versions of IE, Opera, Firefox, Chrome and Safari) it copes with the following situations better than many more complex techniques.</p>
+<ul>
+<li><strong>CSS <em>on</em>, Images <em>on</em></strong>: Works as you would expect</li>
+<li><strong>CSS <em>off</em>, Images <em>on</em></strong>: Page lays out in basic fashion. Image hover doesn't work, but links do.</li>
+<li><strong>CSS <em>on</em>, Images <em>off</em>:</strong> Images replaced by Alt text. Hover creats  a border to create active feel.</li>
+<li><strong>CSS <em>off</em>, Images <em>off</em>:</strong> This would be more or less how a screen reader might see the page. The Image is replaced by it's alt text and the link thus remains meaningful.</li>
+</ul>
+<p>Simple, but effective.</p>
+
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/web/" class="post-tag">web</a><a href="/archive/tagged/a11y/" class="post-tag">a11y</a><a href="/archive/tagged/development/" class="post-tag">development</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
+          <h2><a href="/posts/2012/minervation-com-wordpress-migration/">Minervation.com Wordpress migration</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">23</span> 
+            <span class="date-month">April</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p><img src="/assets/images/minervationcom.png" alt="" width="300" height="235" />As part of the general move to Wordpress at Minervation, we re-developed the Minervation site in Wordpress. Almost all of this work was done without me, except for the task of integrating Mienrvation's .Net based LIDA tool into the website.</p>
+---
+<p><strong>Launch date:</strong> March 2012</p>
+<h3>Links</h3>
+<ul>
+<li><a href="http://www.minervation.com/">Minervation.com</a></li>
+</ul>
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
+          <h2><a href="/posts/2012/gmc-learning-disabilities-website/">GMC Learning disabilities website</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">2</span> 
+            <span class="date-month">April</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p><img src="/assets/images/gmc.png" alt="" width="300" height="259" />In 2011 Minervation, was tasked to design and create the markup for the new GMC (General Medical Council) Learning disabilities website. The actual design was done by Design by Day and implemented using Minervation's Phaedrus content managements system as a proof of concept and for usability testing. The final markup (HTML, CSS, JavaScript) and content were then delivered as a package to the GMC. The designs went live in April 2012.</p>
+---
+<p><strong>Launch date</strong>: April 2012</p>
+<h3>Links</h3>
+<ul>
+<li><a href="http://www.gmc-uk.org/learningdisabilities/">GMC's Learning disabilities website</a></li>
+<li><a href="http://www.minervation.com/new-website-to-help-doctors-provide-better-care-for-people-with-learning-disabilities/">Minervation news item</a></li>
+</ul>
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
+          <h2><a href="/posts/2012/healthyliving-award/">Healthyliving award</a></h2>
+          <time datetime="Invalid DateTime">
+            <span class="date-day">22</span> 
+            <span class="date-month">March</span>, 
+            <span class="date-year">2012</span>
+          </time>
+        </header>
+        
+          <p><img src="/assets/images/hla.png" alt="Healthyliving award website" width="300" height="249" />The healthyliving award rewards caterers in Scotland for dishing up healthier food and helping their customers make better food choices. Minervation redesigned this website and developed a members area to enable award holders to get online access to information specific to their award. Whilst most new Minervation sites are being developed in Wordpress, this one still uses Minervation's in-house CMS "Phaedrus".</p>
+---
+<p><strong>Launch date:</strong> March 2012</p>
+<h3>Links</h3>
+<ul>
+<li><a href="http://www.healthylivingaward.co.uk/">Healhtyliving award</a></li>
+<li><a href="http://www.minervation.com/healthy-eating-out-in-scotland/">Minervation news item on site launch</a></li>
+</ul>
+        
+        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
+        </div>
+      </article>
+  
+      <hr aria-hidden="true"/>
+      <article>
+        <header>
           <h2><a href="/posts/2012/ubuntu-useful-hints/">Ubuntu useful hints</a></h2>
           <time datetime="Invalid DateTime">
             <span class="date-day">9</span> 
@@ -552,106 +664,6 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <li><a href="http://www.thediabeteself.net/">The Diabetes Elf</a></li>
 <li><a href="http://www.weldblog.net/">The Learning Disabilities Elf</a></li>
 <li><a href="http://www.minervation.com/national-elf-service-on-the-way/">Minervation news item on National Elf Service</a></li>
-</ul>
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2011/vitamin-d-council/">Vitamin D Council</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">14</span> 
-            <span class="date-month">October</span>, 
-            <span class="date-year">2011</span>
-          </time>
-        </header>
-        
-          <p><img src="/assets/images/vitd.png" alt="Homepage of Vitamin D Council" width="300" height="265" />The Vitamin D Council is a US charity promoting the health benefits of Vitamin D as well as the consequences of being Vitamin D deficient. It is Minervation's highest traffic website and required the development of a caching system to ensure it could be hosted efficiently. It also makes extensive use of the news section, image manager and the taxonomy module for the Health Conditions section.</p>
----
-<p>The website also includes a frequent and free newsletter as well as a largely members only Wordpress blog for discussing all things Vitamin D. The site was launched in May 2011, with the members blog going live about 3 months later.</p>
-<p><strong>Launch date:</strong> 18th May 2011</p>
-<h3>Links</h3>
-<ul>
-<li><a href="http://www.vitamindcouncil.org/">Vitamin D Council</a></li>
-<li><a href="http://blog.vitamindcouncil.org/">Vitamin D Council member's blog</a></li>
-<li><a href="http://www.minervation.com/are-you-vitamin-d-deficient/">Minervation news item about the launch</a></li>
-</ul>
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2011/oubep/">OUBEP</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">13</span> 
-            <span class="date-month">October</span>, 
-            <span class="date-year">2011</span>
-          </time>
-        </header>
-        
-          <p><img src="/assets/images/oubep.png" alt="Homepage of Oxford University Business Economics Programme" width="300" height="250" />In June 2011 Minervation launched a new website for Oxford University Business Economics Programme (OUBEP). This is another reasonably simply brochure, making good use the image manager functionality. Later in the year a private blog for alumni of the programme was added to the site.</p>
----
-<p><strong>Launch date:</strong> June 2011</p>
-<h3>Links</h3>
-<ul>
-<li><a href="http://www.oubep.com/">OUBEP</a></li>
-<li><a href="http://blog.oubep.com/">OUBEP Blog</a></li>
-</ul>
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2011/tvcn/">TVCN</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">12</span> 
-            <span class="date-month">October</span>, 
-            <span class="date-year">2011</span>
-          </time>
-        </header>
-        
-          <p><img src="/assets/images/tvcn.png" alt="Homepage of Thames Valley Cancer Network website" width="300" height="262" />Another cancer site created by Minervation, this time for the Thames Valley Cancer Network. The site is for health professionals, non-clinical staff, users and carers within the Thames Valley.  It provides find information about the Network groups with restricted access to parts of the site for members of these groups.</p>
----
-<p>In spring 2011 Minervation revamped and added the Early Diagnosis Saves Lives Campaign to the TVCN website.</p>
-<p><strong>Launch date:</strong> June 2010</p>
-<h3>Links</h3>
-<ul>
-<li><a href="http://www.tvcn.nhs.uk/">TVCN</a></li>
-<li><a href="http://www.tvcn.nhs.uk/early-diagnosis/">Early Diagnosis Saves Lives Campaign</a></li>
-<li><a href="http://www.minervation.com/minervation-help-with-the-speedy-relaunch-of-the-tvcn-website/">Minervation news item about revamp</a></li>
-</ul>
-        
-        <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
-        </div>
-      </article>
-  
-      <hr aria-hidden="true"/>
-      <article>
-        <header>
-          <h2><a href="/posts/2011/idras/">IDRAS</a></h2>
-          <time datetime="Invalid DateTime">
-            <span class="date-day">11</span> 
-            <span class="date-month">October</span>, 
-            <span class="date-year">2011</span>
-          </time>
-        </header>
-        
-          <p><img src="/assets/images/idras.png" alt="Homepage of IRDAS" width="300" height="272" />IDRAS stands for "Improving Dispute Resolution Advisory Service" and it's aim is to resolve disputes between academics and students and the institutions they work for. Minervation started work on this site in 2010 and it is the first site by Minervation to use the Wordpress application for the blog part of the website. The rest of the site runs out of their usual in-house CMS.</p>
----
-<p><strong>Launch date: </strong> 8th October 2010</p>
-<h3>Links</h3>
-<ul>
-<li><a href="http://www.idras.ac.uk/">IDRAS</a></li>
-<li><a href="http://www.minervation.com/helping-to-solve-disputes-in-further-and-higher-education/">Minervation news item about launch of the site</a></li>
 </ul>
         
         <div class="tagged">Tagged:<a href="/archive/tagged/work/" class="post-tag">work</a>
