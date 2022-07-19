@@ -1737,12 +1737,12 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/new-zealand/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/packing/</loc>
+    <loc>https://www.contentedweb.com/archive/tagged/new-zealand/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
   
@@ -1792,16 +1792,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/pi/</loc>
-    <lastmod>2022-07-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/math/</loc>
-    <lastmod>2022-07-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/history/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
@@ -1827,11 +1817,6 @@
   </url>
   
   <url>
-    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
-    <lastmod>2022-07-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.contentedweb.com/archive/tagged/html/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
@@ -1843,6 +1828,11 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/book/</loc>
+    <lastmod>2022-07-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/privacy/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
   
@@ -1868,6 +1858,16 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/quotes/</loc>
+    <lastmod>2022-07-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/pi/</loc>
+    <lastmod>2022-07-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/math/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
   
@@ -2117,6 +2117,11 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
+    <lastmod>2022-07-19</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/wcag/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
@@ -2347,6 +2352,16 @@
   </url>
   
   <url>
+    <loc>https://www.contentedweb.com/archive/tagged/ride/</loc>
+    <lastmod>2022-07-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.contentedweb.com/archive/tagged/colmar-berg/</loc>
+    <lastmod>2022-07-19</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.contentedweb.com/archive/tagged/zoo/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
@@ -2358,16 +2373,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/pairi-daiza/</loc>
-    <lastmod>2022-07-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/ride/</loc>
-    <lastmod>2022-07-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/colmar-berg/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
   
@@ -2458,11 +2463,6 @@
   
   <url>
     <loc>https://www.contentedweb.com/archive/tagged/belval/</loc>
-    <lastmod>2022-07-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.contentedweb.com/archive/tagged/xml/</loc>
     <lastmod>2022-07-19</lastmod>
   </url>
   
