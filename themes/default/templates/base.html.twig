@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    {% include "includes/head.html.twig" %}
+  </head>
+  <body>
+    <header class="masthead h-card">
+    <p class="skip-link"><a href="#skip-content-target">Skip to the content</a></p>
+        <div class="header-area">
+            <div class="header-title">
+            <p id="themeSwitch">                
+            </p>
+            <hr class="nodisplay" aria-hidden="true">
+            <span class="sitetitle">
+                <img class="logo u-logo u-photo" src="/assets/images/cw.jpg" alt="" width="50" height="50">
+                <a href="/" class="u-url p-name">{{ metadata.title }}</a>
+            </span>
+            <nav class="subtitle p-note" aria-label="Main">
+                <ul>
+{# Example menu from menus.json
+{% for menu in menus %}
+    {% if menu.name == "header" %}
+        {% for item in menu.items %}
+                    <li>
+                        <a href="{{ item.link }}" {% if page.url starts with item.link %} class="current"{% endif %}>{{ item.title }}</a> 
+                    </li>
+
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+#}
+
+                    <li>
+                        <a href="/now/" {% if permalink starts with '/now/' %} class="current"{% endif %}>/now</a> 
+                    </li>
+                    <li>
+                        <a href="/writing/" {% if permalink starts with '/writing/' %} class="current"{% endif %}>/writing</a> 
+                    </li>
+                    <li>
+                        <a href="/travelling/" {% if permalink starts with '/travelling/' %} class="current"{% endif %}>/travelling</a> 
+                    </li>
+                    <li>
+                        <a href="/seeing/" {% if permalink starts with '/seeing/' %} class="current"{% endif %}>/seeing</a>
+                    </li>
+                    <li>
+                        <a href="/creating/" {% if permalink starts with '/creating/' %} class="current"{% endif %}>/creating</a> 
+                    </li>
+                    <li>
+                        <a href="/coding/" {% if permalink starts with '/coding/' %} class="current"{% endif %}>/coding</a> 
+                    </li> 
+                    <li>
+                        <a href="/reading/" {% if permalink starts with '/reading/' %} class="current"{% endif %}>/reading</a>
+                    </li>
+                    <li>
+                        and 
+                        <a href="/walking/" {% if permalink starts with '/walking/' %} class="current"{% endif %}>/walking</a>
+                    </li>
+                    <li>
+                        the
+                        <a href="/tagging/angie/"  {% if permalink starts with '/tagging/angie/' %} class="current"{% endif %}>dog<span class="dog-emoji"> 🐕‍🦺</span></a>. 
+                    </li>
+                    <li>
+                        Browse his {{collections['posts']|length}} <a href="/archiving/" {% if permalink starts with '/archiving/' %} class="current"{% endif %}>posts</a>,
+                    </li>
+                    <li>
+                         or read 
+                        <a href="/me/" {% if permalink starts with  '/me/' %} class="current"{% endif %}>about</a> him.
+                    </li>
+                    <li>
+                </ul>
+{#                    {{ metadata.description }}  #}
+            </nav>
+{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ 
+                <div class="header-nav">
+                    <nav>
+                        {% set navPages = collections.all | menuFilter("top") | eleventyNavigation %}
+                        <ul>
+                        {%- for entry in navPages %}
+                            <li {% if page.url.startsWith(entry.url) %} class="current"{% endif %}>
+                                <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                            </li>
+                        {%- endfor %}
+                        </ul>
+                    </nav>
+                </div>
+#}
+            </div>
+        </div>
+    </header>
+    <main id="site-content" {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+        <hr class="nodisplay" aria-hidden="true">
+        <div class="main-content">
+        {% block content %}
+        {{ content | raw }}
+        {% endblock %}
+        </div> 
+    </main>
+    {% include "includes/footer.html.twig" %}
+    <!-- Current page: {{ permalink }} -->
+{# 
+=========================
+Removed PWA functionality 
+as not much use on a blog
+=========================
+    <script>
+    <!--
+    // Register our service-worker
+    if (navigator.serviceWorker) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js', {
+                scope: '/'
+            });
+            if (navigator.serviceWorker.controller) {
+                navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+            }
+        });
+    }
+    //-->
+    </script>
+#}
+  </body>
+</html>

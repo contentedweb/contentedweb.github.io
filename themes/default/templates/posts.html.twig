@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% set templateClass = 'tmpl-post' %}
+
+{% block content %}
+  <article class="h-entry">
+    {% include "includes/paging.html.twig" %}
+    <header id="skip-content-target">
+        <h1 class="p-name">{{ title }}</h1> 
+        <h2 class="published">
+          {% set theDate = date %}
+          {% include "includes/date-published.html.twig" %}
+        </h2>
+    </header>
+    <div class="e-content">
+      {{ content | raw }} 
+    </div>
+    <hr aria-hidden="true">
+    {% include "includes/taglist.html.twig" %}
+    <hr aria-hidden="true">
+    {% include "includes/paging.html.twig" %}
+  </article>
+{% endblock %}

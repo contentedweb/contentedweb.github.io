@@ -1,0 +1,67 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+
+  {{ content | raw }}
+  
+  <ul class="taglist">
+    {% set maxCount = 0 %}
+
+    {# Determine largest tag array = tag with most posts #}
+    {% for tag in collections.tags %}
+      {% set count = tag | length %}
+      {% if count > maxCount %}
+        {% set maxCount = count %}
+      {% endif %}
+    {% endfor %}  
+    
+    {# Loop through tags, setting correct class for sizing with CSS #}
+    {% for key, tag in collections.tags %}
+      <li>
+        {% set MaxRange = 5 %}
+        {% set MinRange = 1 %}
+        {% set count = tag | length %}
+        {% set size = (((count - 1)/(maxCount - 1))*(MaxRange - MinRange) + MinRange) | round(0) %}
+        {% set tagUrl %}/tagging/{{ key | slug  }}/{% endset %}
+        {% set title = "1 post" %}
+        {% if count != 1 %}
+          {% set title = count ~ " posts" %}
+        {% endif %}
+        <a href="{{ tagUrl }}" class="post-tag font-scale-{{ size }}" title="{{ title }}">{{ key }}</a>
+      </li>
+    {% endfor %}  
+  </ul>
+{% endblock %}
+
+{#
+<ul class="taglist">
+  {% set maxCount = 0 %}
+  {% for tag in collections.tagList %}
+    {% set count = collections[tag].length %}
+    {% if count > maxCount %}
+      {% set maxCount = count %}
+    {% endif %}
+  {% endfor %}  
+  {% for tag in collections.tagList %}
+    <li>
+      {% set MaxRange = 5 %}
+      {% set MinRange = 1 %}
+      {% set count = collections[tag].length %}
+      {% set size = (((count - 1)/(maxCount - 1))*(MaxRange - MinRange) + MinRange) | round(0) %}
+      {% set tagUrl %}/tagging/{{ tag | slug }}/{% endset %}
+      {% set title = "1 post" %}
+      {% if count != 1 %}
+      {%  set title = count + " posts" %}
+      {% endif %}
+      <a href="{{ tagUrl | url }}" class="post-tag font-scale-{{ size }}" title="{{ title }}">{{ tag }}</a>
+    </li>
+  {% endfor %}  
+</ul>
+
+{% for post in postslist | reverse %}
+  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+  </li>
+{% endfor %}
+#}

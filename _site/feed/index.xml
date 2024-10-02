@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>ContentedWeb</title>
+	<subtitle>A basic site generator for the discerning user</subtitle>
+		<link href="https://contentedweb.github.io/feed/index.xml" rel="self"/>
+	<link href="https://contentedweb.github.io/" rel="alternate" type="text/html"/>
+	<updated></updated>
+	<id>https://contentedweb.github.io/</id>
+	<author>
+		<name>contentedweb</name>
+		<email>contentedweb@outlook.com</email>
+	</author>
+			<entry>
+		<title>Post in 2024</title>
+		<link href="https://contentedweb.github.io/posts/2024/post-2/"/>
+		<updated>2024-10-02 12:00:00</updated>
+		<id>https://contentedweb.github.io/posts/2024/post-2/</id>
+		<content type="html">&lt;p&gt;This is a second example post.&lt;/p&gt;
+&lt;p&gt;Any posts placed within the posts folder, including any sub-folders, will be included in the posts archive page.&lt;/p&gt;
+</content>
+	</entry>
+			<entry>
+		<title>Post in 2024</title>
+		<link href="https://contentedweb.github.io/posts/post-1/"/>
+		<updated>2024-10-01 12:00:00</updated>
+		<id>https://contentedweb.github.io/posts/post-1/</id>
+		<content type="html">&lt;p&gt;This is a first example post.&lt;/p&gt;
+&lt;p&gt;Any posts placed within the posts folder, including any sub-folders, will be included in the posts archive page.&lt;/p&gt;
+</content>
+	</entry>
+	</feed>

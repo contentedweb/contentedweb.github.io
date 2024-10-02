@@ -1,0 +1,30 @@
+{% extends "base.html.twig" %}
+
+{% set templateClass = 'tmpl-home' %}
+
+{% block content %}
+  {{ content | raw }}
+  <div class="posts-list">
+    {% for post in collections["posts"] %}
+      {% if loop.index0 < 3 %}
+        <hr aria-hidden="true">
+        <article class="custom-{{post.data.theme}} h-entry">
+          <header>
+            <h2 class="p-name"><a href="{{ post.permalink }}" class="u-url">{{ post.title }}</a></h2>
+            {% set theDate = post.date %}
+            {% include "includes/date-published.html.twig" %}
+          </header>
+          <div class="e-content">
+            {{ post.content | raw }}
+          </div>
+          {% set tags = post["tags"] %}
+          {% include "includes/taglist.html.twig" %}
+        </article>
+      {% endif %}
+    {% endfor %}  
+  </div> 
+  <hr aria-hidden="true">
+  <div class="see-all-posts">
+    <a href="/archiving/">See all my posts</a>
+  </div>
+{% endblock %}
