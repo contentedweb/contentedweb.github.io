@@ -1,0 +1,37 @@
+{% extends "base.html.twig" %}
+
+{% set templateClass = 'tmpl-page' %}
+
+{% block content %}
+  <article id="skip-content-target">
+    <header>
+      <h1>{{ title }}</h1> 
+    </header>
+    
+    {{ content | raw }}  
+
+    {% set postslist = posts %}
+    <p>Total posts: {{ pagination.total }}</p>
+
+    {% if pagination.pages > 1 %}
+      Page {{ pagination.current }} of {{ pagination.pages }}
+    {% endif %}
+
+    {% include "includes/postslist.html.twig" %}
+
+{#
+    {% if year %}
+      {% set postslist = collections.postsByYear[year] %}
+    {% else %}
+      {% set postslist = posts %}
+      <p>Total posts: {{ posts.length }}</p>
+    {% endif %}
+
+    {% include "postslist.njk" %}
+
+    {% if not year %}
+      {% include "barchart.njk" %}
+    {% endif %}
+#}
+  </article>
+{% endblock %}

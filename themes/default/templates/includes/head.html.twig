@@ -1,0 +1,50 @@
+    <meta charset="UTF-8">
+    <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett; Parrain">
+    <title>{{ metadata.title }} {{titleprefix}}{% if titleprefix %}{{ " " }}{% endif %}{% if title %}{{ title }}{% endif %}</title>
+
+    <meta name="description" content="{{ metadata.description }}">
+    {% if tags %}<meta name="keywords" content="{% for tag in tags %}{{ tag }},{% endfor %}" />{% endif %}
+
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <link rel="canonical" href="{{ permalink }}">
+    <link rel="me" href="{{ metadata.relMe }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ metadata.title }} RSS" href="/feed/">
+    <link rel="alternate" href="{{ metadata.feed.path }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path }}" type="application/json" title="{{ metadata.title }}">
+    <link rel="icon" href="/assets/images/cw.jpg" type="image/jpeg" sizes="50x50">
+    <!--
+    <link rel="manifest" href="/manifest.json">
+    -->
+    <link rel="webmention" href="https://webmention.io/www.robin.is/webmention" />
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">    
+
+    <meta property="a11y:statement" content="/pages/accessibility/">
+    <meta property="a11y:feedback" content="/pages/accessibility/#feedback">
+    <meta property="a11y:complaints" content="/pages/accessibility/#complaints">
+
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ metadata.title }}...{% if title %} {{ title }}{% endif %}">
+    <meta property="og:description" content="{{ metadata.description }}">
+    <meta property="og:url" content="{{ permalink }}">
+    <meta property="og:site_name" content="{{ metadata.title }}">
+    <meta property="og:image" content="">
+
+    <meta name="DC.title" content="robin.is">
+    <meta name="DC.creator " content="Robin Massart">
+
+    <link rel="preload" href="/assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    {# <link rel="preload" href="/assets/fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin> #}
+
+    {# https://www.11ty.dev/docs/plugins/syntaxhighlight/ #}
+	{# <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/> #}
+    
+    <link rel="stylesheet" href="/assets/css/fonts.css" media="all">
+    <link rel="stylesheet" href="/assets/css/structure.css" media="all">
+    <link rel="stylesheet" href="/assets/css/style.css" media="all">
+    <link rel="stylesheet" href="/assets/css/default.css" media="all">
+    <script src="/assets/js/theme.js" defer></script>

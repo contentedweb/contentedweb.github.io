@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for key, collection in collections %}
+  {% if key != "tags" %}
+    {% for page in collection %}
+      <url>
+        <loc>{{ metadata.url | trim('//') }}{{ page.permalink }}</loc>
+        <lastmod>{{ ((page.modified) ? page.modified : page.date) | date("Y-m-d")  }}</lastmod>
+      </url>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</urlset>

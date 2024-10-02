@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% set templateClass = 'tmpl-page' %}
+
+{% block content %}
+  <article id="skip-content-target">
+    <header>
+      <h1>{{ title }}</h1> 
+    </header>
+    {{ content | raw }}
+    <footer>
+      {% set theDate = date %}
+      Created on: {% include "includes/date-published.html.twig" %} 
+      {% if modified %}
+        <br/>    
+        {% set theDate = modified %}
+        Last modified on: {% include "includes/date-published.html.twig" %}
+      {% endif %}
+    </footer>
+  </article>
+{% endblock %}

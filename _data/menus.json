@@ -1,0 +1,25 @@
+[
+  {
+    "name": "header",
+    "items": [
+    {
+      "title": "/now",
+      "link": "/now/"
+    },
+    {
+      "title": "/me",
+      "link": "/me/"
+    }]
+  },
+  {
+    "name": "footer",
+    "items": [{
+      "title": "RSS",
+      "link": "/feed/"
+    },
+    {
+      "title": "Accessibility",
+      "link": "/accesible/"
+    }]
+  }
+]

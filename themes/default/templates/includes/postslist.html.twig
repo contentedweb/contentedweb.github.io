@@ -1,0 +1,109 @@
+{# Use this https://jamesdoc.com/blog/2021/11ty-posts-by-year/ to list by month as on jeffputz. #}
+
+{# create array of counts per year to use when generating the HTML code #}
+{% set prevYear = '0' %}
+{% set count = 0 %}
+{% set maxposts = 1 %}
+{% set yearlyCount = [] %}
+{% set yearList = [] %}
+{% for post in postslist %}
+  {% set currYear = post.date | date('Y') %}
+  {% if prevYear != currYear %}
+    {% if prevYear != '0' %}
+      {# from here: https://stackoverflow.com/questions/9432534/setting-element-of-array-from-twig #}
+      {% set yearlyCount = yearlyCount|merge([count]) %}
+      {% set yearList = yearList|merge([prevYear]) %}
+      {% if count > maxposts %}
+        {% set maxposts = count %}
+      {% endif %}
+      {# {{ prevYear }} : {{count}} #}
+    {% endif %}
+    {% set count = 0 %}
+  {% endif %}
+  {% set count = count + 1 %}
+  {% set prevYear = currYear %}
+{% endfor %}
+{% set yearlyCount = yearlyCount|merge([count]) %}
+{% set yearList = yearList|merge([prevYear]) %}
+{% if count > maxposts %}
+  {% set maxposts = count %}
+{% endif %}
+
+{# dump(yearlyCount) #}
+
+{% set prevYear = '0' %}
+{% set index = 0 %}
+{% for post in postslist %}
+  {% set currYear = post.date | date('Y') %}
+  {% if prevYear != currYear %}
+    {% if prevYear != '0' %}
+      </ul>
+    {% endif %}
+    <h2 class="all-posts-list" id="year{{currYear}}">{{ currYear }} <span>({{ yearlyCount[index] }} posts)</span> <a href="#yearChart"><img src="/assets/images/chart-16.png" alt="View yearly chart" height="16" width="16"></a></h2>
+    <ul class="postlist">
+    {% set index = index + 1 %}
+  {% endif %}
+  <li class="custom-{{post.data.theme}} h-entry">
+    <a href="{{ post.permalink }}" class="post-title p-name u-url">{{ post.title }}</a>
+    <time class="postlist-date dt-published" datetime="{{ post.date | date }}">{{ post.date | date('d F Y') }}</time>
+  </li>
+  {% set prevYear = currYear %}
+{% endfor %}
+<hr>
+<p>See <a href="{{ '/archiving/' }}">all posts</a> or <a href="{{ '/tagging/' }}">all tags</a>.</p>
+
+{# taken from barchart.html.twig so always add barchart to postslist #}
+<h2 class="all-posts-list" id="yearChart">Breakdown by year</h2>
+<div class="barchart" style="--max: {{ maxposts }};">
+{% set index = 0 %}
+{% for year in yearList %}
+  <p class="line">
+    <a href="#year{{year}}">
+      <span class="legend">{{ year }}</span>
+      <span class="bar" style="--p: {{ yearlyCount[index] }};">&nbsp;</span>
+      <span class="count">{{ yearlyCount[index] }} posts</span>
+    </a>
+  </p>
+  {% set index = index + 1 %}
+{% endfor %}
+</div>
+
+
+{#}
+{% for year, yearPosts in postslist | groupByYear %}
+  <h2 class="all-posts-list" id="year{{year}}">{{ year }} <span>({{ yearPosts.length }} posts)</span> <a href="#yearChart"><img src="/assets/images/chart-16.png" alt="View yearly chart" height="16" width="16"></a></h2>
+  <ul class="postlist">
+    {% for post in yearPosts | reverse %}
+      <li class="custom-{{post.data.theme}} h-entry">
+        <a href="{{ post.url | url }}" class="post-title p-name u-url">{{ post.data.title }}</a>
+        <time class="postlist-date dt-published" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+<hr>
+<p>See <a href="{{ '/archiving/' | url }}">all posts</a> or <a href="{{ '/tagging/' | url }}">all tags</a>.</p>
+#}
+
+{#
+{% set currentYear = "" %}
+{% for post in postslist | reverse %}
+    {% set postYear = post.date | postYear %}
+    {% if currentYear != postYear %}
+      {% if currentYear != "" %}
+  </ul>
+      {% endif %}
+      {% set currentYear = postYear %}
+  <h2 class="all-posts-list">{{ postYear }}</h2>
+  <ul class="postlist">
+    {% endif %}
+    <li class="custom-{{post.data.theme}}">
+      <a href="{{ post.url | url }}" class="post-title">{{ post.data.title }}</a>
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </li>
+{% endfor %}  
+  </ul>
+
+
+<a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+#}
