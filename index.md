@@ -8,7 +8,7 @@ permalink: /
 
 # 👋 Welcome!
 
-This is your site!
+This is your new site!
 
 To add content please see the [instructions here](https://www.contentedweb.com/).
   
